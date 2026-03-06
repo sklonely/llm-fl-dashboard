@@ -1,0 +1,18 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. altair/vegalite/v6/schema/core.py\n2. altair/utils/selection.py\n3. altair/vegalite/v6/theme.py\n4. altair/vegalite/v6/display.py\n5. altair/vegalite/v6/compiler.py",
+  "predictions": [
+    "altair/vegalite/v6/schema/core.py",
+    "altair/utils/selection.py",
+    "altair/vegalite/v6/theme.py",
+    "altair/vegalite/v6/display.py",
+    "altair/vegalite/v6/compiler.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 97322,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T10:09:23+00:00"
+}

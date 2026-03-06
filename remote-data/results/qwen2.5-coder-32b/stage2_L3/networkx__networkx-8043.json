@@ -1,0 +1,33 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 704-807\n2. 731-763\n3. 764-800\n4. 705-730\n5. 808-823",
+  "predictions": [
+    [
+      704,
+      807
+    ],
+    [
+      731,
+      763
+    ],
+    [
+      764,
+      800
+    ],
+    [
+      705,
+      730
+    ],
+    [
+      808,
+      823
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 67083,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T12:59:47+00:00"
+}

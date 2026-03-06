@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14964",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. IPython/core/ultratb.py\n2. IPython/core/application.py\n3. IPython/core/crashhandler.py\n4. IPython/core/debugger_backport.py\n5. IPython/core/error.py",
+  "predictions": [
+    "IPython/core/ultratb.py",
+    "IPython/core/application.py",
+    "IPython/core/crashhandler.py",
+    "IPython/core/debugger_backport.py",
+    "IPython/core/error.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 22961,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T09:07:57+00:00"
+}

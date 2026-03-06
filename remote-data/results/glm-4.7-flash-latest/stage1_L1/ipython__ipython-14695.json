@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/core/magics/execution.py\n3. IPython/core/interactiveshell.py\n4. IPython/utils/io.py\n5. IPython/terminal/interactiveshell.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/core/magics/execution.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/utils/io.py",
+    "IPython/terminal/interactiveshell.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2126,
+  "eval_count": 56,
+  "timestamp": "2026-02-13T05:50:40+00:00"
+}

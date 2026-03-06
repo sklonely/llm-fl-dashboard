@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19249",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/checker.py\n2. mypy/checker_shared.py\n3. mypy/exprtotype.py\n4. mypy/visit.py\n5. mypy/semanal_infer.py",
+  "predictions": [
+    "mypy/checker.py",
+    "mypy/checker_shared.py",
+    "mypy/exprtotype.py",
+    "mypy/visit.py",
+    "mypy/semanal_infer.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 33612,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T06:17:17+00:00"
+}

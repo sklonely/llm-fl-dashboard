@@ -1,0 +1,33 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 27-36\n2. 38-39\n3. 11-14\n4. 17-20\n5. 23-26",
+  "predictions": [
+    [
+      27,
+      36
+    ],
+    [
+      38,
+      39
+    ],
+    [
+      11,
+      14
+    ],
+    [
+      17,
+      20
+    ],
+    [
+      23,
+      26
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6039,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T11:43:53+00:00"
+}

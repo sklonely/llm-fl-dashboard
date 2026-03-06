@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 877-901\n2. 672-710\n3. 145-160\n4. 558-576\n5. 129-137",
+  "predictions": [
+    [
+      877,
+      901
+    ],
+    [
+      672,
+      710
+    ],
+    [
+      145,
+      160
+    ],
+    [
+      558,
+      576
+    ],
+    [
+      129,
+      137
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 89366,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T17:11:19+00:00"
+}

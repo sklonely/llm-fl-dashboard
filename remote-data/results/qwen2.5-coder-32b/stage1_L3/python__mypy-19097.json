@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/stubinfo.py\n2. mypy/exprtotype.py\n3. mypy/test/teststubgen.py\n4. mypy/semanal_shared.py\n5. mypy/types_utils.py",
+  "predictions": [
+    "mypy/stubinfo.py",
+    "mypy/exprtotype.py",
+    "mypy/test/teststubgen.py",
+    "mypy/semanal_shared.py",
+    "mypy/types_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 68434,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T09:57:21+00:00"
+}

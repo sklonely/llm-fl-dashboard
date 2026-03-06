@@ -1,0 +1,33 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 122-134\n2. 160-180\n3. 182-212\n4. 117-121\n5. 89-90",
+  "predictions": [
+    [
+      122,
+      134
+    ],
+    [
+      160,
+      180
+    ],
+    [
+      182,
+      212
+    ],
+    [
+      117,
+      121
+    ],
+    [
+      89,
+      90
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12122,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T11:21:20+00:00"
+}

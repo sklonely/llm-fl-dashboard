@@ -1,0 +1,33 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 66-70\n2. 87-96\n3. 115-162\n4. 582-596\n5. 898-908",
+  "predictions": [
+    [
+      66,
+      70
+    ],
+    [
+      87,
+      96
+    ],
+    [
+      115,
+      162
+    ],
+    [
+      582,
+      596
+    ],
+    [
+      898,
+      908
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 64706,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T17:04:52+00:00"
+}

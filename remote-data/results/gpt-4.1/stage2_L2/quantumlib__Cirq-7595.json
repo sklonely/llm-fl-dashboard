@@ -1,0 +1,35 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 81-151\n2. 153-159\n3. 161-180\n4. 182-212\n5. 117-121",
+  "predictions": [
+    [
+      81,
+      151
+    ],
+    [
+      153,
+      159
+    ],
+    [
+      161,
+      180
+    ],
+    [
+      182,
+      212
+    ],
+    [
+      117,
+      121
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 3160,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.122922+00:00"
+}

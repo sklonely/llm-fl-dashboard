@@ -1,0 +1,18 @@
+{
+  "instance_id": "certbot__certbot-10317",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. certbot/src/certbot/_internal/storage.py\n2. certbot/src/certbot/crypto_util.py\n3. certbot/src/certbot/reverter.py\n4. certbot/src/certbot/main.py\n5. certbot/src/certbot/plugins/common.py",
+  "predictions": [
+    "certbot/src/certbot/_internal/storage.py",
+    "certbot/src/certbot/crypto_util.py",
+    "certbot/src/certbot/reverter.py",
+    "certbot/src/certbot/main.py",
+    "certbot/src/certbot/plugins/common.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9080,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T05:54:21+00:00"
+}

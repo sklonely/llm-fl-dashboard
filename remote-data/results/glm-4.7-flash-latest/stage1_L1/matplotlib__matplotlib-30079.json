@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/axes/_axes.py\n3. lib/matplotlib/pyplot.py\n4. lib/matplotlib/_api/deprecation.py\n5. lib/matplotlib/_internal_utils.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/_api/deprecation.py",
+    "lib/matplotlib/_internal_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3259,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T05:51:28+00:00"
+}

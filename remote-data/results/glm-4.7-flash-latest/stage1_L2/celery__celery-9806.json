@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. celery/backends/redis.py\n2. celery/backends/base.py\n3. celery/result.py\n4. celery/app/defaults.py\n5. celery/worker/consumer/base.py",
+  "predictions": [
+    "celery/backends/redis.py",
+    "celery/backends/base.py",
+    "celery/result.py",
+    "celery/app/defaults.py",
+    "celery/worker/consumer/base.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7011,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T05:54:03+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 543-575\n2. 544-550\n3. 570-573\n4. 606-619\n5. 585-590",
+  "predictions": [
+    [
+      543,
+      575
+    ],
+    [
+      544,
+      550
+    ],
+    [
+      570,
+      573
+    ],
+    [
+      606,
+      619
+    ],
+    [
+      585,
+      590
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 10465,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.114948+00:00"
+}

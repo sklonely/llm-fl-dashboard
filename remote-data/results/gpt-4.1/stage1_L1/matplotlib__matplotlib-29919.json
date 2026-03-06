@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/projections/geo.py\n2. lib/matplotlib/contour.py\n3. lib/matplotlib/axes/_axes.py\n4. lib/matplotlib/axes/_base.py\n5. lib/matplotlib/cbook.py",
+  "predictions": [
+    "lib/matplotlib/projections/geo.py",
+    "lib/matplotlib/contour.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/cbook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 56,
+  "prompt_tokens": 4494,
+  "completion_tokens": 56,
+  "timestamp": "2026-02-14T01:03:45.108135+00:00"
+}

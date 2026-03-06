@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. babel/dates.py\n2. babel/localedata.py\n3. babel/languages.py\n4. babel/core.py\n5. babel/localtime/_helpers.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/localedata.py",
+    "babel/languages.py",
+    "babel/core.py",
+    "babel/localtime/_helpers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3401,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T13:46:41+00:00"
+}

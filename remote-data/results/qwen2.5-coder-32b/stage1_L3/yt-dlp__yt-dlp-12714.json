@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. yt_dlp/extractor/youtube/_search.py\n2. yt_dlp/extractor/teamcoco.py\n3. yt_dlp/extractor/common.py\n4. yt_dlp/utils/metadata.py\n5. yt_dlp/extractor/appletrailers.py",
+  "predictions": [
+    "yt_dlp/extractor/youtube/_search.py",
+    "yt_dlp/extractor/teamcoco.py",
+    "yt_dlp/extractor/common.py",
+    "yt_dlp/utils/metadata.py",
+    "yt_dlp/extractor/appletrailers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 21121,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T10:13:47+00:00"
+}

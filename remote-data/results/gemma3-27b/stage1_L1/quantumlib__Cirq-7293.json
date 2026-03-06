@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7293",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/circuits/circuit.py\n2. cirq-core/cirq/ops/matrix_gates.py\n3. cirq-core/cirq/ops/controlled_operation.py\n4. cirq-core/cirq/circuits/circuit_operation.py\n5. cirq-core/cirq/vis/text_diagram_drawer.py",
+  "predictions": [
+    "cirq-core/cirq/circuits/circuit.py",
+    "cirq-core/cirq/ops/matrix_gates.py",
+    "cirq-core/cirq/ops/controlled_operation.py",
+    "cirq-core/cirq/circuits/circuit_operation.py",
+    "cirq-core/cirq/vis/text_diagram_drawer.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30000,
+  "eval_count": 92,
+  "timestamp": "2026-02-13T13:48:49+00:00"
+}

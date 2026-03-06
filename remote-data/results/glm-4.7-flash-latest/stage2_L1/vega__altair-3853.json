@@ -1,0 +1,33 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 417-423\n2. 425-431\n3. 564-595\n4. 1851-1887\n5. 804-825",
+  "predictions": [
+    [
+      417,
+      423
+    ],
+    [
+      425,
+      431
+    ],
+    [
+      564,
+      595
+    ],
+    [
+      1851,
+      1887
+    ],
+    [
+      804,
+      825
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26011,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T07:09:10+00:00"
+}

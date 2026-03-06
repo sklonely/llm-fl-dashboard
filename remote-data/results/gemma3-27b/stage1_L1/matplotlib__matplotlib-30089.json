@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30089",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/layout_engine.py\n2. lib/matplotlib/constrained_layout.py\n3. lib/matplotlib/gridspec.py\n4. lib/matplotlib/figure.py\n5. lib/matplotlib/axes/_axes.py",
+  "predictions": [
+    "lib/matplotlib/layout_engine.py",
+    "lib/matplotlib/constrained_layout.py",
+    "lib/matplotlib/gridspec.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/axes/_axes.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11132,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T13:45:12+00:00"
+}

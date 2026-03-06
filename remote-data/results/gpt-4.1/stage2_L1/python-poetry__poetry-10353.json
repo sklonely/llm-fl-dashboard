@@ -1,0 +1,35 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 583-585\n2. 563-587\n3. 524-562\n4. 511-562\n5. 124-305",
+  "predictions": [
+    [
+      583,
+      585
+    ],
+    [
+      563,
+      587
+    ],
+    [
+      524,
+      562
+    ],
+    [
+      511,
+      562
+    ],
+    [
+      124,
+      305
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 7235,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.116630+00:00"
+}

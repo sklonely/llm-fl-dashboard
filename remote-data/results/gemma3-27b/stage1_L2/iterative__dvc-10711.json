@@ -1,0 +1,15 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/commands/remote.py\n2. dvc/cli/parser.py\n3. dvc/commands/remote/list.py (Not explicitly in the structure, but likely part of `dvc/commands/remote.py`)\n4. dvc/repo/remote.py (Related to remote handling, though less direct)\n5. dvc/cli/command.py (Base class for commands, potential entry point for parsing/display logic)",
+  "predictions": [
+    "dvc/commands/remote.py",
+    "dvc/cli/parser.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26813,
+  "eval_count": 103,
+  "timestamp": "2026-02-13T13:56:43+00:00"
+}

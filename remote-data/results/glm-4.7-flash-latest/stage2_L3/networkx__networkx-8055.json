@@ -1,0 +1,29 @@
+{
+  "instance_id": "networkx__networkx-8055",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 1024-1063\n2. 1064-1063\n3. 1090-1092\n4. 1094-1102\n5. 1114-1123",
+  "predictions": [
+    [
+      1024,
+      1063
+    ],
+    [
+      1090,
+      1092
+    ],
+    [
+      1094,
+      1102
+    ],
+    [
+      1114,
+      1123
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 22241,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T08:15:43+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 109-124\n2. 125-131\n3. 357-379\n4. 444-462\n5. 554-572",
+  "predictions": [
+    [
+      109,
+      124
+    ],
+    [
+      125,
+      131
+    ],
+    [
+      357,
+      379
+    ],
+    [
+      444,
+      462
+    ],
+    [
+      554,
+      572
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29212,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T15:44:41+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/vars/base.py\n2. reflex/components/literals.py\n3. reflex/components/props.py\n4. reflex/components/component.py\n5. reflex/base.py",
+  "predictions": [
+    "reflex/vars/base.py",
+    "reflex/components/literals.py",
+    "reflex/components/props.py",
+    "reflex/components/component.py",
+    "reflex/base.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2641,
+  "eval_count": 37,
+  "timestamp": "2026-02-13T05:53:01+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/poetry/console/commands/env/activate.py\n2. src/poetry/console/commands/command.py\n3. src/poetry/console/logging/io_handler.py\n4. src/poetry/console/logging/io_formatter.py\n5. src/poetry/console/application.py",
+  "predictions": [
+    "src/poetry/console/commands/env/activate.py",
+    "src/poetry/console/commands/command.py",
+    "src/poetry/console/logging/io_handler.py",
+    "src/poetry/console/logging/io_formatter.py",
+    "src/poetry/console/application.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 67,
+  "prompt_tokens": 3950,
+  "completion_tokens": 67,
+  "timestamp": "2026-02-14T01:03:45.116328+00:00"
+}

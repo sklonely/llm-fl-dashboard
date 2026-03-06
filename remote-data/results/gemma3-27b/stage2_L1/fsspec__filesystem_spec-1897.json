@@ -1,0 +1,33 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 162-166\n2. 62-64\n3. 380-390\n4. 572-579\n5. 423-438",
+  "predictions": [
+    [
+      162,
+      166
+    ],
+    [
+      62,
+      64
+    ],
+    [
+      380,
+      390
+    ],
+    [
+      572,
+      579
+    ],
+    [
+      423,
+      438
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 39780,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T15:02:38+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 3939-3944\n2. 4030-4045\n3. 4047-4069\n4. 4179-4183\n5. 4213-4217",
+  "predictions": [
+    [
+      3939,
+      3944
+    ],
+    [
+      4030,
+      4045
+    ],
+    [
+      4047,
+      4069
+    ],
+    [
+      4179,
+      4183
+    ],
+    [
+      4213,
+      4217
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 61320,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T06:42:27+00:00"
+}

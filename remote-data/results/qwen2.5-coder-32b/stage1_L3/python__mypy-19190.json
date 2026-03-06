@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/checker_shared.py\n2. mypy/applytype.py\n3. mypy/type_visitor.py\n4. mypy/types_utils.py\n5. mypy/join.py",
+  "predictions": [
+    "mypy/checker_shared.py",
+    "mypy/applytype.py",
+    "mypy/type_visitor.py",
+    "mypy/types_utils.py",
+    "mypy/join.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 68733,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T09:58:29+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/displayhook.py\n3. IPython/core/shellapp.py\n4. IPython/core/getipython.py\n5. IPython/core/application.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/displayhook.py",
+    "IPython/core/shellapp.py",
+    "IPython/core/getipython.py",
+    "IPython/core/application.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 23539,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T09:42:00+00:00"
+}

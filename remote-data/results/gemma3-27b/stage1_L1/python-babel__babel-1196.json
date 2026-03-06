@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. babel/messages/extract.py\n2. babel/messages/pofile.py\n3. babel/messages/catalog.py\n4. babel/messages/frontend.py\n5. babel/messages/_compat.py",
+  "predictions": [
+    "babel/messages/extract.py",
+    "babel/messages/pofile.py",
+    "babel/messages/catalog.py",
+    "babel/messages/frontend.py",
+    "babel/messages/_compat.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3623,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T13:46:44+00:00"
+}

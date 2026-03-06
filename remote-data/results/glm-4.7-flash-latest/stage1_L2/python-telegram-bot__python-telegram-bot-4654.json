@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. telegram/_botcommandscope.py\n2. telegram/_business.py\n3. telegram/_chatbackground.py\n4. telegram/_chatboost.py\n5. telegram/_files/sticker.py",
+  "predictions": [
+    "telegram/_botcommandscope.py",
+    "telegram/_business.py",
+    "telegram/_chatbackground.py",
+    "telegram/_chatboost.py",
+    "telegram/_files/sticker.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 24025,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T06:00:58+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. reflex/components/tags/cond_tag.py\n2. reflex/components/tags/tag.py\n3. reflex/components/core/match.py\n4. reflex/components/tags/iter_tag.py\n5. reflex/components/core/foreach.py",
+  "predictions": [
+    "reflex/components/tags/cond_tag.py",
+    "reflex/components/tags/tag.py",
+    "reflex/components/core/match.py",
+    "reflex/components/tags/iter_tag.py",
+    "reflex/components/core/foreach.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 48,
+  "prompt_tokens": 7615,
+  "completion_tokens": 48,
+  "timestamp": "2026-02-14T01:03:45.123283+00:00"
+}

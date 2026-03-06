@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/infer.py\n2. mypy/checkexpr.py\n3. mypy/semanal_infer.py\n4. mypy/types_utils.py\n5. mypy/typeanal.py",
+  "predictions": [
+    "mypy/infer.py",
+    "mypy/checkexpr.py",
+    "mypy/semanal_infer.py",
+    "mypy/types_utils.py",
+    "mypy/typeanal.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10657,
+  "eval_count": 43,
+  "timestamp": "2026-02-13T08:59:54+00:00"
+}

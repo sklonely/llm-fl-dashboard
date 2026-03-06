@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. fsspec/transaction.py\n2. fsspec/implementations/local.py\n3. fsspec/core.py\n4. fsspec/utils.py\n5. fsspec/spec.py",
+  "predictions": [
+    "fsspec/transaction.py",
+    "fsspec/implementations/local.py",
+    "fsspec/core.py",
+    "fsspec/utils.py",
+    "fsspec/spec.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3388,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T08:54:18+00:00"
+}

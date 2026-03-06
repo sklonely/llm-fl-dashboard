@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 144-144\n2. 94-94\n3. 118-118\n4. 60-60\n5. 53-56",
+  "predictions": [
+    [
+      144,
+      144
+    ],
+    [
+      94,
+      94
+    ],
+    [
+      118,
+      118
+    ],
+    [
+      60,
+      60
+    ],
+    [
+      53,
+      56
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40912,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T18:57:45+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 135-141\n2. 665-670\n3. 913-915\n4. 982-984\n5. 1031-1032",
+  "predictions": [
+    [
+      135,
+      141
+    ],
+    [
+      665,
+      670
+    ],
+    [
+      913,
+      915
+    ],
+    [
+      982,
+      984
+    ],
+    [
+      1031,
+      1032
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 50389,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T10:19:45+00:00"
+}

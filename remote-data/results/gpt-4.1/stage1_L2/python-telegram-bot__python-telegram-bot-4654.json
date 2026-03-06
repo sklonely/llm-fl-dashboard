@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. telegram/_chatmember.py\n2. telegram/_botcommandscope.py\n3. telegram/_chatbackground.py\n4. telegram/_menubutton.py\n5. telegram/_messageorigin.py",
+  "predictions": [
+    "telegram/_chatmember.py",
+    "telegram/_botcommandscope.py",
+    "telegram/_chatbackground.py",
+    "telegram/_menubutton.py",
+    "telegram/_messageorigin.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 41,
+  "prompt_tokens": 16164,
+  "completion_tokens": 41,
+  "timestamp": "2026-02-14T01:03:45.117057+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. fsspec/implementations/cached.py\n2. fsspec/core.py\n3. fsspec/spec.py\n4. fsspec/registry.py\n5. fsspec/implementations/s3.py",
+  "predictions": [
+    "fsspec/implementations/cached.py",
+    "fsspec/core.py",
+    "fsspec/spec.py",
+    "fsspec/registry.py",
+    "fsspec/implementations/s3.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 48,
+  "prompt_tokens": 1167,
+  "completion_tokens": 48,
+  "timestamp": "2026-02-14T01:03:45.094153+00:00"
+}

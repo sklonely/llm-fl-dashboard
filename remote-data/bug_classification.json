@@ -1,0 +1,302 @@
+[
+  {
+    "instance_id": "networkx__networkx-8207",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "reasoning": "The matching condition was too broad (`matched_uv is None or len(matched_uv) == 0`) and incorrectly skipped edge matching. The fix adds `substitution_possible = M and N` and gates the branch with `at_least_one_node_match and substitution_possible`, correcting decision logic."
+  },
+  {
+    "instance_id": "ipython__ipython-14964",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "reasoning": "Exception formatting incorrectly preferred `value.msg` for non-SyntaxError exceptions due broad try/except flow. The patch switches to an `else` branch using `self._some_str(value)`, so `.msg` is no longer wrongly prioritized."
+  },
+  {
+    "instance_id": "python__mypy-19592",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "reasoning": "TypedDict context resolution treated partial union matches as definitive and emitted ambiguity errors even when context was non-exhaustive. The fix tracks an `exhaustive` flag from `find_typeddict_context` and only applies strict/ambiguous TypedDict handling when exhaustive is true."
+  },
+  {
+    "instance_id": "python-pillow__Pillow-9105",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "M",
+    "reasoning": "Statistics calculations divided by `self.count[i]` without guarding zero counts, causing `ZeroDivisionError`. The patch adds `if self.count[i] else 0` guards in `mean`, `rms`, and `var`."
+  },
+  {
+    "instance_id": "celery__celery-9806",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "reasoning": "`forget()` cleared backend data but missed the pending-result cleanup path, leaving stale pending entries. The added `self.backend.remove_pending_result(self)` implements the missing cleanup handler."
+  },
+  {
+    "instance_id": "python__mypy-19249",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "reasoning": "Boolean-op branch typing used only `expanded_left_type` as context for the right operand, producing incorrect inference in union/literal cases. The patch introduces `_combined_context(...)` and passes the merged context into `analyze_cond_branch`."
+  },
+  {
+    "instance_id": "python__mypy-19190",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "reasoning": "Constraint inference used `eager=False` unconditionally when combining union-item constraints, which led to wrong `Never` inference for `Optional[Any]`. The fix makes eagerness conditional (`eager=isinstance(actual, AnyType)`) to choose constraints correctly."
+  },
+  {
+    "instance_id": "networkx__networkx-8055",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "reasoning": "A rare partition-mismatch case triggered an assertion instead of being handled gracefully. The patch replaces the assert with an `if not all(...): return [], cosets`, adding the missing edge-case handler."
+  },
+  {
+    "instance_id": "mesonbuild__meson-14611",
+    "bug_type": "CONFIG",
+    "complexity": "C",
+    "reasoning": "Option precedence was integrated in the wrong order: machine-file options were applied before project defaults, so native-file `buildtype` could be ignored. The fix reorders initialization to apply machine-file options after project defaults."
+  },
+  {
+    "instance_id": "certbot__certbot-10283",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "reasoning": "`ValidationError` had no string rendering path, so tracebacks lacked useful details. The patch adds `__str__` that iterates failed authorizations/challenges and formats their errors."
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7293",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "reasoning": "Circuit diagram generation had no branch for zero-qubit `MatrixGate`, causing downstream diagram validation failure. The fix adds `if n_qubits == 0: return NotImplemented` to handle that scenario."
+  },
+  {
+    "instance_id": "reflex-dev__reflex-5081",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "reasoning": "Type compatibility checks handled `Literal` only on the superclass side, missing the case where the subclass itself is a `Literal[...]`. The new `if is_literal(possible_subclass)` branch validates each literal value against the target superclass type."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29781",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "reasoning": "Filename sanitization used a raw string for `removed_chars`, so `'0'` was treated as removable instead of only the NUL escape sequence behavior intended. The patch corrects the character literal and also fixes window-title state retrieval to use `_window_title`, restoring correct filename derivation."
+  },
+  {
+    "instance_id": "ipython__ipython-14822",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "reasoning": "Leading-indent normalization removed whitespace based only on the first line and failed for consistently indented pasted blocks with comments. The fix replaces that custom slicing logic with `textwrap.dedent(...)` for proper common-indent handling."
+  },
+  {
+    "instance_id": "geopandas__geopandas-3513",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "reasoning": "CRS metadata serialization called `crs.to_json()`, producing a JSON string nested inside JSON instead of an object. The patch switches to `crs.to_json_dict()`, which is the correct API for object-typed serialization."
+  },
+  {
+    "instance_id": "python-babel__babel-1179",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "reasoning": "Week/year formatting logic computed boundary weeks incorrectly for locale-specific rules (e.g., end-of-year week rollover). The patch rewrites week-of-year/month calculations and adjusts `format_year` around Jan/Dec boundaries using new `get_week_of_year`/`get_week_of_month` helpers."
+  },
+  {
+    "instance_id": "reflex-dev__reflex-4620",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "reasoning": "Numeric comparison operators built expressions from `self` instead of normalized `+self`, causing wrong JS output/coercion behavior in conditions. The fix consistently uses `+self` across comparison operations and removes conflicting boolean-conversion logic."
+  },
+  {
+    "instance_id": "ipython__ipython-14970",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "reasoning": "The fix removes the generic `hasattr(var, \"__len__\")` path and only calls `len()` for known sequence types, avoiding misuse of type objects that expose `__len__` but are not valid length-bearing instances. This is a type-handling/API usage correction in `whos` display logic."
+  },
+  {
+    "instance_id": "iterative__dvc-10844",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "reasoning": "The diff call is reconfigured with `with_unknown=with_missing` and `with_unchanged=with_missing` so cache-missing objects are surfaced correctly. The bug was caused by wrong diff option wiring between components."
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7538",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "The transformer previously always dumped held flips into measurements, which broke mid-circuit measurement semantics. The patch removes the measurement-absorption handler path (`_dump_into_measurement`) to avoid applying an unsupported scenario."
+  },
+  {
+    "instance_id": "vega__altair-3853",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "Boolean composition operators now include `empty` in generated predicate dicts for both sides when parameters are selections. The previous implementation lacked handling to preserve `Parameter.empty` through `&`, `|`, and `~`."
+  },
+  {
+    "instance_id": "celery__celery-9774",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "S",
+    "reasoning": "The code now guards against empty `task_id` by creating `body_task_id = task_id or uuid()` before freezing the body. This adds the missing validation/fallback for an empty identifier case."
+  },
+  {
+    "instance_id": "spulec__freezegun-576",
+    "bug_type": "API_TYPE",
+    "complexity": "C",
+    "reasoning": "The patch detects pytest fixture wrappers (`__pytest_wrapped__` and `_fixture_function`) and wraps the underlying callable instead of replacing the fixture object. This fixes incompatible API handling across pytest versions."
+  },
+  {
+    "instance_id": "encode__django-rest-framework-9712",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "reasoning": "The uniqueness constraint inclusion condition changed from `set(field_names)` to `model_fields_names`, correcting which set is checked for superset coverage. This is a wrong-condition logic fix."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-30079",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "reasoning": "`handles` is converted to `list(handles)` before `len(handles)` is used, so iterables like `itertools.chain` work. The failure came from assuming a sized sequence API on a generic iterator."
+  },
+  {
+    "instance_id": "networkx__networkx-8043",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "C",
+    "reasoning": "The matcher constructors now explicitly validate directedness compatibility and raise errors for wrong matcher/graph combinations. The original bug came from missing guard checks on graph type constraints."
+  },
+  {
+    "instance_id": "networkx__networkx-8013",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "reasoning": "The fix initializes `current_layer` from `visited` after materializing sources, preventing generator re-consumption issues that duplicated source nodes. This corrects iterable/generator handling semantics."
+  },
+  {
+    "instance_id": "python-poetry__poetry-10353",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "reasoning": "Verbose environment messages are redirected from `io.write_line` to `io.write_error_line`, separating logs from command output used by `eval`. This is an output-channel integration/configuration fix."
+  },
+  {
+    "instance_id": "iterative__dvc-10711",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "reasoning": "`remote list` now handles the default-remote case by adding a `(default)` marker and style when `name == default_remote`. The prior code lacked a branch for this specific scenario."
+  },
+  {
+    "instance_id": "pydata__xarray-10141",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "reasoning": "`open_datatree` now passes `backend.open_dataset_parameters` into `_resolve_decoders_kwargs` instead of an empty tuple. The issue was incorrect backend-decoder parameter wiring."
+  },
+  {
+    "instance_id": "python-babel__babel-1196",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "reasoning": "Call nesting tracking changed from an integer sentinel to a stack of call line numbers, and related conditions were updated (`not call_stack`, `len(call_stack) == 1`). This fixes flawed parsing logic that dropped translator comments for multiline strings."
+  },
+  {
+    "instance_id": "keras-team__keras-20824",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "reasoning": "A fallback path was added to resolve custom functions serialized without `package>name` by matching suffixes in `custom_objects`. The bug was a missing deserialization handler for legacy serialized names."
+  },
+  {
+    "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "reasoning": "`status` assignment now normalizes through `enum.get_member(constants.ChatMemberStatus, status, status)` instead of storing raw strings. This is a type/API handling correction for enum-backed status values."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29411",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "reasoning": "Axes now stores `args[0].frozen()` when initialized from a `Bbox`, preventing shared mutable reference side effects. The bug stemmed from misuse of object/reference semantics for the position API."
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7595",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "reasoning": "The fix removes the NumPy-only unitary validation branch (`linalg.is_unitary`) so `cirq.unitary` behavior is consistent across strategies. This is a compatibility/integration inconsistency between code paths rather than a new algorithm."
+  },
+  {
+    "instance_id": "python__mypy-19648",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "reasoning": "`UninhabitedType.__hash__` and `__eq__` previously ignored the `ambiguous` flag, causing distinct types to collapse in caches. The patch includes `self.ambiguous` in both methods, correcting equality/hash logic."
+  },
+  {
+    "instance_id": "fsspec__filesystem_spec-1897",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "reasoning": "`__getattribute__` did not handle `protocol` as a class-level forwarded attribute for cached filesystems. Adding `\"protocol\"` to the handled set adds the missing branch for this scenario."
+  },
+  {
+    "instance_id": "python-pillow__Pillow-9083",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "reasoning": "Deleting an EXIF tag removed it from `_data` but left matching entries in `_ifds`, so GPS-specific deletion was incomplete. The fix adds the missing `_ifds` deletion path when that tag exists."
+  },
+  {
+    "instance_id": "iterative__dvc-10776",
+    "bug_type": "CONFIG",
+    "complexity": "M",
+    "reasoning": "On Unix, the function returned `/var/tmp/...` before honoring `DVC_SITE_CACHE_DIR`, so env configuration was effectively ignored. The patch moves env handling to an early return, fixing config precedence/integration."
+  },
+  {
+    "instance_id": "certbot__certbot-10317",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "M",
+    "reasoning": "The client was missing a guard against querying RenewalInfo for expired certificates. The new `if cert.not_valid_after_utc < now` early return enforces the required expiration check."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-30089",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "reasoning": "Subfigure axes were reprocessed at parent level, compounding margin adjustments and shrinking layouts. The fix tracks `axsdone` and filters those axes out, correcting traversal logic."
+  },
+  {
+    "instance_id": "python__mypy-19097",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "reasoning": "Stubgen inferred `None` defaults as `_typeshed.Incomplete | None`, producing incorrect type output. The patch changes `get_str_type_of_node` options and call sites to avoid incomplete-type insertion for this case."
+  },
+  {
+    "instance_id": "Textualize__textual-5795",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "reasoning": "`add_options()` called `_update_lines()` before ensuring layout dimensions were refreshed, so mounted empty lists could stay invisible. Adding `refresh(layout=...)` fixes the update-order integration issue."
+  },
+  {
+    "instance_id": "fsspec__filesystem_spec-1829",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "`commit()` did not properly handle the cross-device `PermissionError` path from `shutil.move` fallback behavior. The patch adds explicit exception handling and conditional re-raise, covering the missing error-handling scenario."
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29919",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "`Path.interpolated()` effectively assumed simple line segments and failed on paths with `MOVETO` components or `CLOSEPOLY` edge cases. The patch adds dedicated handling for connected components and closepoly vertices, filling missing path-type handlers."
+  },
+  {
+    "instance_id": "yt-dlp__yt-dlp-12714",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "HLS parsing lacked handling for audio renditions without full codec/bitrate metadata, especially alternate audio groups. The patch adds audio/alternate detection and preference metadata (`source_preference`, `_audio_group_id`) to handle that scenario."
+  },
+  {
+    "instance_id": "shapely__shapely-2255",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "reasoning": "Reconstruction functions assumed offsets started at zero and did not support sliced ragged arrays. The added `coords = coords[offsets[0]:]` branch introduces the missing sliced-input handling."
+  },
+  {
+    "instance_id": "shapely__shapely-2223",
+    "bug_type": "API_TYPE",
+    "complexity": "C",
+    "reasoning": "Offset arrays were emitted as default int64, causing type compatibility issues with int32-based GeoArrow list offsets. The patch introduces dtype selection and centralized offset construction to produce the correct offset type."
+  },
+  {
+    "instance_id": "ipython__ipython-14695",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "reasoning": "Using `stream.readuntil(b\"\\n\")` forced newline-terminated reads, preventing partial line flushes from appearing live. Switching to `stream.read(100)` uses the stream API appropriately for incremental output."
+  },
+  {
+    "instance_id": "keras-team__keras-20765",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "reasoning": "Mask shape validation did not handle TensorFlow graph-mode/partial-batch behavior and attempted invalid comparisons. The patch adds a backend-specific branch for TF graph mode, providing the missing runtime-specific handler."
+  }
+]

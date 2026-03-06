@@ -1,0 +1,18 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. freezegun/api.py\n2. freezegun/__init__.py\n3. freezegun/_async.py\n4. freezegun/config.py\n5. tests/utils.py",
+  "predictions": [
+    "freezegun/api.py",
+    "freezegun/__init__.py",
+    "freezegun/_async.py",
+    "freezegun/config.py",
+    "tests/utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 845,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T05:53:05+00:00"
+}

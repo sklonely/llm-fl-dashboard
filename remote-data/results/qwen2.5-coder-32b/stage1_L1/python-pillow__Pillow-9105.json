@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/PIL/ImageStat.py\n2. src/PIL/ImageChops.py\n3. src/PIL/ImageFile.py\n4. src/PIL/Image.py\n5. src/PIL/_util.py",
+  "predictions": [
+    "src/PIL/ImageStat.py",
+    "src/PIL/ImageChops.py",
+    "src/PIL/ImageFile.py",
+    "src/PIL/Image.py",
+    "src/PIL/_util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6384,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T08:59:12+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. xarray/backends/netCDF4_.py\n2. xarray/backends/api.py\n3. xarray/core/datatree.py\n4. xarray/core/datatree_io.py\n5. xarray/coders.py",
+  "predictions": [
+    "xarray/backends/netCDF4_.py",
+    "xarray/backends/api.py",
+    "xarray/core/datatree.py",
+    "xarray/core/datatree_io.py",
+    "xarray/coders.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7866,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T13:46:37+00:00"
+}

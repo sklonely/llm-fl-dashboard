@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/geometry/collection.py\n3. shapely/geometry/geo.py\n4. shapely/tests/test_ragged_array.py\n5. shapely/geometry/multipoint.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/geometry/collection.py",
+    "shapely/geometry/geo.py",
+    "shapely/tests/test_ragged_array.py",
+    "shapely/geometry/multipoint.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13606,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T14:53:31+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. keras/src/layers/rnn/time_distributed.py\n2. keras/src/layers/core/embedding.py\n3. keras/src/layers/rnn/bidirectional.py\n4. keras/src/layers/rnn/lstm.py\n5. keras/src/backend/tensorflow/core.py",
+  "predictions": [
+    "keras/src/layers/rnn/time_distributed.py",
+    "keras/src/layers/core/embedding.py",
+    "keras/src/layers/rnn/bidirectional.py",
+    "keras/src/layers/rnn/lstm.py",
+    "keras/src/backend/tensorflow/core.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9588,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T05:51:05+00:00"
+}

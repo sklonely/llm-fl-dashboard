@@ -1,0 +1,33 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 74-102\n2. 96-102\n3. 106-110\n4. 74-75\n5. 98-99",
+  "predictions": [
+    [
+      74,
+      102
+    ],
+    [
+      96,
+      102
+    ],
+    [
+      106,
+      110
+    ],
+    [
+      74,
+      75
+    ],
+    [
+      98,
+      99
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2224,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T08:06:41+00:00"
+}

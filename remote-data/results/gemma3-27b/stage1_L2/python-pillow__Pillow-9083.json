@@ -1,0 +1,16 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/PIL/PsdImageFile.py\n2. src/PIL/ExifTags.py\n3. src/PIL/ImageFile.py (implied, as many image plugins inherit from it)\n4. src/PIL/MicImagePlugin.py\n5. src/PIL/TiffImagePlugin.py (MicImagePlugin inherits from this)",
+  "predictions": [
+    "src/PIL/PsdImageFile.py",
+    "src/PIL/ExifTags.py",
+    "src/PIL/MicImagePlugin.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 14017,
+  "eval_count": 81,
+  "timestamp": "2026-02-13T14:08:15+00:00"
+}

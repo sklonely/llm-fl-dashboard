@@ -1,0 +1,20 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/subtypes.py\n2. mypy/types.py\n3. mypy/typeops.py\n4. mypy/checker.py\n5. mypy/join.py",
+  "predictions": [
+    "mypy/subtypes.py",
+    "mypy/types.py",
+    "mypy/typeops.py",
+    "mypy/checker.py",
+    "mypy/join.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 38,
+  "prompt_tokens": 3190,
+  "completion_tokens": 38,
+  "timestamp": "2026-02-14T01:03:45.120323+00:00"
+}

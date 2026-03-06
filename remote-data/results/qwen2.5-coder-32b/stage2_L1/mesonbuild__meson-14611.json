@@ -1,0 +1,29 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 705-716\n2. 899-900\n3. 1001-1056\n4. 1232-1231\n5. 1301-1302",
+  "predictions": [
+    [
+      705,
+      716
+    ],
+    [
+      899,
+      900
+    ],
+    [
+      1001,
+      1056
+    ],
+    [
+      1301,
+      1302
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 81220,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T10:49:09+00:00"
+}

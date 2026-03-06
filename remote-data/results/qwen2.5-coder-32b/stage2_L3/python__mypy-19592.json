@@ -1,0 +1,13 @@
+{
+  "instance_id": "python__mypy-19592",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487193,
+  "eval_count": null,
+  "timestamp": "2026-02-13T13:28:58+00:00",
+  "error": "timed out"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/utils/_process_cli.py\n3. IPython/core/magics/osm.py\n4. IPython/utils/process.py\n5. IPython/core/magics/__init__.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/utils/_process_cli.py",
+    "IPython/core/magics/osm.py",
+    "IPython/utils/process.py",
+    "IPython/core/magics/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 53,
+  "prompt_tokens": 6209,
+  "completion_tokens": 53,
+  "timestamp": "2026-02-14T01:03:45.101378+00:00"
+}

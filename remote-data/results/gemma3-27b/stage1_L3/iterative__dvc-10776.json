@@ -1,0 +1,17 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/dirs.py\n2. dvc/repo/init.py\n3. dvc/config.py (Not explicitly listed, but likely involved in reading/setting config)\n4. dvc/cli/command.py\n5. dvc/commands/init.py",
+  "predictions": [
+    "dvc/dirs.py",
+    "dvc/repo/init.py",
+    "dvc/cli/command.py",
+    "dvc/commands/init.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 28154,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T14:29:34+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. geopandas/io/_geoarrow.py\n2. geopandas/io/tests/test_geoarrow.py\n3. geopandas/io/_pyarrow_hotfix.py\n4. geopandas/accessors.py\n5. geopandas/_compat.py",
+  "predictions": [
+    "geopandas/io/_geoarrow.py",
+    "geopandas/io/tests/test_geoarrow.py",
+    "geopandas/io/_pyarrow_hotfix.py",
+    "geopandas/accessors.py",
+    "geopandas/_compat.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6032,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T14:27:04+00:00"
+}

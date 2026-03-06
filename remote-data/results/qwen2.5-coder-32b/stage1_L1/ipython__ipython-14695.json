@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/utils/process.py\n3. IPython/core/interactiveshell.py\n4. IPython/utils/io.py\n5. IPython/core/displayhook.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/utils/process.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/utils/io.py",
+    "IPython/core/displayhook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6942,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T08:54:34+00:00"
+}

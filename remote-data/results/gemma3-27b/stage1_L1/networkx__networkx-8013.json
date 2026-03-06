@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. networkx/algorithms/traversal/breadth_first_search.py\n2. networkx/algorithms/__init__.py\n3. networkx/classes/graph.py\n4. networkx/__init__.py\n5. networkx/algorithms/traversal/__init__.py",
+  "predictions": [
+    "networkx/algorithms/traversal/breadth_first_search.py",
+    "networkx/algorithms/__init__.py",
+    "networkx/classes/graph.py",
+    "networkx/__init__.py",
+    "networkx/algorithms/traversal/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13740,
+  "eval_count": 64,
+  "timestamp": "2026-02-13T13:45:44+00:00"
+}

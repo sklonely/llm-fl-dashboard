@@ -1,0 +1,20 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. altair/vegalite/v6/schema/core.py\n2. altair/vegalite/v6/schema/channels.py\n3. altair/vegalite/v6/schema/mixins.py\n4. altair/utils/selection.py\n5. altair/__init__.py",
+  "predictions": [
+    "altair/vegalite/v6/schema/core.py",
+    "altair/vegalite/v6/schema/channels.py",
+    "altair/vegalite/v6/schema/mixins.py",
+    "altair/utils/selection.py",
+    "altair/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 62,
+  "prompt_tokens": 25357,
+  "completion_tokens": 62,
+  "timestamp": "2026-02-14T01:03:45.126700+00:00"
+}

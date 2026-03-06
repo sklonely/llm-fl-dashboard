@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/projections/__init__.py\n2. lib/matplotlib/axes/_secondary_axes.py\n3. lib/matplotlib/backends/backend_nbagg.py\n4. lib/matplotlib/tri/_triangulation.py\n5. lib/matplotlib/cbook.py",
+  "predictions": [
+    "lib/matplotlib/projections/__init__.py",
+    "lib/matplotlib/axes/_secondary_axes.py",
+    "lib/matplotlib/backends/backend_nbagg.py",
+    "lib/matplotlib/tri/_triangulation.py",
+    "lib/matplotlib/cbook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 36374,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T09:48:49+00:00"
+}

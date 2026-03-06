@@ -1,0 +1,35 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 567-731\n2. 952-1081\n3. 432-455\n4. 866-895\n5. 848-852",
+  "predictions": [
+    [
+      567,
+      731
+    ],
+    [
+      952,
+      1081
+    ],
+    [
+      432,
+      455
+    ],
+    [
+      866,
+      895
+    ],
+    [
+      848,
+      852
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 35,
+  "prompt_tokens": 11393,
+  "completion_tokens": 35,
+  "timestamp": "2026-02-14T01:03:45.124212+00:00"
+}

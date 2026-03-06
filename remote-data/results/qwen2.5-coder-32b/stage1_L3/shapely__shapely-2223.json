@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2223",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/tests/test_ragged_array.py\n3. shapely/coordinates.py\n4. shapely/_geometry.py\n5. shapely/__init__.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/tests/test_ragged_array.py",
+    "shapely/coordinates.py",
+    "shapely/_geometry.py",
+    "shapely/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 19408,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T10:07:30+00:00"
+}

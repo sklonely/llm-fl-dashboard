@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/backend_bases.py\n2. lib/matplotlib/backends/backend_qt5.py\n3. lib/matplotlib/backends/backend_qt5agg.py\n4. lib/matplotlib/backends/backend_qtagg.py\n5. lib/matplotlib/backends/backend_template.py",
+  "predictions": [
+    "lib/matplotlib/backend_bases.py",
+    "lib/matplotlib/backends/backend_qt5.py",
+    "lib/matplotlib/backends/backend_qt5agg.py",
+    "lib/matplotlib/backends/backend_qtagg.py",
+    "lib/matplotlib/backends/backend_template.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 65,
+  "prompt_tokens": 9245,
+  "completion_tokens": 65,
+  "timestamp": "2026-02-14T01:03:45.107639+00:00"
+}

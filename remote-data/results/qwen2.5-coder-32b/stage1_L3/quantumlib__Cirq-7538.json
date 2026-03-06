@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. cirq-core/cirq/transformers/eject_phased_paulis_test.py\n2. cirq-core/cirq/transformers/eject_phased_paulis.py\n3. cirq-core/cirq/circuits/circuit.py\n4. cirq-core/cirq/ops/gate_operation.py\n5. cirq-core/cirq/ops/measurement_gate.py",
+  "predictions": [
+    "cirq-core/cirq/transformers/eject_phased_paulis_test.py",
+    "cirq-core/cirq/transformers/eject_phased_paulis.py",
+    "cirq-core/cirq/circuits/circuit.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/ops/measurement_gate.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 85240,
+  "eval_count": 81,
+  "timestamp": "2026-02-13T10:04:51+00:00"
+}

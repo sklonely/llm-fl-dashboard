@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorphvf2.py\n2. networkx/classes/multidigraph.py\n3. networkx/classes/digraph.py\n4. networkx/classes/reportviews.py\n5. networkx/algorithms/isomorphism/vf2userfunc.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/classes/digraph.py",
+    "networkx/classes/reportviews.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 41107,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T09:18:49+00:00"
+}

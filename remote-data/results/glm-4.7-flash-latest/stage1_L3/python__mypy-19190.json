@@ -1,0 +1,16 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/checker.py\n2. mypy/checker_shared.py\n3. mypy/semalib.py\n4. mypy/semalib.py\n5. mypy/semalib.py",
+  "predictions": [
+    "mypy/checker.py",
+    "mypy/checker_shared.py",
+    "mypy/semalib.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31523,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T06:16:44+00:00"
+}

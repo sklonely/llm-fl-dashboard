@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/dirs.py\n2. dvc/repo/__init__.py\n3. dvc/repo/init.py\n4. dvc/repo/experiments/__init__.py\n5. dvc/repo/experiments/executor/local.py",
+  "predictions": [
+    "dvc/dirs.py",
+    "dvc/repo/__init__.py",
+    "dvc/repo/init.py",
+    "dvc/repo/experiments/__init__.py",
+    "dvc/repo/experiments/executor/local.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9473,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T06:09:59+00:00"
+}

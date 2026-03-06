@@ -1,0 +1,33 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 87-95\n2. 96-109\n3. 114-115\n4. 74-86\n5. 104-113",
+  "predictions": [
+    [
+      87,
+      95
+    ],
+    [
+      96,
+      109
+    ],
+    [
+      114,
+      115
+    ],
+    [
+      74,
+      86
+    ],
+    [
+      104,
+      113
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9503,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T11:44:11+00:00"
+}

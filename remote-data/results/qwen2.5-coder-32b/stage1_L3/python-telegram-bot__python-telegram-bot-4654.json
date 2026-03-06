@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. telegram/_chatmember.py\n2. telegram/constants.py\n3. tests/test_chatmember.py\n4. telegram/_telegramobject.py\n5. telegram/error.py",
+  "predictions": [
+    "telegram/_chatmember.py",
+    "telegram/constants.py",
+    "tests/test_chatmember.py",
+    "telegram/_telegramobject.py",
+    "telegram/error.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 56711,
+  "eval_count": 36,
+  "timestamp": "2026-02-13T09:56:12+00:00"
+}

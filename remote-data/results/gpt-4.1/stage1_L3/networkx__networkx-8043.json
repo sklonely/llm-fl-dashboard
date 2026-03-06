@@ -1,0 +1,20 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorphvf2.py\n2. networkx/algorithms/isomorphism/vf2userfunc.py\n3. networkx/classes/multidigraph.py\n4. networkx/classes/multigraph.py\n5. networkx/algorithms/isomorphism/isomorph.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/classes/multigraph.py",
+    "networkx/algorithms/isomorphism/isomorph.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 69,
+  "prompt_tokens": 12181,
+  "completion_tokens": 69,
+  "timestamp": "2026-02-14T01:03:45.111554+00:00"
+}

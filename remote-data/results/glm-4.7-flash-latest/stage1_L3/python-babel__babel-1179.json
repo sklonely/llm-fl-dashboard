@@ -1,0 +1,16 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. babel/dates.py\n2. babel/numbers.py\n3. babel/locales/en_AU.py\n4. babel/numbers.py\n5. babel/numbers.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/numbers.py",
+    "babel/locales/en_AU.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1263,
+  "eval_count": 38,
+  "timestamp": "2026-02-13T06:15:00+00:00"
+}

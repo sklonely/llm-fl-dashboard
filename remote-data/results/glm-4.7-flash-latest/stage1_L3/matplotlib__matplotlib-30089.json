@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30089",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/layout_engine.py\n2. lib/matplotlib/_layoutgrid.py\n3. lib/matplotlib/axes/_secondary_axes.py\n4. lib/matplotlib/_pylab_helpers.py\n5. lib/matplotlib/backend_managers.py",
+  "predictions": [
+    "lib/matplotlib/layout_engine.py",
+    "lib/matplotlib/_layoutgrid.py",
+    "lib/matplotlib/axes/_secondary_axes.py",
+    "lib/matplotlib/_pylab_helpers.py",
+    "lib/matplotlib/backend_managers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10712,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T06:13:13+00:00"
+}

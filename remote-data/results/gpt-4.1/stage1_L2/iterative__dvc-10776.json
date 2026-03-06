@@ -1,0 +1,20 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/dirs.py\n2. dvc/repo/__init__.py\n3. dvc/cli/command.py\n4. dvc/commands/version.py\n5. dvc/commands/doctor.py",
+  "predictions": [
+    "dvc/dirs.py",
+    "dvc/repo/__init__.py",
+    "dvc/cli/command.py",
+    "dvc/commands/version.py",
+    "dvc/commands/doctor.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 47,
+  "prompt_tokens": 8530,
+  "completion_tokens": 47,
+  "timestamp": "2026-02-14T01:03:45.104555+00:00"
+}

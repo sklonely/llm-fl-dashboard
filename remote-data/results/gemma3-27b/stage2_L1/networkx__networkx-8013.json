@@ -1,0 +1,33 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 434-436\n2. 437-438\n3. 440-445\n4. 446-454\n5. 450-452",
+  "predictions": [
+    [
+      434,
+      436
+    ],
+    [
+      437,
+      438
+    ],
+    [
+      440,
+      445
+    ],
+    [
+      446,
+      454
+    ],
+    [
+      450,
+      452
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 24746,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T15:28:23+00:00"
+}

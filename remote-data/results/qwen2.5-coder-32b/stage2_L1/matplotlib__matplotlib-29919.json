@@ -1,0 +1,33 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 80-96\n2. 387-410\n3. 434-458\n4. 710-733\n5. 900-926",
+  "predictions": [
+    [
+      80,
+      96
+    ],
+    [
+      387,
+      410
+    ],
+    [
+      434,
+      458
+    ],
+    [
+      710,
+      733
+    ],
+    [
+      900,
+      926
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13815,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T10:45:53+00:00"
+}

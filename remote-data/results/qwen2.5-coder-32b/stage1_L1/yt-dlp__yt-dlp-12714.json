@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. yt_dlp/extractor/generic.py\n2. yt_dlp/downloader/hls.py\n3. yt_dlp/YoutubeDL.py\n4. yt_dlp/utils/_utils.py\n5. yt_dlp/options.py",
+  "predictions": [
+    "yt_dlp/extractor/generic.py",
+    "yt_dlp/downloader/hls.py",
+    "yt_dlp/YoutubeDL.py",
+    "yt_dlp/utils/_utils.py",
+    "yt_dlp/options.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 50613,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T09:03:41+00:00"
+}

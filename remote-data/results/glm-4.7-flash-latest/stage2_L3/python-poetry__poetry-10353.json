@@ -1,0 +1,29 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 583-585\n2. 533-534\n3. 538-541\n4. 543\n5. 549-561",
+  "predictions": [
+    [
+      583,
+      585
+    ],
+    [
+      533,
+      534
+    ],
+    [
+      538,
+      541
+    ],
+    [
+      549,
+      561
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8261,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T08:21:56+00:00"
+}

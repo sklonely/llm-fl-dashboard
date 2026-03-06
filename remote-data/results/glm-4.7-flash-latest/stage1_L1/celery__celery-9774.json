@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. celery/canvas.py\n2. celery/app/trace.py\n3. celery/app/task.py\n4. celery/result.py\n5. celery/app/base.py",
+  "predictions": [
+    "celery/canvas.py",
+    "celery/app/trace.py",
+    "celery/app/task.py",
+    "celery/result.py",
+    "celery/app/base.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3182,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T05:50:23+00:00"
+}

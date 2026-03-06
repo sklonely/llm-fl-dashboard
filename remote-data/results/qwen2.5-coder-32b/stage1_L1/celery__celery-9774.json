@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. celery/canvas.py\n2. celery/app/trace.py\n3. celery/result.py\n4. celery/worker/request.py\n5. celery/concurrency/prefork.py",
+  "predictions": [
+    "celery/canvas.py",
+    "celery/app/trace.py",
+    "celery/result.py",
+    "celery/worker/request.py",
+    "celery/concurrency/prefork.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12403,
+  "eval_count": 39,
+  "timestamp": "2026-02-13T08:53:37+00:00"
+}

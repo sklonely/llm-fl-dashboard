@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. keras/src/layers/core/embedding.py\n2. keras/src/layers/rnn/time_distributed.py\n3. keras/src/backend/common/masking.py\n4. keras/src/layers/merging/base_merge.py\n5. keras/src/utils/tf_utils.py",
+  "predictions": [
+    "keras/src/layers/core/embedding.py",
+    "keras/src/layers/rnn/time_distributed.py",
+    "keras/src/backend/common/masking.py",
+    "keras/src/layers/merging/base_merge.py",
+    "keras/src/utils/tf_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 114543,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T09:45:16+00:00"
+}

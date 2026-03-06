@@ -1,0 +1,20 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mesonbuild/optinterpreter.py\n2. mesonbuild/envconfig.py\n3. mesonbuild/interpreter/mesonmain.py\n4. mesonbuild/modules/__init__.py\n5. mesonbuild/interpreter/kwargs.py",
+  "predictions": [
+    "mesonbuild/optinterpreter.py",
+    "mesonbuild/envconfig.py",
+    "mesonbuild/interpreter/mesonmain.py",
+    "mesonbuild/modules/__init__.py",
+    "mesonbuild/interpreter/kwargs.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 54,
+  "prompt_tokens": 20818,
+  "completion_tokens": 54,
+  "timestamp": "2026-02-14T01:03:45.110178+00:00"
+}

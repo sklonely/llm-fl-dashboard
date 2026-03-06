@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8207",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. networkx/algorithms/approximation/distance_measures.py\n2. networkx/algorithms/edit_distance.py\n3. networkx/graph_edit_distance.py\n4. networkx/classes/multidigraph.py\n5. networkx/classes/digraph.py",
+  "predictions": [
+    "networkx/algorithms/approximation/distance_measures.py",
+    "networkx/algorithms/edit_distance.py",
+    "networkx/graph_edit_distance.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/classes/digraph.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 41964,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T09:20:11+00:00"
+}

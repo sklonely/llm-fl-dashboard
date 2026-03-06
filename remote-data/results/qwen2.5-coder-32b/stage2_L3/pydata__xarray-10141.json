@@ -1,0 +1,33 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 1120-1130\n2. 1362-1378\n3. 1132-1139\n4. 1352-1361\n5. 1118-1119",
+  "predictions": [
+    [
+      1120,
+      1130
+    ],
+    [
+      1362,
+      1378
+    ],
+    [
+      1132,
+      1139
+    ],
+    [
+      1352,
+      1361
+    ],
+    [
+      1118,
+      1119
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12479,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T13:04:40+00:00"
+}

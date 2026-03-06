@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. reflex/components/tags/cond_tag.py\n2. reflex/components/tags/match_tag.py\n3. reflex/components/core/match.py\n4. reflex/components/tags/tag.py\n5. reflex/constants/compiler.py",
+  "predictions": [
+    "reflex/components/tags/cond_tag.py",
+    "reflex/components/tags/match_tag.py",
+    "reflex/components/core/match.py",
+    "reflex/components/tags/tag.py",
+    "reflex/constants/compiler.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8124,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T06:05:50+00:00"
+}

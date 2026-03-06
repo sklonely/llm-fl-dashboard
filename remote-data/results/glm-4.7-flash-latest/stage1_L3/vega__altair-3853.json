@@ -1,0 +1,18 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. altair/vegalite/v6/schema/core.py\n2. altair/vegalite/v6/schema/channels.py\n3. altair/vegalite/v6/compiler.py\n4. altair/vegalite/v6/display.py\n5. altair/vegalite/v6/__init__.py",
+  "predictions": [
+    "altair/vegalite/v6/schema/core.py",
+    "altair/vegalite/v6/schema/channels.py",
+    "altair/vegalite/v6/compiler.py",
+    "altair/vegalite/v6/display.py",
+    "altair/vegalite/v6/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 51514,
+  "eval_count": 70,
+  "timestamp": "2026-02-13T06:21:46+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. keras/src/layers/rnn/time_distributed_test.py\n2. keras/src/layers/rnn/rnn.py\n3. keras/src/layers/core/embedding.py\n4. keras/src/layers/core/masking.py\n5. keras/src/backend/common/masking.py",
+  "predictions": [
+    "keras/src/layers/rnn/time_distributed_test.py",
+    "keras/src/layers/rnn/rnn.py",
+    "keras/src/layers/core/embedding.py",
+    "keras/src/layers/core/masking.py",
+    "keras/src/backend/common/masking.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 101122,
+  "eval_count": 76,
+  "timestamp": "2026-02-13T14:31:42+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/fscache.py\n2. mypy/checker_state.py\n3. mypy/copytype.py\n4. mypy/mypy/options.py\n5. mypy/type_visitor.py",
+  "predictions": [
+    "mypy/fscache.py",
+    "mypy/checker_state.py",
+    "mypy/copytype.py",
+    "mypy/mypy/options.py",
+    "mypy/type_visitor.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 74318,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T14:48:19+00:00"
+}

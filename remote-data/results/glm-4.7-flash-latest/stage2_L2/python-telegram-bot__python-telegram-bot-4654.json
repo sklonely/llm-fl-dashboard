@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 108-138\n2. 113-120\n3. 122-123\n4. 125-130\n5. 134-136",
+  "predictions": [
+    [
+      108,
+      138
+    ],
+    [
+      113,
+      120
+    ],
+    [
+      122,
+      123
+    ],
+    [
+      125,
+      130
+    ],
+    [
+      134,
+      136
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10093,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T07:32:26+00:00"
+}

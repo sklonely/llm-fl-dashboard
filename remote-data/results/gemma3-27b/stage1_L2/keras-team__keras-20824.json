@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. keras/src/saving/serialization.py\n2. keras/src/api_export.py\n3. keras/src/layers/activations/activation.py\n4. keras/src/models/model.py\n5. api_gen.py",
+  "predictions": [
+    "keras/src/saving/serialization.py",
+    "keras/src/api_export.py",
+    "keras/src/layers/activations/activation.py",
+    "keras/src/models/model.py",
+    "api_gen.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 100345,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T14:00:58+00:00"
+}

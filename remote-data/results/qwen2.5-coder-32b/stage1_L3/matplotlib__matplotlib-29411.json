@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/axes/_base.py\n2. lib/matplotlib/transforms.py\n3. lib/matplotlib/figure.py\n4. lib/matplotlib/tests/test_axes.py\n5. lib/matplotlib/artist.py",
+  "predictions": [
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/transforms.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/tests/test_axes.py",
+    "lib/matplotlib/artist.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31807,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T09:47:42+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30089",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/layout_engine.py\n2. lib/matplotlib/_layoutgrid.py\n3. lib/matplotlib/figure.py\n4. lib/matplotlib/subplot.py\n5. lib/matplotlib/gridspec.py",
+  "predictions": [
+    "lib/matplotlib/layout_engine.py",
+    "lib/matplotlib/_layoutgrid.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/subplot.py",
+    "lib/matplotlib/gridspec.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31343,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T09:49:53+00:00"
+}

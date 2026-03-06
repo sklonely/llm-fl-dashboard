@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8055",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/isomorphism/ismags.py\n2. networkx/algorithms/isomorphism/tests/test_ismags.py\n3. networkx/classes/graph.py\n4. networkx/algorithms/isomorphism/isomorphvf2.py\n5. networkx/algorithms/isomorphism/isomorph.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/ismags.py",
+    "networkx/algorithms/isomorphism/tests/test_ismags.py",
+    "networkx/classes/graph.py",
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/isomorph.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40274,
+  "eval_count": 77,
+  "timestamp": "2026-02-13T14:39:15+00:00"
+}

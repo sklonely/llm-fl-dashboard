@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/PIL/Image.py\n2. src/PIL/TiffImagePlugin.py\n3. src/PIL/ExifTags.py\n4. src/PIL/TiffTags.py\n5. src/PIL/JpegImagePlugin.py",
+  "predictions": [
+    "src/PIL/Image.py",
+    "src/PIL/TiffImagePlugin.py",
+    "src/PIL/ExifTags.py",
+    "src/PIL/TiffTags.py",
+    "src/PIL/JpegImagePlugin.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 49,
+  "prompt_tokens": 1217,
+  "completion_tokens": 49,
+  "timestamp": "2026-02-14T01:03:45.115155+00:00"
+}

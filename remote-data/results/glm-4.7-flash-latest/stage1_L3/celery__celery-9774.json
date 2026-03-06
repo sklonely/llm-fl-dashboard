@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. celery/app/trace.py\n2. celery/tasks/__init__.py\n3. celery/app/annotations.py\n4. celery/app/registry.py\n5. celery/app/base.py",
+  "predictions": [
+    "celery/app/trace.py",
+    "celery/tasks/__init__.py",
+    "celery/app/annotations.py",
+    "celery/app/registry.py",
+    "celery/app/base.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7753,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T06:08:35+00:00"
+}

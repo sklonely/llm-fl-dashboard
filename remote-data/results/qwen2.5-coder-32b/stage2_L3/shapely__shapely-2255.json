@@ -1,0 +1,33 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 460-470\n2. 138-156\n3. 98-113\n4. 115-136\n5. 336-345",
+  "predictions": [
+    [
+      460,
+      470
+    ],
+    [
+      138,
+      156
+    ],
+    [
+      98,
+      113
+    ],
+    [
+      115,
+      136
+    ],
+    [
+      336,
+      345
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 28122,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T13:35:13+00:00"
+}

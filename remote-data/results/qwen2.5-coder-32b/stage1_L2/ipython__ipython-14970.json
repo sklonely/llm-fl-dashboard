@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/displayhook.py\n3. IPython/core/compilerop.py\n4. IPython/core/error.py\n5. IPython/core/events.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/displayhook.py",
+    "IPython/core/compilerop.py",
+    "IPython/core/error.py",
+    "IPython/core/events.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 23334,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T09:08:20+00:00"
+}

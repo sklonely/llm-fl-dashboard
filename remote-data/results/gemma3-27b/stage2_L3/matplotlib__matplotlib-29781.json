@@ -1,0 +1,13 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487078,
+  "eval_count": null,
+  "timestamp": "2026-02-13T18:36:22+00:00",
+  "error": "timed out"
+}

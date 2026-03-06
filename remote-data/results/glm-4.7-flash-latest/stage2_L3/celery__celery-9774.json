@@ -1,0 +1,21 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 2205-2264\n2. 2073-2104\n3. 2337\n4. 2237\n5. 2073-2104",
+  "predictions": [
+    [
+      2205,
+      2264
+    ],
+    [
+      2073,
+      2104
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 72437,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T08:04:05+00:00"
+}

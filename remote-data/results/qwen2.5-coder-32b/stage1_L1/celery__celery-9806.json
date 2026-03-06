@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. celery/result.py\n2. celery/backends/redis.py\n3. celery/app/task.py\n4. celery/worker/consumer/tasks.py\n5. celery/utils/dispatch/signal.py",
+  "predictions": [
+    "celery/result.py",
+    "celery/backends/redis.py",
+    "celery/app/task.py",
+    "celery/worker/consumer/tasks.py",
+    "celery/utils/dispatch/signal.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10536,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T08:53:47+00:00"
+}

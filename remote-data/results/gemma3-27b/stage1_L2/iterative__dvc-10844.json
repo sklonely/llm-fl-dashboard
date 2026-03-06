@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/repo/experiments/cache.py\n2. dvc/repo/fetch.py\n3. dvc/data_cloud.py\n4. dvc/repo/status.py\n5. dvc/commands/data_sync.py",
+  "predictions": [
+    "dvc/repo/experiments/cache.py",
+    "dvc/repo/fetch.py",
+    "dvc/data_cloud.py",
+    "dvc/repo/status.py",
+    "dvc/commands/data_sync.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25567,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T13:57:37+00:00"
+}

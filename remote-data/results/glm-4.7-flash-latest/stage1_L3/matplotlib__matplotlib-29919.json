@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/cbook.py\n2. lib/matplotlib/projections/__init__.py\n3. lib/matplotlib/axes/_base.py\n4. lib/matplotlib/projections/geo.py\n5. lib/matplotlib/artist.py",
+  "predictions": [
+    "lib/matplotlib/cbook.py",
+    "lib/matplotlib/projections/__init__.py",
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/projections/geo.py",
+    "lib/matplotlib/artist.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12784,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T06:12:51+00:00"
+}

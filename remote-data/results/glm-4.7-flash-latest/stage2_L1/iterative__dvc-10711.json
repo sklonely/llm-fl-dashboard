@@ -1,0 +1,33 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 110-115\n2. 81-107\n3. 22-40\n4. 43-59\n5. 62-78",
+  "predictions": [
+    [
+      110,
+      115
+    ],
+    [
+      81,
+      107
+    ],
+    [
+      22,
+      40
+    ],
+    [
+      43,
+      59
+    ],
+    [
+      62,
+      78
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2796,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T06:27:21+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 136-140\n2. 415-417\n3. 566-568\n4. 770-778\n5. 685-687",
+  "predictions": [
+    [
+      136,
+      140
+    ],
+    [
+      415,
+      417
+    ],
+    [
+      566,
+      568
+    ],
+    [
+      770,
+      778
+    ],
+    [
+      685,
+      687
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 42222,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T16:36:35+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/_geometry.py\n3. shapely/coords.py\n4. shapely/geometry/geo.py\n5. shapely/coordinates.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/_geometry.py",
+    "shapely/coords.py",
+    "shapely/geometry/geo.py",
+    "shapely/coordinates.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 43,
+  "prompt_tokens": 3739,
+  "completion_tokens": 43,
+  "timestamp": "2026-02-14T01:03:45.125465+00:00"
+}

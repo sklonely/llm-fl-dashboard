@@ -1,0 +1,17 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. celery/app/task.py\n2. celery/canvas.py\n3. celery/app/chord.py (Not explicitly listed, but relevant to chords)\n4. celery/worker/consumer/tasks.py\n5. celery/app/trace.py",
+  "predictions": [
+    "celery/app/task.py",
+    "celery/canvas.py",
+    "celery/worker/consumer/tasks.py",
+    "celery/app/trace.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12551,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T13:41:03+00:00"
+}

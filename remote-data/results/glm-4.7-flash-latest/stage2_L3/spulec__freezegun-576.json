@@ -1,0 +1,33 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 613-633\n2. 729-836\n3. 838-901\n4. 657-721\n5. 805-818",
+  "predictions": [
+    [
+      613,
+      633
+    ],
+    [
+      729,
+      836
+    ],
+    [
+      838,
+      901
+    ],
+    [
+      657,
+      721
+    ],
+    [
+      805,
+      818
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 16838,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T08:44:03+00:00"
+}

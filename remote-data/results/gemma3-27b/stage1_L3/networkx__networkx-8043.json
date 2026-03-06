@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorphvf2.py\n2. networkx/algorithms/isomorphism/tests/test_isomorphvf2.py\n3. networkx/classes/multidigraph.py\n4. networkx/algorithms/isomorphism/graph_isomorphism.py\n5. networkx/algorithms/isomorphism/vf2userfunc.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/tests/test_isomorphvf2.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/algorithms/isomorphism/graph_isomorphism.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40699,
+  "eval_count": 85,
+  "timestamp": "2026-02-13T14:38:35+00:00"
+}

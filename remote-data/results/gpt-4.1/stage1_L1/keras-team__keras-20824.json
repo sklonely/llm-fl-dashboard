@@ -1,0 +1,20 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. keras/src/saving/object_registration.py\n2. keras/src/saving/serialization_lib.py\n3. keras/src/saving/saving_lib.py\n4. keras/src/legacy/saving/serialization.py\n5. keras/src/saving/saving_api.py",
+  "predictions": [
+    "keras/src/saving/object_registration.py",
+    "keras/src/saving/serialization_lib.py",
+    "keras/src/saving/saving_lib.py",
+    "keras/src/legacy/saving/serialization.py",
+    "keras/src/saving/saving_api.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 54,
+  "prompt_tokens": 7377,
+  "completion_tokens": 54,
+  "timestamp": "2026-02-14T01:03:45.106340+00:00"
+}

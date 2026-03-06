@@ -1,0 +1,29 @@
+{
+  "instance_id": "shapely__shapely-2223",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 65-75\n2. 66\n3. 142-298\n4. 367-374\n5. 377-385",
+  "predictions": [
+    [
+      65,
+      75
+    ],
+    [
+      142,
+      298
+    ],
+    [
+      367,
+      374
+    ],
+    [
+      377,
+      385
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9852,
+  "eval_count": 38,
+  "timestamp": "2026-02-13T08:43:38+00:00"
+}

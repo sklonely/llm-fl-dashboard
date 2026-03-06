@@ -1,0 +1,18 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. freezegun/api.py\n2. freezegun/__init__.py\n3. tests/utils.py\n4. freezegun/config.py\n5. freezegun/_async.py",
+  "predictions": [
+    "freezegun/api.py",
+    "freezegun/__init__.py",
+    "tests/utils.py",
+    "freezegun/config.py",
+    "freezegun/_async.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2187,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T09:02:31+00:00"
+}

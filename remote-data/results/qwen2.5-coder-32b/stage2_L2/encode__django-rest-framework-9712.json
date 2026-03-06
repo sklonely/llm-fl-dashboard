@@ -1,0 +1,33 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 1501-1512\n2. 1600-1630\n3. 1497-1500\n4. 1486-1500\n5. 1430-1444",
+  "predictions": [
+    [
+      1501,
+      1512
+    ],
+    [
+      1600,
+      1630
+    ],
+    [
+      1497,
+      1500
+    ],
+    [
+      1486,
+      1500
+    ],
+    [
+      1430,
+      1444
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 85763,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T11:39:23+00:00"
+}

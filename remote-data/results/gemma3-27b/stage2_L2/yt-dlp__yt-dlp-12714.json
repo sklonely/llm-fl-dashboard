@@ -1,0 +1,13 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487210,
+  "eval_count": null,
+  "timestamp": "2026-02-13T18:08:30+00:00",
+  "error": "timed out"
+}

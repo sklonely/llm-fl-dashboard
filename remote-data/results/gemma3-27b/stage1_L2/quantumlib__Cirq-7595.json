@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/unitary.py\n2. cirq-core/cirq/linalg/diagonalize.py\n3. cirq-core/cirq/circuits/frozen_circuit.py\n4. cirq-core/cirq/ops/gate_operation.py\n5. cirq-core/cirq/contrib/acquaintance/strategies/cubic.py",
+  "predictions": [
+    "cirq-core/cirq/unitary.py",
+    "cirq-core/cirq/linalg/diagonalize.py",
+    "cirq-core/cirq/circuits/frozen_circuit.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/contrib/acquaintance/strategies/cubic.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 76898,
+  "eval_count": 90,
+  "timestamp": "2026-02-13T14:19:37+00:00"
+}

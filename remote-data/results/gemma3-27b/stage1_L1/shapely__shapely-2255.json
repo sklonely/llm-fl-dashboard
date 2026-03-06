@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/creation.py\n3. shapely/geometry/base.py\n4. shapely/geometry/polygon.py\n5. shapely/ops.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/creation.py",
+    "shapely/geometry/base.py",
+    "shapely/geometry/polygon.py",
+    "shapely/ops.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5061,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T13:50:22+00:00"
+}

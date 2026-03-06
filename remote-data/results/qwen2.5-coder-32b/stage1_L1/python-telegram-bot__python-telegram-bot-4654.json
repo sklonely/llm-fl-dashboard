@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. telegram/_telegramobject.py\n2. telegram/_message.py\n3. telegram/_user.py\n4. telegram/_chat.py\n5. telegram/_callbackquery.py",
+  "predictions": [
+    "telegram/_telegramobject.py",
+    "telegram/_message.py",
+    "telegram/_user.py",
+    "telegram/_chat.py",
+    "telegram/_callbackquery.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7856,
+  "eval_count": 37,
+  "timestamp": "2026-02-13T08:59:33+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. tests/snapshot_tests/snapshot_apps/option_list.py\n2. src/textual/widgets/_option_list.py\n3. src/textual/layout/factory.py\n4. src/textual/message_pump.py\n5. src/textual/app.py",
+  "predictions": [
+    "tests/snapshot_tests/snapshot_apps/option_list.py",
+    "src/textual/widgets/_option_list.py",
+    "src/textual/layout/factory.py",
+    "src/textual/message_pump.py",
+    "src/textual/app.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 44643,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T09:38:06+00:00"
+}

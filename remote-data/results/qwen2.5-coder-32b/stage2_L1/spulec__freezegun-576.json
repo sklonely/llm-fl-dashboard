@@ -1,0 +1,33 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 729-806\n2. 820-835\n3. 120-146\n4. 159-181\n5. 723-728",
+  "predictions": [
+    [
+      729,
+      806
+    ],
+    [
+      820,
+      835
+    ],
+    [
+      120,
+      146
+    ],
+    [
+      159,
+      181
+    ],
+    [
+      723,
+      728
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 49049,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T11:24:30+00:00"
+}

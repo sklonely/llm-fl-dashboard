@@ -1,0 +1,13 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487191,
+  "eval_count": null,
+  "timestamp": "2026-02-13T12:38:04+00:00",
+  "error": "timed out"
+}

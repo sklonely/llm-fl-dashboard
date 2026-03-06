@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-30089",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/layout_engine.py\n2. lib/matplotlib/_layoutgrid.py\n3. lib/matplotlib/figure.py\n4. lib/matplotlib/axes/_subplots.py\n5. lib/matplotlib/gridspec.py",
+  "predictions": [
+    "lib/matplotlib/layout_engine.py",
+    "lib/matplotlib/_layoutgrid.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/axes/_subplots.py",
+    "lib/matplotlib/gridspec.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 54,
+  "prompt_tokens": 9385,
+  "completion_tokens": 54,
+  "timestamp": "2026-02-14T01:03:45.109588+00:00"
+}

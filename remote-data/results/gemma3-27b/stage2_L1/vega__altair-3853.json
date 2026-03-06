@@ -1,0 +1,13 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487208,
+  "eval_count": null,
+  "timestamp": "2026-02-13T16:23:23+00:00",
+  "error": "timed out"
+}

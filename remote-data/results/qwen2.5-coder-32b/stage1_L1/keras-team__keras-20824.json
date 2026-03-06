@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. keras/src/saving/serialization_lib.py\n2. keras/api/_tf_keras/keras/utils/__init__.py\n3. keras/src/utils/module_utils.py\n4. keras/src/saving/object_registration.py\n5. keras/src/saving/saving_api.py",
+  "predictions": [
+    "keras/src/saving/serialization_lib.py",
+    "keras/api/_tf_keras/keras/utils/__init__.py",
+    "keras/src/utils/module_utils.py",
+    "keras/src/saving/object_registration.py",
+    "keras/src/saving/saving_api.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 27542,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T08:56:27+00:00"
+}

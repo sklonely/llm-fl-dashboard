@@ -1,0 +1,33 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 605-618\n2. 626-634\n3. 635-653\n4. 654-678\n5. 768-786",
+  "predictions": [
+    [
+      605,
+      618
+    ],
+    [
+      626,
+      634
+    ],
+    [
+      635,
+      653
+    ],
+    [
+      654,
+      678
+    ],
+    [
+      768,
+      786
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40009,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T19:27:55+00:00"
+}

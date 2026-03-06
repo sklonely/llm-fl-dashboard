@@ -1,0 +1,33 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 309-318\n2. 367-376\n3. 175-184\n4. 290-299\n5. 350-359",
+  "predictions": [
+    [
+      309,
+      318
+    ],
+    [
+      367,
+      376
+    ],
+    [
+      175,
+      184
+    ],
+    [
+      290,
+      299
+    ],
+    [
+      350,
+      359
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12115,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T12:20:49+00:00"
+}

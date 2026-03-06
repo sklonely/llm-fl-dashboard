@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. reflex/components/core/foreach.py\n2. reflex/components/props.py\n3. reflex/utils/exceptions.py\n4. reflex/base.py\n5. reflex/components/core/match.py",
+  "predictions": [
+    "reflex/components/core/foreach.py",
+    "reflex/components/props.py",
+    "reflex/utils/exceptions.py",
+    "reflex/base.py",
+    "reflex/components/core/match.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25857,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T14:20:28+00:00"
+}

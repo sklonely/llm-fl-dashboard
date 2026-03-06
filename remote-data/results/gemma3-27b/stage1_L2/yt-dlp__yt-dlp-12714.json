@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. yt_dlp/extractor/twitter.py (Although not explicitly in the list, the bug report mentions Twitter/X links and incorrect sorting, suggesting an issue in how these links are handled and parsed for audio codecs.)\n2. yt_dlp/extractor/m3u8.py (Since the URL provided is an m3u8 playlist, the parsing and handling of m3u8 manifests is likely involved. The bug report mentions missing audio codec info, which would be present in the m3u8.)\n3. yt_dlp/downloader/hlsnative.py (This downloader is specifically for HLS (m3u8) streams. Issues with parsing the manifest or handling the fragments could lead to incorrect audio codec detection or sorting.)\n4. yt_dlp/extractor/generic.py (If the link isn't correctly identified as a Twitter link, it falls back to generic extraction. The generic extractor might not handle m3u8 manifests with missing audio information correctly, leading to the observed sorting issue.)\n5. yt_dlp/utils/progress.py (While less likely, incorrect parsing of the m3u8 could lead to incorrect size calculations or other data that affects the progress reporting, potentially influencing the sorting logic.)",
+  "predictions": [
+    "yt_dlp/extractor/twitter.py",
+    "yt_dlp/extractor/m3u8.py",
+    "yt_dlp/downloader/hlsnative.py",
+    "yt_dlp/extractor/generic.py",
+    "yt_dlp/utils/progress.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 99324,
+  "eval_count": 266,
+  "timestamp": "2026-02-13T14:23:48+00:00"
+}

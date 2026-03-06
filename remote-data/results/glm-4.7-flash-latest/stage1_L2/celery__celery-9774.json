@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. celery/app/trace.py\n2. celery/backends/redis.py\n3. celery/app/annotations.py\n4. celery/app/autoretry.py\n5. celery/app/backends.py",
+  "predictions": [
+    "celery/app/trace.py",
+    "celery/backends/redis.py",
+    "celery/app/annotations.py",
+    "celery/app/autoretry.py",
+    "celery/app/backends.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7722,
+  "eval_count": 43,
+  "timestamp": "2026-02-13T05:53:56+00:00"
+}

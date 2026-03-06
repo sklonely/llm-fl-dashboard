@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/applytype.py\n2. mypy/exprtotype.py\n3. mypy/type_visitor.py\n4. mypy/checker_shared.py\n5. mypy/options.py",
+  "predictions": [
+    "mypy/applytype.py",
+    "mypy/exprtotype.py",
+    "mypy/type_visitor.py",
+    "mypy/checker_shared.py",
+    "mypy/options.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 71310,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T14:12:09+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 109-139\n2. 141-180\n3. 180-381\n4. 421-594\n5. 613-622",
+  "predictions": [
+    [
+      109,
+      139
+    ],
+    [
+      141,
+      180
+    ],
+    [
+      180,
+      381
+    ],
+    [
+      421,
+      594
+    ],
+    [
+      613,
+      622
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 8748,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.117251+00:00"
+}

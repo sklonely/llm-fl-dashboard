@@ -1,0 +1,20 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/inputtransformer2.py\n2. IPython/terminal/magics.py\n3. IPython/core/splitinput.py\n4. IPython/core/compilerop.py\n5. IPython/terminal/embed.py",
+  "predictions": [
+    "IPython/core/inputtransformer2.py",
+    "IPython/terminal/magics.py",
+    "IPython/core/splitinput.py",
+    "IPython/core/compilerop.py",
+    "IPython/terminal/embed.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 49,
+  "prompt_tokens": 6693,
+  "completion_tokens": 49,
+  "timestamp": "2026-02-14T01:03:45.102131+00:00"
+}

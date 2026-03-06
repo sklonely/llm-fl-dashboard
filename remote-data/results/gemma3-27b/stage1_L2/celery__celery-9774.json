@@ -1,0 +1,17 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. celery/worker/worker.py\n2. celery/app/registry.py\n3. celery/app/annotations.py\n4. tasks.py (based on the traceback)\n5. celery/contrib/abortable.py",
+  "predictions": [
+    "celery/worker/worker.py",
+    "celery/app/registry.py",
+    "celery/app/annotations.py",
+    "celery/contrib/abortable.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 24902,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T13:52:37+00:00"
+}

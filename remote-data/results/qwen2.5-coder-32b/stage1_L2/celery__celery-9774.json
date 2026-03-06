@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "Based on the bug report and the provided repository structure, the most suspicious files that likely contain the bug are:\n\n1. `celery/backends/redis.py`\n2. `celery/app/task.py` (not listed in your structure but typically where task-related logic resides)\n3. `celery/canvas.py` (handles complex workflows like chords and chains)\n4. `celery/utils/dispatch/signal.py` (if the issue is related to signal handling or callbacks)\n5. `celery/worker/consumer/tasks.py` (where tasks are actually executed)",
+  "predictions": [
+    "celery/backends/redis.py",
+    "celery/app/task.py",
+    "celery/canvas.py",
+    "celery/utils/dispatch/signal.py",
+    "celery/worker/consumer/tasks.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 27403,
+  "eval_count": 118,
+  "timestamp": "2026-02-13T09:04:53+00:00"
+}

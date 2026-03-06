@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. yt_dlp/extractor/generic.py\n2. yt_dlp/downloader/hls.py\n3. yt_dlp/utils/sorting.py\n4. yt_dlp/extractor/commonprotocols.py\n5. yt_dlp/extractor/m3u8.py",
+  "predictions": [
+    "yt_dlp/extractor/generic.py",
+    "yt_dlp/downloader/hls.py",
+    "yt_dlp/utils/sorting.py",
+    "yt_dlp/extractor/commonprotocols.py",
+    "yt_dlp/extractor/m3u8.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5793,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T09:37:21+00:00"
+}

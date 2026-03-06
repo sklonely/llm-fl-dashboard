@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/typestate.py\n2. mypy/checker_shared.py\n3. mypy/erasetype.py\n4. mypy/applytype.py\n5. mypy/maptype.py",
+  "predictions": [
+    "mypy/typestate.py",
+    "mypy/checker_shared.py",
+    "mypy/erasetype.py",
+    "mypy/applytype.py",
+    "mypy/maptype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 33298,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T06:03:41+00:00"
+}

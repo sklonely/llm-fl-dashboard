@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. rest_framework/serializers.py\n2. rest_framework/fields.py\n3. rest_framework/utils/model_meta.py\n4. model.py\n5. serializer.py",
+  "predictions": [
+    "rest_framework/serializers.py",
+    "rest_framework/fields.py",
+    "rest_framework/utils/model_meta.py",
+    "model.py",
+    "serializer.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4869,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T13:41:43+00:00"
+}

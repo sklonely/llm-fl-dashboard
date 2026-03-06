@@ -1,0 +1,33 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 1445-1519\n2. 1475-1478\n3. 1486-1511\n4. 1521-1552\n5. 1571-1630",
+  "predictions": [
+    [
+      1445,
+      1519
+    ],
+    [
+      1475,
+      1478
+    ],
+    [
+      1486,
+      1511
+    ],
+    [
+      1521,
+      1552
+    ],
+    [
+      1571,
+      1630
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 34298,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:26:00+00:00"
+}

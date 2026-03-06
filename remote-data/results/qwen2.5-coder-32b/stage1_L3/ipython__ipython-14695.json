@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/core/async_helpers.py\n3. IPython/utils/process.py\n4. IPython/core/tests/test_magic.py\n5. IPython/core/displayhook.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/core/async_helpers.py",
+    "IPython/utils/process.py",
+    "IPython/core/tests/test_magic.py",
+    "IPython/core/displayhook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 20705,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T09:40:51+00:00"
+}

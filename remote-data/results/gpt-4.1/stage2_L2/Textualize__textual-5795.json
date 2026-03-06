@@ -1,0 +1,35 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 775-804\n2. 331-378\n3. 683-685\n4. 314-330\n5. 668-672",
+  "predictions": [
+    [
+      775,
+      804
+    ],
+    [
+      331,
+      378
+    ],
+    [
+      683,
+      685
+    ],
+    [
+      314,
+      330
+    ],
+    [
+      668,
+      672
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 10526,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.077120+00:00"
+}

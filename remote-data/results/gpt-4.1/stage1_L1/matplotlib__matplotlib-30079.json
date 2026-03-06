@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/axes/_axes.py\n3. lib/matplotlib/pyplot.py\n4. lib/matplotlib/artist.py\n5. lib/matplotlib/cbook.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/artist.py",
+    "lib/matplotlib/cbook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 52,
+  "prompt_tokens": 3503,
+  "completion_tokens": 52,
+  "timestamp": "2026-02-14T01:03:45.108817+00:00"
+}

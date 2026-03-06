@@ -1,0 +1,29 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 1506-1520\n2. 1680-1720\n3. 1393-1456\n4. 674-709\n5. 1393-1456",
+  "predictions": [
+    [
+      1506,
+      1520
+    ],
+    [
+      1680,
+      1720
+    ],
+    [
+      1393,
+      1456
+    ],
+    [
+      674,
+      709
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 56819,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T08:18:29+00:00"
+}

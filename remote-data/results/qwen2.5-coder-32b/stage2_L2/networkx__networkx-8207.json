@@ -1,0 +1,33 @@
+{
+  "instance_id": "networkx__networkx-8207",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 760-789\n2. 870-889\n3. 902-932\n4. 1001-1050\n5. 1181-1193",
+  "predictions": [
+    [
+      760,
+      789
+    ],
+    [
+      870,
+      889
+    ],
+    [
+      902,
+      932
+    ],
+    [
+      1001,
+      1050
+    ],
+    [
+      1181,
+      1193
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 98168,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T11:57:57+00:00"
+}

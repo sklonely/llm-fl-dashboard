@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. reflex/components/props.py\n2. reflex/utils/exceptions.py\n3. reflex/base.py\n4. reflex/components/core/foreach.py\n5. reflex/components/el/elements/forms.py",
+  "predictions": [
+    "reflex/components/props.py",
+    "reflex/utils/exceptions.py",
+    "reflex/base.py",
+    "reflex/components/core/foreach.py",
+    "reflex/components/el/elements/forms.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26012,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T14:52:58+00:00"
+}

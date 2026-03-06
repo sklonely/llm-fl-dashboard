@@ -1,0 +1,20 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/linalg/predicates.py\n3. cirq-core/cirq/linalg/__init__.py\n4. cirq-core/cirq/ops/matrix_gates.py\n5. cirq-core/cirq/ops/common_gates.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/linalg/predicates.py",
+    "cirq-core/cirq/linalg/__init__.py",
+    "cirq-core/cirq/ops/matrix_gates.py",
+    "cirq-core/cirq/ops/common_gates.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 71,
+  "prompt_tokens": 8685,
+  "completion_tokens": 71,
+  "timestamp": "2026-02-14T01:03:45.122486+00:00"
+}

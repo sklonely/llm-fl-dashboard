@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 4072-4086\n2. 4090-4170\n3. 3951-3966\n4. 4172-4185\n5. 4040-4053",
+  "predictions": [
+    [
+      4072,
+      4086
+    ],
+    [
+      4090,
+      4170
+    ],
+    [
+      3951,
+      3966
+    ],
+    [
+      4172,
+      4185
+    ],
+    [
+      4040,
+      4053
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12530,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T13:09:39+00:00"
+}

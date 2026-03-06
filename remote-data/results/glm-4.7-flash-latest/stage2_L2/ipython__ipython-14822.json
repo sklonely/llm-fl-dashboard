@@ -1,0 +1,33 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 38-52\n2. 641-650\n3. 698-703\n4. 705-710\n5. 712-718",
+  "predictions": [
+    [
+      38,
+      52
+    ],
+    [
+      641,
+      650
+    ],
+    [
+      698,
+      703
+    ],
+    [
+      705,
+      710
+    ],
+    [
+      712,
+      718
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12505,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T07:16:21+00:00"
+}

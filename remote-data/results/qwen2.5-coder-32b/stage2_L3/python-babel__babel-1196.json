@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 590-617\n2. 585-590\n3. 570-574\n4. 553-558\n5. 544-552",
+  "predictions": [
+    [
+      590,
+      617
+    ],
+    [
+      585,
+      590
+    ],
+    [
+      570,
+      574
+    ],
+    [
+      553,
+      558
+    ],
+    [
+      544,
+      552
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 41655,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T13:07:25+00:00"
+}

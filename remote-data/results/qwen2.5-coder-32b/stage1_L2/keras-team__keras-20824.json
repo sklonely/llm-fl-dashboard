@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. keras/src/saving/keras_saveable.py\n2. keras/src/saving/saving_api.py\n3. keras/src/layers/core/dense.py\n4. keras/src/backend/common/global_state.py\n5. keras/src/utils/module_utils.py",
+  "predictions": [
+    "keras/src/saving/keras_saveable.py",
+    "keras/src/saving/saving_api.py",
+    "keras/src/layers/core/dense.py",
+    "keras/src/backend/common/global_state.py",
+    "keras/src/utils/module_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 114226,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T09:13:28+00:00"
+}

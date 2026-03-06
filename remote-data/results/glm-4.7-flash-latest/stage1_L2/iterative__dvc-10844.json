@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/repo/experiments/diff.py\n2. dvc/repo/experiments/__init__.py\n3. dvc/repo/status.py\n4. dvc/commands/dataset.py\n5. dvc/data_cloud.py",
+  "predictions": [
+    "dvc/repo/experiments/diff.py",
+    "dvc/repo/experiments/__init__.py",
+    "dvc/repo/status.py",
+    "dvc/commands/dataset.py",
+    "dvc/data_cloud.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8227,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T05:55:26+00:00"
+}

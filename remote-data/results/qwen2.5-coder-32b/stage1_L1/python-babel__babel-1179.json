@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. babel/dates.py\n2. babel/localedata.py\n3. babel/core.py\n4. babel/plural.py\n5. babel/util.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/localedata.py",
+    "babel/core.py",
+    "babel/plural.py",
+    "babel/util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2855,
+  "eval_count": 33,
+  "timestamp": "2026-02-13T08:58:57+00:00"
+}

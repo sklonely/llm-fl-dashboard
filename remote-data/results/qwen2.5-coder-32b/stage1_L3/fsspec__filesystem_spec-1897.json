@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. fsspec/implementations/cached.py\n2. fsspec/registry.py\n3. fsspec/__init__.py\n4. fsspec/json.py\n5. fsspec/implementations/tests/test_cached.py",
+  "predictions": [
+    "fsspec/implementations/cached.py",
+    "fsspec/registry.py",
+    "fsspec/__init__.py",
+    "fsspec/json.py",
+    "fsspec/implementations/tests/test_cached.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10883,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T09:40:25+00:00"
+}

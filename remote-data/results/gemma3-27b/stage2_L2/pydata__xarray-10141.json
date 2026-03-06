@@ -1,0 +1,33 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 673-682\n2. 714-731\n3. 1698-1708\n4. 1710-1718\n5. 1719-1727",
+  "predictions": [
+    [
+      673,
+      682
+    ],
+    [
+      714,
+      731
+    ],
+    [
+      1698,
+      1708
+    ],
+    [
+      1710,
+      1718
+    ],
+    [
+      1719,
+      1727
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 97265,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T17:09:50+00:00"
+}

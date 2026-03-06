@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19592",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/semanal_typeddict.py\n2. mypy/checker_shared.py\n3. mypy/join.py\n4. mypy/types_utils.py\n5. mypy/type_visitor.py",
+  "predictions": [
+    "mypy/semanal_typeddict.py",
+    "mypy/checker_shared.py",
+    "mypy/join.py",
+    "mypy/types_utils.py",
+    "mypy/type_visitor.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 71764,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T10:00:59+00:00"
+}

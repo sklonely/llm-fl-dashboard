@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7293",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/circuits/frozen_circuit.py\n2. cirq-core/cirq/ops/gate_operation.py\n3. cirq-core/cirq/circuits/optimization_pass.py\n4. cirq-core/cirq/ops/controlled_operation.py\n5. cirq-core/cirq/circuits/circuit_dag.py",
+  "predictions": [
+    "cirq-core/cirq/circuits/frozen_circuit.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/circuits/optimization_pass.py",
+    "cirq-core/cirq/ops/controlled_operation.py",
+    "cirq-core/cirq/circuits/circuit_dag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 69901,
+  "eval_count": 93,
+  "timestamp": "2026-02-13T14:17:01+00:00"
+}

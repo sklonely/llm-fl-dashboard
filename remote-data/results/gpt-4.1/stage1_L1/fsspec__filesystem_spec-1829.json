@@ -1,0 +1,20 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. fsspec/transaction.py\n2. fsspec/implementations/local.py\n3. fsspec/utils.py\n4. fsspec/core.py\n5. fsspec/exceptions.py",
+  "predictions": [
+    "fsspec/transaction.py",
+    "fsspec/implementations/local.py",
+    "fsspec/utils.py",
+    "fsspec/core.py",
+    "fsspec/exceptions.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 667,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.091943+00:00"
+}

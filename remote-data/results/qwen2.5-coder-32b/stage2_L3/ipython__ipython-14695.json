@@ -1,0 +1,33 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 220-228\n2. 230-239\n3. 240-250\n4. 70-89\n5. 160-170",
+  "predictions": [
+    [
+      220,
+      228
+    ],
+    [
+      230,
+      239
+    ],
+    [
+      240,
+      250
+    ],
+    [
+      70,
+      89
+    ],
+    [
+      160,
+      170
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 17321,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T12:43:46+00:00"
+}

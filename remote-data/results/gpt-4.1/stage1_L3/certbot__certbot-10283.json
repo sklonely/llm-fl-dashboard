@@ -1,0 +1,20 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. acme/src/acme/errors.py\n2. acme/src/acme/client.py\n3. acme/src/acme/challenges.py\n4. acme/src/acme/_internal/tests/errors_test.py\n5. certbot/src/certbot/display/util.py",
+  "predictions": [
+    "acme/src/acme/errors.py",
+    "acme/src/acme/client.py",
+    "acme/src/acme/challenges.py",
+    "acme/src/acme/_internal/tests/errors_test.py",
+    "certbot/src/certbot/display/util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 56,
+  "prompt_tokens": 8224,
+  "completion_tokens": 56,
+  "timestamp": "2026-02-14T01:03:45.084706+00:00"
+}

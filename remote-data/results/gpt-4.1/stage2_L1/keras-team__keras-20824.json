@@ -1,0 +1,35 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 744-806\n2. 676-686\n3. 365-387\n4. 123-280\n5. 399-742",
+  "predictions": [
+    [
+      744,
+      806
+    ],
+    [
+      676,
+      686
+    ],
+    [
+      365,
+      387
+    ],
+    [
+      123,
+      280
+    ],
+    [
+      399,
+      742
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 8995,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.106636+00:00"
+}

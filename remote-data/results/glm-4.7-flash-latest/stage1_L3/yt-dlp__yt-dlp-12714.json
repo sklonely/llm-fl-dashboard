@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. yt_dlp/extractor/twitter.py\n2. yt_dlp/extractor/generic.py\n3. yt_dlp/extractor/common.py\n4. yt_dlp/extractor/youtube.py\n5. yt_dlp/extractor/extractors.py",
+  "predictions": [
+    "yt_dlp/extractor/twitter.py",
+    "yt_dlp/extractor/generic.py",
+    "yt_dlp/extractor/common.py",
+    "yt_dlp/extractor/youtube.py",
+    "yt_dlp/extractor/extractors.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 100260,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T06:23:26+00:00"
+}

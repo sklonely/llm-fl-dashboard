@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/transformers/eject_phased_paulis.py\n2. cirq-core/cirq/circuits/circuit.py\n3. cirq-core/cirq/ops/gate_operation.py\n4. cirq-core/cirq/transformers/transformer_api.py\n5. cirq-core/cirq/ops/pauli_gates.py",
+  "predictions": [
+    "cirq-core/cirq/transformers/eject_phased_paulis.py",
+    "cirq-core/cirq/circuits/circuit.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/transformers/transformer_api.py",
+    "cirq-core/cirq/ops/pauli_gates.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30806,
+  "eval_count": 95,
+  "timestamp": "2026-02-13T13:49:20+00:00"
+}

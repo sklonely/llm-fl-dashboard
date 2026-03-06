@@ -1,0 +1,33 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 298-298\n2. 307-307\n3. 316-316\n4. 325-325\n5. 334-334",
+  "predictions": [
+    [
+      298,
+      298
+    ],
+    [
+      307,
+      307
+    ],
+    [
+      316,
+      316
+    ],
+    [
+      325,
+      325
+    ],
+    [
+      334,
+      334
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12159,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T12:29:14+00:00"
+}

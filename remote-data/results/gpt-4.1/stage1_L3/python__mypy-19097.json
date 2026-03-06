@@ -1,0 +1,20 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/stubgen.py\n2. mypy/types.py\n3. mypy/argmap.py\n4. mypy/options.py\n5. mypy/exprtotype.py",
+  "predictions": [
+    "mypy/stubgen.py",
+    "mypy/types.py",
+    "mypy/argmap.py",
+    "mypy/options.py",
+    "mypy/exprtotype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 40,
+  "prompt_tokens": 19124,
+  "completion_tokens": 40,
+  "timestamp": "2026-02-14T01:03:45.117779+00:00"
+}

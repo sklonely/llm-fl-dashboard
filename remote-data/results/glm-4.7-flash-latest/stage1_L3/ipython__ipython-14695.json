@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/core/tests/test_magic.py\n3. IPython/core/async_helpers.py\n4. IPython/core/displayhook.py\n5. IPython/utils/capture.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/core/tests/test_magic.py",
+    "IPython/core/async_helpers.py",
+    "IPython/core/displayhook.py",
+    "IPython/utils/capture.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6274,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T06:09:19+00:00"
+}

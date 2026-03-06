@@ -1,0 +1,33 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 189-189\n2. 322-322\n3. 178-196\n4. 301-329\n5. 190-190",
+  "predictions": [
+    [
+      189,
+      189
+    ],
+    [
+      322,
+      322
+    ],
+    [
+      178,
+      196
+    ],
+    [
+      301,
+      329
+    ],
+    [
+      190,
+      190
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29439,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T11:41:04+00:00"
+}

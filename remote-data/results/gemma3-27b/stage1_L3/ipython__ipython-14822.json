@@ -1,0 +1,17 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/compilerop.py\n2. IPython/core/displayhook.py\n3. IPython/terminal/embed.py\n4. IPython/core/inputtransformer.py (Not explicitly listed, but heavily related to indentation and input handling - likely involved in the compilation process)\n5. IPython/core/application.py",
+  "predictions": [
+    "IPython/core/compilerop.py",
+    "IPython/core/displayhook.py",
+    "IPython/terminal/embed.py",
+    "IPython/core/application.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 24057,
+  "eval_count": 74,
+  "timestamp": "2026-02-13T14:27:50+00:00"
+}

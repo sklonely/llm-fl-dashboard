@@ -1,0 +1,13 @@
+{
+  "instance_id": "python__mypy-19249",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487188,
+  "eval_count": null,
+  "timestamp": "2026-02-13T17:32:24+00:00",
+  "error": "timed out"
+}

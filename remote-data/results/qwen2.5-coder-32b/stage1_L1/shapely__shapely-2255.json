@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/io.py\n3. shapely/geometry/__init__.py\n4. shapely/creation.py\n5. shapely/validation.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/io.py",
+    "shapely/geometry/__init__.py",
+    "shapely/creation.py",
+    "shapely/validation.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4952,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T09:02:29+00:00"
+}

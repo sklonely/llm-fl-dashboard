@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/ops/gate_operation.py\n3. cirq-core/cirq/ops/raw_types.py\n4. cirq-core/cirq/sim/state_vector_simulator.py\n5. cirq-core/cirq/linalg/tolerance.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/ops/raw_types.py",
+    "cirq-core/cirq/sim/state_vector_simulator.py",
+    "cirq-core/cirq/linalg/tolerance.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 84490,
+  "eval_count": 69,
+  "timestamp": "2026-02-13T09:32:23+00:00"
+}

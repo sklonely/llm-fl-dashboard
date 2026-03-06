@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/repo/experiments/diff.py\n2. dvc/repo/status.py\n3. dvc/data_cloud.py\n4. dvc/stage/loader.py\n5. dvc/utils/fs.py",
+  "predictions": [
+    "dvc/repo/experiments/diff.py",
+    "dvc/repo/status.py",
+    "dvc/data_cloud.py",
+    "dvc/stage/loader.py",
+    "dvc/utils/fs.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26725,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T09:43:21+00:00"
+}

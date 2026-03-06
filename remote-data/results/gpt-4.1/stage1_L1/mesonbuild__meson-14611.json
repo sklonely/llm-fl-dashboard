@@ -1,0 +1,20 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mesonbuild/coredata.py\n2. mesonbuild/machinefile.py\n3. mesonbuild/environment.py\n4. mesonbuild/options.py\n5. mesonbuild/mesonmain.py",
+  "predictions": [
+    "mesonbuild/coredata.py",
+    "mesonbuild/machinefile.py",
+    "mesonbuild/environment.py",
+    "mesonbuild/options.py",
+    "mesonbuild/mesonmain.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 45,
+  "prompt_tokens": 5771,
+  "completion_tokens": 45,
+  "timestamp": "2026-02-14T01:03:45.109991+00:00"
+}

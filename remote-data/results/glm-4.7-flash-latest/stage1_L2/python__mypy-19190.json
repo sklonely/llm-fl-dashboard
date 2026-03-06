@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/applytype.py\n2. mypy/checker_shared.py\n3. mypy/semanal_typeargs.py\n4. mypy/type_visitor.py\n5. mypy/typevars.py",
+  "predictions": [
+    "mypy/applytype.py",
+    "mypy/checker_shared.py",
+    "mypy/semanal_typeargs.py",
+    "mypy/type_visitor.py",
+    "mypy/typevars.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31419,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:02:00+00:00"
+}

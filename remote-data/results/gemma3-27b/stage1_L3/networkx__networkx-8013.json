@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/traversal/bfs.py\n2. networkx/algorithms/traversal/tests/test_bfs.py\n3. networkx/classes/graph.py\n4. networkx/utils/union_find.py\n5. networkx/algorithms/traversal/beamsearch.py",
+  "predictions": [
+    "networkx/algorithms/traversal/bfs.py",
+    "networkx/algorithms/traversal/tests/test_bfs.py",
+    "networkx/classes/graph.py",
+    "networkx/utils/union_find.py",
+    "networkx/algorithms/traversal/beamsearch.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 39995,
+  "eval_count": 71,
+  "timestamp": "2026-02-13T14:37:54+00:00"
+}

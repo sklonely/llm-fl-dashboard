@@ -1,0 +1,33 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 89-91\n2. 65-77\n3. 125-128\n4. 136-140\n5. 308-334",
+  "predictions": [
+    [
+      89,
+      91
+    ],
+    [
+      65,
+      77
+    ],
+    [
+      125,
+      128
+    ],
+    [
+      136,
+      140
+    ],
+    [
+      308,
+      334
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 18444,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T16:12:23+00:00"
+}

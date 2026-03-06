@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/backend_bases.py\n2. lib/matplotlib/backends/backend_template.py\n3. lib/matplotlib/textpath.py\n4. lib/matplotlib/legend_handler.py\n5. lib/matplotlib/axes/__init__.py",
+  "predictions": [
+    "lib/matplotlib/backend_bases.py",
+    "lib/matplotlib/backends/backend_template.py",
+    "lib/matplotlib/textpath.py",
+    "lib/matplotlib/legend_handler.py",
+    "lib/matplotlib/axes/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30250,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T14:01:59+00:00"
+}

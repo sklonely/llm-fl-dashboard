@@ -1,0 +1,33 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 123-131\n2. 169-175\n3. 180-187\n4. 280-302\n5. 345-360",
+  "predictions": [
+    [
+      123,
+      131
+    ],
+    [
+      169,
+      175
+    ],
+    [
+      180,
+      187
+    ],
+    [
+      280,
+      302
+    ],
+    [
+      345,
+      360
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 75647,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T19:01:20+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "certbot__certbot-10317",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. acme/src/acme/client.py\n2. certbot/src/certbot/_internal/renewal.py\n3. certbot/src/certbot/_internal/storage.py\n4. certbot/src/certbot/_internal/cert_manager.py\n5. certbot/src/certbot/_internal/client.py",
+  "predictions": [
+    "acme/src/acme/client.py",
+    "certbot/src/certbot/_internal/renewal.py",
+    "certbot/src/certbot/_internal/storage.py",
+    "certbot/src/certbot/_internal/cert_manager.py",
+    "certbot/src/certbot/_internal/client.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 65,
+  "prompt_tokens": 3153,
+  "completion_tokens": 65,
+  "timestamp": "2026-02-14T01:03:45.086431+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/subtypes.py\n2. mypy/checker.py\n3. mypy/checkexpr.py\n4. mypy/applytype.py\n5. mypy/maptype.py",
+  "predictions": [
+    "mypy/subtypes.py",
+    "mypy/checker.py",
+    "mypy/checkexpr.py",
+    "mypy/applytype.py",
+    "mypy/maptype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2989,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T05:52:25+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 1120-1129\n2. 1132-1137\n3. 1139-1152\n4. 675-684\n5. 235-241",
+  "predictions": [
+    [
+      1120,
+      1129
+    ],
+    [
+      1132,
+      1137
+    ],
+    [
+      1139,
+      1152
+    ],
+    [
+      675,
+      684
+    ],
+    [
+      235,
+      241
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 66929,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T07:27:52+00:00"
+}

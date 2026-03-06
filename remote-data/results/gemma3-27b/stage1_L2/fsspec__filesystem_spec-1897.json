@@ -1,0 +1,14 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. fsspec/registry.py\n2. fsspec/implementations/cached:WholeFileCacheFileSystem (implied from the bug report and stack trace)\n3. fsspec/implementations/s3.py (likely involved as the protocol incorrectly switches to s3/s3a)\n4. fsspec/implementations/arrow.py (wraps other filesystems, could be a point of protocol misconfiguration)\n5. fsspec/__init__.py (entry point for filesystem creation, potential for incorrect default handling)",
+  "predictions": [
+    "fsspec/registry.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12845,
+  "eval_count": 119,
+  "timestamp": "2026-02-13T13:54:37+00:00"
+}

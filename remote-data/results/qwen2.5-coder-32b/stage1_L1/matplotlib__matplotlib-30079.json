@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/pyplot.py\n3. lib/matplotlib/axes/_axes.py\n4. lib/matplotlib/_pylab_helpers.py\n5. lib/matplotlib/__init__.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/_pylab_helpers.py",
+    "lib/matplotlib/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11641,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T08:57:15+00:00"
+}

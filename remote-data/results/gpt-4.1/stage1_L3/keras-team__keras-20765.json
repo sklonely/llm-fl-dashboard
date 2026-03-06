@@ -1,0 +1,20 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. keras/src/layers/core/embedding.py\n2. keras/src/layers/rnn/time_distributed_test.py\n3. keras/src/layers/core/wrapper.py\n4. keras/src/layers/core/masking.py\n5. keras/src/models/sequential.py",
+  "predictions": [
+    "keras/src/layers/core/embedding.py",
+    "keras/src/layers/rnn/time_distributed_test.py",
+    "keras/src/layers/core/wrapper.py",
+    "keras/src/layers/core/masking.py",
+    "keras/src/models/sequential.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 55,
+  "prompt_tokens": 28867,
+  "completion_tokens": 55,
+  "timestamp": "2026-02-14T01:03:45.105855+00:00"
+}

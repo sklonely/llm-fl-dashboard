@@ -1,0 +1,33 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 462-462\n2. 73-75\n3. 574-581\n4. 586-593\n5. 891-901",
+  "predictions": [
+    [
+      462,
+      462
+    ],
+    [
+      73,
+      75
+    ],
+    [
+      574,
+      581
+    ],
+    [
+      586,
+      593
+    ],
+    [
+      891,
+      901
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 57522,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T17:03:11+00:00"
+}

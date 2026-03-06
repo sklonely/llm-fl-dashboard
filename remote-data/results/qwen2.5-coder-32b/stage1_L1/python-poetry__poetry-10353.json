@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/poetry/console/commands/env/activate.py\n2. src/poetry/utils/env/virtual_env.py\n3. src/poetry/console/logging/io_handler.py\n4. src/poetry/console/application.py\n5. src/poetry/console/command_loader.py",
+  "predictions": [
+    "src/poetry/console/commands/env/activate.py",
+    "src/poetry/utils/env/virtual_env.py",
+    "src/poetry/console/logging/io_handler.py",
+    "src/poetry/console/application.py",
+    "src/poetry/console/command_loader.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13404,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T08:59:25+00:00"
+}

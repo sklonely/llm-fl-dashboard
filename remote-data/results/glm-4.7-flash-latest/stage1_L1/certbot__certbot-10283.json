@@ -1,0 +1,18 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. acme/src/acme/errors.py\n2. acme/src/acme/client.py\n3. acme/src/acme/messages.py\n4. acme/src/acme/fields.py\n5. acme/src/acme/challenges.py",
+  "predictions": [
+    "acme/src/acme/errors.py",
+    "acme/src/acme/client.py",
+    "acme/src/acme/messages.py",
+    "acme/src/acme/fields.py",
+    "acme/src/acme/challenges.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3267,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T05:50:29+00:00"
+}

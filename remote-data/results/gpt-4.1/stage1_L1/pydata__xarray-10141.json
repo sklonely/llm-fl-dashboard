@@ -1,0 +1,20 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. xarray/backends/netCDF4_.py\n2. xarray/backends/api.py\n3. xarray/core/datatree.py\n4. xarray/core/datatree_io.py\n5. xarray/backends/common.py",
+  "predictions": [
+    "xarray/backends/netCDF4_.py",
+    "xarray/backends/api.py",
+    "xarray/core/datatree.py",
+    "xarray/core/datatree_io.py",
+    "xarray/backends/common.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 50,
+  "prompt_tokens": 1972,
+  "completion_tokens": 50,
+  "timestamp": "2026-02-14T01:03:45.113365+00:00"
+}

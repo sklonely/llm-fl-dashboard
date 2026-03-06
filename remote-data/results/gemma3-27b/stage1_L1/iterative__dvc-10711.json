@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/commands/remote.py\n2. dvc/cli/parser.py\n3. dvc/cli/formatter.py\n4. dvc/api/show.py\n5. dvc/repo/ls.py",
+  "predictions": [
+    "dvc/commands/remote.py",
+    "dvc/cli/parser.py",
+    "dvc/cli/formatter.py",
+    "dvc/api/show.py",
+    "dvc/repo/ls.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9447,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T13:42:56+00:00"
+}

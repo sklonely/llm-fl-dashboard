@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/axes/_base.py\n2. lib/matplotlib/axes/axes.py\n3. lib/matplotlib/transforms.py\n4. lib/matplotlib/tests/test_axes.py\n5. lib/matplotlib/backend_managers.py",
+  "predictions": [
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/axes/axes.py",
+    "lib/matplotlib/transforms.py",
+    "lib/matplotlib/tests/test_axes.py",
+    "lib/matplotlib/backend_managers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30901,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T14:33:55+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 4213-4218\n2. 4071-4178\n3. 3938-4046\n4. 1505-1536\n5. 3909-3937",
+  "predictions": [
+    [
+      4213,
+      4218
+    ],
+    [
+      4071,
+      4178
+    ],
+    [
+      3938,
+      4046
+    ],
+    [
+      1505,
+      1536
+    ],
+    [
+      3909,
+      3937
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 49309,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.115523+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. fsspec/registry.py\n2. fsspec/implementations/cached.py\n3. fsspec/implementations/cache_metadata.py\n4. fsspec/implementations/tests/test_cached.py\n5. fsspec/__init__.py",
+  "predictions": [
+    "fsspec/registry.py",
+    "fsspec/implementations/cached.py",
+    "fsspec/implementations/cache_metadata.py",
+    "fsspec/implementations/tests/test_cached.py",
+    "fsspec/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11306,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T14:26:58+00:00"
+}

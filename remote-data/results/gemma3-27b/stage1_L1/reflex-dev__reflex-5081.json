@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/vars/base.py\n2. reflex/components/props.py\n3. reflex/components/base/fragment.py\n4. reflex/compiler/compiler.py\n5. reflex/state.py",
+  "predictions": [
+    "reflex/vars/base.py",
+    "reflex/components/props.py",
+    "reflex/components/base/fragment.py",
+    "reflex/compiler/compiler.py",
+    "reflex/state.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10195,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T13:50:12+00:00"
+}

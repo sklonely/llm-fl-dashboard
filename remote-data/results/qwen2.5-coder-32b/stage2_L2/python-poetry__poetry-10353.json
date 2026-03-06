@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 583-586\n2. 320-322\n3. 272-274\n4. 297-300\n5. 316-317",
+  "predictions": [
+    [
+      583,
+      586
+    ],
+    [
+      320,
+      322
+    ],
+    [
+      272,
+      274
+    ],
+    [
+      297,
+      300
+    ],
+    [
+      316,
+      317
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29010,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T12:10:12+00:00"
+}

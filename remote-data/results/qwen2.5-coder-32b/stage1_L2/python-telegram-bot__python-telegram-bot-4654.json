@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. telegram/_botcommandscope.py\n2. telegram/_chatbackground.py\n3. telegram/_files/_basethumbedmedium.py\n4. telegram/_message.py\n5. telegram/_passport/encryptedpassportelement.py",
+  "predictions": [
+    "telegram/_botcommandscope.py",
+    "telegram/_chatbackground.py",
+    "telegram/_files/_basethumbedmedium.py",
+    "telegram/_message.py",
+    "telegram/_passport/encryptedpassportelement.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 57012,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T09:22:26+00:00"
+}

@@ -1,0 +1,13 @@
+{
+  "instance_id": "python__mypy-19592",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487187,
+  "eval_count": null,
+  "timestamp": "2026-02-13T07:50:08+00:00",
+  "error": "timed out"
+}

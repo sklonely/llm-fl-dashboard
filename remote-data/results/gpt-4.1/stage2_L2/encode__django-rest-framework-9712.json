@@ -1,0 +1,35 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 1486-1513\n2. 1521-1553\n3. 1461-1485\n4. 1571-1631\n5. 1085-1120",
+  "predictions": [
+    [
+      1486,
+      1513
+    ],
+    [
+      1521,
+      1553
+    ],
+    [
+      1461,
+      1485
+    ],
+    [
+      1571,
+      1631
+    ],
+    [
+      1085,
+      1120
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 19510,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.091300+00:00"
+}

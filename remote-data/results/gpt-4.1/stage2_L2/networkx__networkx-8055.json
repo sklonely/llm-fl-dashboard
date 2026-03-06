@@ -1,0 +1,35 @@
+{
+  "instance_id": "networkx__networkx-8055",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 1079-1103\n2. 578-632\n3. 753-802\n4. 1065-1164\n5. 1080-1080",
+  "predictions": [
+    [
+      1079,
+      1103
+    ],
+    [
+      578,
+      632
+    ],
+    [
+      753,
+      802
+    ],
+    [
+      1065,
+      1164
+    ],
+    [
+      1080,
+      1080
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 40,
+  "prompt_tokens": 14520,
+  "completion_tokens": 40,
+  "timestamp": "2026-02-14T01:03:45.112528+00:00"
+}

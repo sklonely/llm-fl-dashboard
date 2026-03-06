@@ -1,0 +1,33 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 1687-1690\n2. 1802-1803\n3. 1850-1851\n4. 1920-1921\n5. 2202-2203",
+  "predictions": [
+    [
+      1687,
+      1690
+    ],
+    [
+      1802,
+      1803
+    ],
+    [
+      1850,
+      1851
+    ],
+    [
+      1920,
+      1921
+    ],
+    [
+      2202,
+      2203
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 21377,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T10:18:54+00:00"
+}

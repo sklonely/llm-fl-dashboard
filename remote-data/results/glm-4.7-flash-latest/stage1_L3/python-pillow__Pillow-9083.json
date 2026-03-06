@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. src/PIL/Image.py\n2. src/PIL/TiffImagePlugin.py\n3. src/PIL/JpegImagePlugin.py\n4. src/PIL/PngImagePlugin.py\n5. src/PIL/ExifTags.py",
+  "predictions": [
+    "src/PIL/Image.py",
+    "src/PIL/TiffImagePlugin.py",
+    "src/PIL/JpegImagePlugin.py",
+    "src/PIL/PngImagePlugin.py",
+    "src/PIL/ExifTags.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3618,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T06:15:05+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mesonbuild/options.py\n2. meson.py\n3. mesonbuild/interpreter/interpreter.py\n4. mesonbuild/coredata.py\n5. mesonbuild/mesonmain.py",
+  "predictions": [
+    "mesonbuild/options.py",
+    "meson.py",
+    "mesonbuild/interpreter/interpreter.py",
+    "mesonbuild/coredata.py",
+    "mesonbuild/mesonmain.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 18582,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T13:45:31+00:00"
+}

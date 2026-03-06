@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. fsspec/implementations/cached.py\n2. fsspec/implementations/s3.py\n3. fsspec/core.py\n4. fsspec/spec.py\n5. fsspec/registry.py",
+  "predictions": [
+    "fsspec/implementations/cached.py",
+    "fsspec/implementations/s3.py",
+    "fsspec/core.py",
+    "fsspec/spec.py",
+    "fsspec/registry.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2818,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T05:54:31+00:00"
+}

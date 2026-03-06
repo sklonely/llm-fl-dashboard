@@ -1,0 +1,18 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mesonbuild/compilers/c.py\n2. mesonbuild/interpreter/mesonmain.py\n3. mesonbuild/optinterpreter.py\n4. mesonbuild/mesondata.py\n5. mesonbuild/mcompile.py",
+  "predictions": [
+    "mesonbuild/compilers/c.py",
+    "mesonbuild/interpreter/mesonmain.py",
+    "mesonbuild/optinterpreter.py",
+    "mesonbuild/mesondata.py",
+    "mesonbuild/mcompile.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 71588,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T14:04:48+00:00"
+}

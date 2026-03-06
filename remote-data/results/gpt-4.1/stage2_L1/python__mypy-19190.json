@@ -1,0 +1,35 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 581-590\n2. 253-254\n3. 279-429\n4. 681-1036\n5. 110-277",
+  "predictions": [
+    [
+      581,
+      590
+    ],
+    [
+      253,
+      254
+    ],
+    [
+      279,
+      429
+    ],
+    [
+      681,
+      1036
+    ],
+    [
+      110,
+      277
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 35,
+  "prompt_tokens": 21611,
+  "completion_tokens": 35,
+  "timestamp": "2026-02-14T01:03:45.118482+00:00"
+}

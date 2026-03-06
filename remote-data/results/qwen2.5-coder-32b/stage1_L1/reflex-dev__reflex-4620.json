@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/components/core/cond.py\n2. reflex/compiler/compiler.py\n3. reflex/compiler/templates.py\n4. reflex/vars/base.py\n5. reflex/utils/types.py",
+  "predictions": [
+    "reflex/components/core/cond.py",
+    "reflex/compiler/compiler.py",
+    "reflex/compiler/templates.py",
+    "reflex/vars/base.py",
+    "reflex/utils/types.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10851,
+  "eval_count": 38,
+  "timestamp": "2026-02-13T09:02:10+00:00"
+}

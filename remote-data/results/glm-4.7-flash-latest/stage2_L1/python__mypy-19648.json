@@ -1,0 +1,29 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 3177-3194\n2. 3547-3559\n3. 3649-3678\n4. 3792-3802\n5. 3177-3194",
+  "predictions": [
+    [
+      3177,
+      3194
+    ],
+    [
+      3547,
+      3559
+    ],
+    [
+      3649,
+      3678
+    ],
+    [
+      3792,
+      3802
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 57779,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T07:03:29+00:00"
+}

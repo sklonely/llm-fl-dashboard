@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/axes/_axes.py\n3. lib/matplotlib/pyplot.py\n4. galleries/users_explain/axes/legend_guide.py\n5. lib/matplotlib/container.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/pyplot.py",
+    "galleries/users_explain/axes/legend_guide.py",
+    "lib/matplotlib/container.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31004,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T14:03:05+00:00"
+}

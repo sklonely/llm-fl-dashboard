@@ -1,0 +1,33 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 74-75\n2. 98-101\n3. 80-85\n4. 93-94\n5. 54-55",
+  "predictions": [
+    [
+      74,
+      75
+    ],
+    [
+      98,
+      101
+    ],
+    [
+      80,
+      85
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      54,
+      55
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8593,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T18:19:36+00:00"
+}

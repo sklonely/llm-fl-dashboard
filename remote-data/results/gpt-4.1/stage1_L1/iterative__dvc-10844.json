@@ -1,0 +1,20 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/repo/diff.py\n2. dvc/commands/diff.py\n3. dvc/output.py\n4. dvc/cachemgr.py\n5. dvc/repo/cache.py",
+  "predictions": [
+    "dvc/repo/diff.py",
+    "dvc/commands/diff.py",
+    "dvc/output.py",
+    "dvc/cachemgr.py",
+    "dvc/repo/cache.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 43,
+  "prompt_tokens": 2859,
+  "completion_tokens": 43,
+  "timestamp": "2026-02-14T01:03:45.105062+00:00"
+}

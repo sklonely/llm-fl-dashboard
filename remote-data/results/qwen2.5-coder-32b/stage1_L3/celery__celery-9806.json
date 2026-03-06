@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. celery/backends/redis.py\n2. celery/app/base.py\n3. celery/result.py\n4. celery/utils/memory.py\n5. celery/events/receiver.py",
+  "predictions": [
+    "celery/backends/redis.py",
+    "celery/app/base.py",
+    "celery/result.py",
+    "celery/utils/memory.py",
+    "celery/events/receiver.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 22613,
+  "eval_count": 37,
+  "timestamp": "2026-02-13T09:38:54+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19249",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/applytype.py\n2. mypy/checker_shared.py\n3. mypy/types_utils.py\n4. mypy/errorcodes.py\n5. mypy/copytype.py",
+  "predictions": [
+    "mypy/applytype.py",
+    "mypy/checker_shared.py",
+    "mypy/types_utils.py",
+    "mypy/errorcodes.py",
+    "mypy/copytype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 74046,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T14:45:51+00:00"
+}

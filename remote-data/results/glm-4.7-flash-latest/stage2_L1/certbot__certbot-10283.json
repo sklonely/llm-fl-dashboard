@@ -1,0 +1,25 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 102-108\n2. 189-214\n3. 102-109\n4. 102-108\n5. 102-108",
+  "predictions": [
+    [
+      102,
+      108
+    ],
+    [
+      189,
+      214
+    ],
+    [
+      102,
+      109
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1838,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T06:25:11+00:00"
+}

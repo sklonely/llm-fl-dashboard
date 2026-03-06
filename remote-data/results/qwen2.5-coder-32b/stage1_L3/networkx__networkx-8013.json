@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/traversal/breadth_first_searches.py\n2. networkx/classes/graph.py\n3. networkx/utils/misc.py\n4. networkx/algorithms/traversal/tests/test_bfs.py\n5. networkx/convert.py",
+  "predictions": [
+    "networkx/algorithms/traversal/breadth_first_searches.py",
+    "networkx/classes/graph.py",
+    "networkx/utils/misc.py",
+    "networkx/algorithms/traversal/tests/test_bfs.py",
+    "networkx/convert.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 41063,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T09:51:51+00:00"
+}

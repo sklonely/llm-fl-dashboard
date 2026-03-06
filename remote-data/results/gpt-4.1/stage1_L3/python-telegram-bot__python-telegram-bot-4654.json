@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. telegram/_chatmember.py\n2. telegram/_telegramobject.py\n3. telegram/_chat.py\n4. telegram/_chatmemberupdated.py\n5. telegram/constants.py",
+  "predictions": [
+    "telegram/_chatmember.py",
+    "telegram/_telegramobject.py",
+    "telegram/_chat.py",
+    "telegram/_chatmemberupdated.py",
+    "telegram/constants.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 37,
+  "prompt_tokens": 16192,
+  "completion_tokens": 37,
+  "timestamp": "2026-02-14T01:03:45.117153+00:00"
+}

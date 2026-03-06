@@ -1,0 +1,16 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. keras/src/saving/serialization.py\n2. keras/src/saving/saving_utils.py\n3. keras/src/layers/core/dense.py (because the failing test involves a custom function, and dense layers are common places for custom functions)\n4. keras/src/api_export.py\n5. api_gen.py (as it's involved in building the Keras package and might affect serialization)",
+  "predictions": [
+    "keras/src/saving/serialization.py",
+    "keras/src/saving/saving_utils.py",
+    "keras/src/api_export.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 101907,
+  "eval_count": 97,
+  "timestamp": "2026-02-13T14:33:24+00:00"
+}

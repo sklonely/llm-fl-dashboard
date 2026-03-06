@@ -1,0 +1,13 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487211,
+  "eval_count": null,
+  "timestamp": "2026-02-13T17:20:01+00:00",
+  "error": "timed out"
+}

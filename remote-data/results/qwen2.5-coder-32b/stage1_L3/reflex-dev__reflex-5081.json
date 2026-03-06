@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. reflex/components/props.py\n2. reflex/utils/exceptions.py\n3. reflex/base.py\n4. reflex/var.py\n5. reflex/state.py",
+  "predictions": [
+    "reflex/components/props.py",
+    "reflex/utils/exceptions.py",
+    "reflex/base.py",
+    "reflex/var.py",
+    "reflex/state.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26162,
+  "eval_count": 34,
+  "timestamp": "2026-02-13T10:07:10+00:00"
+}

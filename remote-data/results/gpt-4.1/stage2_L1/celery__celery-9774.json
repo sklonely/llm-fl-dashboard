@@ -1,0 +1,35 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 2073-2105\n2. 1117-1279\n3. 1831-1868\n4. 2132-2157\n5. 2043-2052",
+  "predictions": [
+    [
+      2073,
+      2105
+    ],
+    [
+      1117,
+      1279
+    ],
+    [
+      1831,
+      1868
+    ],
+    [
+      2132,
+      2157
+    ],
+    [
+      2043,
+      2052
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 30029,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.080027+00:00"
+}

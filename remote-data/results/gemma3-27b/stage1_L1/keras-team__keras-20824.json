@@ -1,0 +1,15 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. keras/src/saving/object_registration.py\n2. keras/src/saving/saving_lib.py\n3. keras/api/_tf_keras/keras/utils/register_keras_serializable.py (This isn't a direct file, but the error message references `@keras.saving.register_keras_serializable()`, so the implementation of this decorator is crucial)\n4. keras/src/layers/attention/attention.py (Since the error message specifically mentions 'attention_loss', and this is an attention layer directory, it's likely the function was defined within one of these files.)\n5. keras/src/models/model.py (Model saving/loading often goes through the model class, so changes here could affect serialization.)",
+  "predictions": [
+    "keras/src/saving/object_registration.py",
+    "keras/src/saving/saving_lib.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 27813,
+  "eval_count": 166,
+  "timestamp": "2026-02-13T13:44:12+00:00"
+}

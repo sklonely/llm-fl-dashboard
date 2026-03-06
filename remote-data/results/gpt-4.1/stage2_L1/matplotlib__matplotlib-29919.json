@@ -1,0 +1,35 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 687-733\n2. 346-411\n3. 469-487\n4. 606-646\n5. 131-147",
+  "predictions": [
+    [
+      687,
+      733
+    ],
+    [
+      346,
+      411
+    ],
+    [
+      469,
+      487
+    ],
+    [
+      606,
+      646
+    ],
+    [
+      131,
+      147
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 15233,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.108433+00:00"
+}

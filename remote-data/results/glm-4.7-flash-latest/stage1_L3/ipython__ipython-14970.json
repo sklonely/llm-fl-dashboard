@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/magics/__init__.py\n3. IPython/core/interactiveshell.py\n4. tests/test_magic.py\n5. IPython/core/magics/ast_mod.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/magics/__init__.py",
+    "IPython/core/interactiveshell.py",
+    "tests/test_magic.py",
+    "IPython/core/magics/ast_mod.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7529,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T06:09:41+00:00"
+}

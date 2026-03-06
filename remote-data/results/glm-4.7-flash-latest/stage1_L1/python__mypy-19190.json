@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/checker.py\n2. mypy/checkexpr.py\n3. mypy/erasetype.py\n4. mypy/applytype.py\n5. mypy/infer.py",
+  "predictions": [
+    "mypy/checker.py",
+    "mypy/checkexpr.py",
+    "mypy/erasetype.py",
+    "mypy/applytype.py",
+    "mypy/infer.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2894,
+  "eval_count": 43,
+  "timestamp": "2026-02-13T05:52:15+00:00"
+}

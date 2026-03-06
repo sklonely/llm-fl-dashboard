@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. reflex/components/core/match.py\n2. reflex/components/tags/cond_tag.py\n3. reflex/components/tags/tag.py\n4. reflex/base.py\n5. reflex/utils/console.py",
+  "predictions": [
+    "reflex/components/core/match.py",
+    "reflex/components/tags/cond_tag.py",
+    "reflex/components/tags/tag.py",
+    "reflex/base.py",
+    "reflex/utils/console.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25703,
+  "eval_count": 56,
+  "timestamp": "2026-02-13T14:20:03+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 1680-1721\n2. 1506-1521\n3. 1482-1491\n4. 706-709\n5. 1709-1719",
+  "predictions": [
+    [
+      1680,
+      1721
+    ],
+    [
+      1506,
+      1521
+    ],
+    [
+      1482,
+      1491
+    ],
+    [
+      706,
+      709
+    ],
+    [
+      1709,
+      1719
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 42,
+  "prompt_tokens": 26372,
+  "completion_tokens": 42,
+  "timestamp": "2026-02-14T01:03:45.114487+00:00"
+}

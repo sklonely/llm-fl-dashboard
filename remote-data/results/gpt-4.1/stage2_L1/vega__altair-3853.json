@@ -1,0 +1,35 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 417-432\n2. 569-596\n3. 805-826\n4. 401-410\n5. 1621-1735",
+  "predictions": [
+    [
+      417,
+      432
+    ],
+    [
+      569,
+      596
+    ],
+    [
+      805,
+      826
+    ],
+    [
+      401,
+      410
+    ],
+    [
+      1621,
+      1735
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 36,
+  "prompt_tokens": 60035,
+  "completion_tokens": 36,
+  "timestamp": "2026-02-14T01:03:45.126796+00:00"
+}

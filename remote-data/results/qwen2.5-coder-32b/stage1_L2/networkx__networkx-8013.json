@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. networkx/algorithms/traversal/beamsearch.py\n2. networkx/classes/coreviews.py\n3. networkx/utils/mapped_queue.py\n4. networkx/algorithms/bipartite/basic.py\n5. networkx/algorithms/community/asyn_fluid.py",
+  "predictions": [
+    "networkx/algorithms/traversal/beamsearch.py",
+    "networkx/classes/coreviews.py",
+    "networkx/utils/mapped_queue.py",
+    "networkx/algorithms/bipartite/basic.py",
+    "networkx/algorithms/community/asyn_fluid.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40766,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T09:18:08+00:00"
+}

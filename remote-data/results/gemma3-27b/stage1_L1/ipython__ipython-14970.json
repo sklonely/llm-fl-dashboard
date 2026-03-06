@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/interactiveshell.py\n3. IPython/core/magic.py\n4. IPython/core/formatters.py\n5. IPython/core/getipython.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/magic.py",
+    "IPython/core/formatters.py",
+    "IPython/core/getipython.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8813,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T13:42:47+00:00"
+}

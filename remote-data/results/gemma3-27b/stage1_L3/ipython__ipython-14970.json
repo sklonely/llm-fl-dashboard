@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/interactiveshell.py\n3. IPython/core/display_functions.py\n4. IPython/core/getipython.py\n5. IPython/utils/strdispatch.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/display_functions.py",
+    "IPython/core/getipython.py",
+    "IPython/utils/strdispatch.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 24521,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T14:28:39+00:00"
+}

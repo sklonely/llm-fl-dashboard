@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. babel/dates.py\n2. babel/localtime/__init__.py\n3. babel/plurals.py\n4. babel/util.py\n5. babel/messages/plurals.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/localtime/__init__.py",
+    "babel/plurals.py",
+    "babel/util.py",
+    "babel/messages/plurals.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4064,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T09:20:34+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. reflex/vars/var.py\n2. reflex/vars/number_var.py\n3. reflex/vars/boolean_var.py\n4. reflex/components/tags/cond_tag.py\n5. reflex/components/core/match.py",
+  "predictions": [
+    "reflex/vars/var.py",
+    "reflex/vars/number_var.py",
+    "reflex/vars/boolean_var.py",
+    "reflex/components/tags/cond_tag.py",
+    "reflex/components/core/match.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 48,
+  "prompt_tokens": 7940,
+  "completion_tokens": 48,
+  "timestamp": "2026-02-14T01:03:45.123393+00:00"
+}

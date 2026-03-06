@@ -1,0 +1,17 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mesonbuild/coredata.py\n2. mesonbuild/options.py\n3. mesonbuild/mesonmain.py\n4. mesonbuild/interpreter/mesonmain.py\n5. mesonbuild/coredata.py",
+  "predictions": [
+    "mesonbuild/coredata.py",
+    "mesonbuild/options.py",
+    "mesonbuild/mesonmain.py",
+    "mesonbuild/interpreter/mesonmain.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 36093,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T05:59:08+00:00"
+}

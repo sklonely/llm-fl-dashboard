@@ -1,0 +1,18 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mesonbuild/interpreterbase/options.py\n2. mesonbuild/mesonmain.py\n3. mesonbuild/interpreter/compiler.py\n4. mesonbuild/interpreterbase/disabler.py\n5. mesonbuild/interpreterbase/baseobjects.py",
+  "predictions": [
+    "mesonbuild/interpreterbase/options.py",
+    "mesonbuild/mesonmain.py",
+    "mesonbuild/interpreter/compiler.py",
+    "mesonbuild/interpreterbase/disabler.py",
+    "mesonbuild/interpreterbase/baseobjects.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 76549,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T09:51:10+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorphvf2.py\n2. networkx/algorithms/isomorphism/vf2userfunc.py\n3. networkx/algorithms/isomorphism/isomorph.py\n4. networkx/algorithms/isomorphism/tests/test_isomorphvf2.py\n5. networkx/classes/multidigraph.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py",
+    "networkx/algorithms/isomorphism/isomorph.py",
+    "networkx/algorithms/isomorphism/tests/test_isomorphvf2.py",
+    "networkx/classes/multidigraph.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 15888,
+  "eval_count": 75,
+  "timestamp": "2026-02-13T06:14:21+00:00"
+}

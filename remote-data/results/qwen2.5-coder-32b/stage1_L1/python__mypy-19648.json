@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/subtypes.py\n2. mypy/types_utils.py\n3. mypy/semanal_main.py\n4. mypy/checkexpr.py\n5. mypy/maptype.py",
+  "predictions": [
+    "mypy/subtypes.py",
+    "mypy/types_utils.py",
+    "mypy/semanal_main.py",
+    "mypy/checkexpr.py",
+    "mypy/maptype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10909,
+  "eval_count": 42,
+  "timestamp": "2026-02-13T09:00:30+00:00"
+}

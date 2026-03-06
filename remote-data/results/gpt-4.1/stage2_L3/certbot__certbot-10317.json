@@ -1,0 +1,35 @@
+{
+  "instance_id": "certbot__certbot-10317",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 336-365\n2. 340-341\n3. 347-352\n4. 354-364\n5. 343-345",
+  "predictions": [
+    [
+      336,
+      365
+    ],
+    [
+      340,
+      341
+    ],
+    [
+      347,
+      352
+    ],
+    [
+      354,
+      364
+    ],
+    [
+      343,
+      345
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 10731,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.088717+00:00"
+}

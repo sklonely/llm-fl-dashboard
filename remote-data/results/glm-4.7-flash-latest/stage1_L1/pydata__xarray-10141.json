@@ -1,0 +1,18 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. xarray/backends/api.py\n2. xarray/backends/netCDF4_.py\n3. xarray/core/datatree_io.py\n4. xarray/core/datatree.py\n5. xarray/backends/common.py",
+  "predictions": [
+    "xarray/backends/api.py",
+    "xarray/backends/netCDF4_.py",
+    "xarray/core/datatree_io.py",
+    "xarray/core/datatree.py",
+    "xarray/backends/common.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2123,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T05:51:58+00:00"
+}

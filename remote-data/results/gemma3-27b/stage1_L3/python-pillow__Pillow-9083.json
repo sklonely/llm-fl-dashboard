@@ -1,0 +1,15 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. src/PIL/ExifTags.py\n2. src/PIL/PsdImagePlugin.py\n3. src/PIL/Image.py (implied, as the test likely uses Image class methods)\n4. src/PIL/ImageFile.py (implied, base class for image loading)\n5. Tests/test_image.py (the failing test itself, to understand the specific usage)",
+  "predictions": [
+    "src/PIL/ExifTags.py",
+    "src/PIL/PsdImagePlugin.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 14395,
+  "eval_count": 91,
+  "timestamp": "2026-02-13T14:40:40+00:00"
+}

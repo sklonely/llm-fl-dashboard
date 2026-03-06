@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/env.py\n2. dvc/config.py\n3. dvc/repo/init.py\n4. dvc/dirs.py\n5. dvc/repo/open_repo.py",
+  "predictions": [
+    "dvc/env.py",
+    "dvc/config.py",
+    "dvc/repo/init.py",
+    "dvc/dirs.py",
+    "dvc/repo/open_repo.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11791,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T13:43:08+00:00"
+}

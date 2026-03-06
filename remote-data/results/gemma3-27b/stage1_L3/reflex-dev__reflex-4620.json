@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. reflex/components/core/match.py\n2. reflex/components/tags/tag.py\n3. reflex/constants/compiler.py\n4. reflex/components/radix/primitives/form.py\n5. reflex/components/core/debounce.py",
+  "predictions": [
+    "reflex/components/core/match.py",
+    "reflex/components/tags/tag.py",
+    "reflex/constants/compiler.py",
+    "reflex/components/radix/primitives/form.py",
+    "reflex/components/core/debounce.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26866,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T14:52:32+00:00"
+}

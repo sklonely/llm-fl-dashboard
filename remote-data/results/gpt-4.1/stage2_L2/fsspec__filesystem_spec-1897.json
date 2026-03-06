@@ -1,0 +1,35 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 162-166\n2. 552-552\n3. 421-423\n4. 464-465\n5. 538-550",
+  "predictions": [
+    [
+      162,
+      166
+    ],
+    [
+      552,
+      552
+    ],
+    [
+      421,
+      423
+    ],
+    [
+      464,
+      465
+    ],
+    [
+      538,
+      550
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 11667,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.095617+00:00"
+}

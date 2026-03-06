@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. IPython/core/compilerop.py\n2. IPython/core/shellapp.py\n3. IPython/terminal/magics.py\n4. IPython/core/ultratb.py\n5. IPython/core/displayhook.py",
+  "predictions": [
+    "IPython/core/compilerop.py",
+    "IPython/core/shellapp.py",
+    "IPython/terminal/magics.py",
+    "IPython/core/ultratb.py",
+    "IPython/core/displayhook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6889,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T05:54:45+00:00"
+}

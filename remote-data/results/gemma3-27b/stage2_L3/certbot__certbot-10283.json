@@ -1,0 +1,33 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 102-108\n2. 106-107\n3. 25-26\n4. 84-86\n5. 118-120",
+  "predictions": [
+    [
+      102,
+      108
+    ],
+    [
+      106,
+      107
+    ],
+    [
+      25,
+      26
+    ],
+    [
+      84,
+      86
+    ],
+    [
+      118,
+      120
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7436,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T18:13:42+00:00"
+}

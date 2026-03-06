@@ -1,0 +1,13 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "",
+  "predictions": [],
+  "parse_success": false,
+  "total_duration_ms": 487184,
+  "eval_count": null,
+  "timestamp": "2026-02-13T10:43:38+00:00",
+  "error": "timed out"
+}

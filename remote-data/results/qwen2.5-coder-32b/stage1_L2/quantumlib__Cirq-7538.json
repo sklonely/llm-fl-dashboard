@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/transformers/target_gatesets/google_cz_gateset.py\n2. cirq-google/cirq_google/transformers/target_gatesets/google_cz_gateset.py\n3. cirq-core/cirq/transformers/eject_z.py\n4. cirq-core/cirq/transformers/synchronize_terminal_measurements.py\n5. cirq-core/cirq/circuits/optimization_pass.py",
+  "predictions": [
+    "cirq-core/cirq/transformers/target_gatesets/google_cz_gateset.py",
+    "cirq-google/cirq_google/transformers/target_gatesets/google_cz_gateset.py",
+    "cirq-core/cirq/transformers/eject_z.py",
+    "cirq-core/cirq/transformers/synchronize_terminal_measurements.py",
+    "cirq-core/cirq/circuits/optimization_pass.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 85474,
+  "eval_count": 93,
+  "timestamp": "2026-02-13T09:30:58+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14695",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. IPython/core/magics/script.py\n2. IPython/core/displayhook.py\n3. IPython/core/async_helpers.py\n4. IPython/core/magics/auto.py\n5. IPython/core/shellapp.py",
+  "predictions": [
+    "IPython/core/magics/script.py",
+    "IPython/core/displayhook.py",
+    "IPython/core/async_helpers.py",
+    "IPython/core/magics/auto.py",
+    "IPython/core/shellapp.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 22256,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T14:27:26+00:00"
+}

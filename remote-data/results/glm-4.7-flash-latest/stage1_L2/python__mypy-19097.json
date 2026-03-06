@@ -1,0 +1,17 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/stubgen.py\n2. mypy/plugins/singledispatch.py\n3. mypy/plugins/proper_plugin.py\n4. mypy/plugins/ctypes.py\n5. mypy/plugins/singledispatch.py",
+  "predictions": [
+    "mypy/stubgen.py",
+    "mypy/plugins/singledispatch.py",
+    "mypy/plugins/proper_plugin.py",
+    "mypy/plugins/ctypes.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31210,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T06:01:29+00:00"
+}

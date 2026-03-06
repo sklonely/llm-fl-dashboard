@@ -1,0 +1,33 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 434-443\n2. 446-455\n3. 407-455\n4. 90-106\n5. 184-194",
+  "predictions": [
+    [
+      434,
+      443
+    ],
+    [
+      446,
+      455
+    ],
+    [
+      407,
+      455
+    ],
+    [
+      90,
+      106
+    ],
+    [
+      184,
+      194
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 28846,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T10:49:38+00:00"
+}

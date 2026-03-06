@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14964",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/ultratb.py\n2. IPython/core/tbtools.py\n3. IPython/core/error.py\n4. IPython/core/doctb.py\n5. IPython/core/debugger.py",
+  "predictions": [
+    "IPython/core/ultratb.py",
+    "IPython/core/tbtools.py",
+    "IPython/core/error.py",
+    "IPython/core/doctb.py",
+    "IPython/core/debugger.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7979,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T08:54:50+00:00"
+}

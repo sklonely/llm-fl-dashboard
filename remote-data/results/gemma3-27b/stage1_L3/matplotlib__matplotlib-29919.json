@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/tests/test_path.py\n2. lib/matplotlib/path.py\n3. lib/matplotlib/bezier.py\n4. lib/matplotlib/projections/__init__.py\n5. lib/matplotlib/backend_bases.py",
+  "predictions": [
+    "lib/matplotlib/tests/test_path.py",
+    "lib/matplotlib/path.py",
+    "lib/matplotlib/bezier.py",
+    "lib/matplotlib/projections/__init__.py",
+    "lib/matplotlib/backend_bases.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 34526,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T14:35:00+00:00"
+}

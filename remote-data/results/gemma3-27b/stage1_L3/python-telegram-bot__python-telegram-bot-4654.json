@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. telegram/_chatmember.py\n2. telegram/constants.py\n3. telegram/ext/filters.py\n4. telegram/ext/_handlers/chatmemberhandler.py\n5. telegram/_utils/enum.py",
+  "predictions": [
+    "telegram/_chatmember.py",
+    "telegram/constants.py",
+    "telegram/ext/filters.py",
+    "telegram/ext/_handlers/chatmemberhandler.py",
+    "telegram/_utils/enum.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 52832,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T14:42:14+00:00"
+}

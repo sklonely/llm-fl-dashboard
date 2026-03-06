@@ -1,0 +1,20 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. geopandas/io/_geoarrow.py\n2. geopandas/_compat.py\n3. geopandas/io/_pyarrow_hotfix.py\n4. geopandas/tools/_show_versions.py\n5. geopandas/accessors.py",
+  "predictions": [
+    "geopandas/io/_geoarrow.py",
+    "geopandas/_compat.py",
+    "geopandas/io/_pyarrow_hotfix.py",
+    "geopandas/tools/_show_versions.py",
+    "geopandas/accessors.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 47,
+  "prompt_tokens": 1262,
+  "completion_tokens": 47,
+  "timestamp": "2026-02-14T01:03:45.097414+00:00"
+}

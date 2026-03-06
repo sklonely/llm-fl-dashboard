@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/backend_bases.py\n2. lib/matplotlib/tests/test_backend_bases.py\n3. lib/matplotlib/backends/backend_template.py\n4. lib/matplotlib/backends/backend_agg.py\n5. lib/matplotlib/_pylab_helpers.py",
+  "predictions": [
+    "lib/matplotlib/backend_bases.py",
+    "lib/matplotlib/tests/test_backend_bases.py",
+    "lib/matplotlib/backends/backend_template.py",
+    "lib/matplotlib/backends/backend_agg.py",
+    "lib/matplotlib/_pylab_helpers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10582,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T06:12:38+00:00"
+}

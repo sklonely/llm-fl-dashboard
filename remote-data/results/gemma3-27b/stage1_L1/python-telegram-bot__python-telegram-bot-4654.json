@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. telegram/_telegramobject.py\n2. telegram/_files/_basemedium.py\n3. telegram/_files/_basethumbedmedium.py\n4. telegram/_inline/inlinequeryresult.py\n5. telegram/ext/_handlers/basehandler.py",
+  "predictions": [
+    "telegram/_telegramobject.py",
+    "telegram/_files/_basemedium.py",
+    "telegram/_files/_basethumbedmedium.py",
+    "telegram/_inline/inlinequeryresult.py",
+    "telegram/ext/_handlers/basehandler.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8446,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T13:47:19+00:00"
+}

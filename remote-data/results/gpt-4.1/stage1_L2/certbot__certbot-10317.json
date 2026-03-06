@@ -1,0 +1,20 @@
+{
+  "instance_id": "certbot__certbot-10317",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. certbot/src/certbot/_internal/storage.py\n2. certbot/src/certbot/_internal/updater.py\n3. certbot/src/certbot/main.py\n4. certbot/src/certbot/configuration.py\n5. certbot/src/certbot/crypto_util.py",
+  "predictions": [
+    "certbot/src/certbot/_internal/storage.py",
+    "certbot/src/certbot/_internal/updater.py",
+    "certbot/src/certbot/main.py",
+    "certbot/src/certbot/configuration.py",
+    "certbot/src/certbot/crypto_util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 62,
+  "prompt_tokens": 8125,
+  "completion_tokens": 62,
+  "timestamp": "2026-02-14T01:03:45.086887+00:00"
+}

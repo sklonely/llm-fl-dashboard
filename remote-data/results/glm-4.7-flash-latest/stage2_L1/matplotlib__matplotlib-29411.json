@@ -1,0 +1,33 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 643-644\n2. 652-653\n3. 835-836\n4. 1110-1113\n5. 1143-1157",
+  "predictions": [
+    [
+      643,
+      644
+    ],
+    [
+      652,
+      653
+    ],
+    [
+      835,
+      836
+    ],
+    [
+      1110,
+      1113
+    ],
+    [
+      1143,
+      1157
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3422,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:31:45+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 473-475\n2. 451-477\n3. 391-398\n4. 422-433\n5. 470-472",
+  "predictions": [
+    [
+      473,
+      475
+    ],
+    [
+      451,
+      477
+    ],
+    [
+      391,
+      398
+    ],
+    [
+      422,
+      433
+    ],
+    [
+      470,
+      472
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 8779,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.103641+00:00"
+}

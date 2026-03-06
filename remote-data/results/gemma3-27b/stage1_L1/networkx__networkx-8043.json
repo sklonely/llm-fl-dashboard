@@ -1,0 +1,17 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorph.py\n2. networkx/classes/multidigraph.py\n3. networkx/algorithms/isomorphism/graph_matcher.py (inferred from the bug report's use of `GraphMatcher`)\n4. networkx/algorithms/isomorphism/__init__.py\n5. networkx/algorithms/isomorphism/vf2pp.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorph.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/algorithms/isomorphism/__init__.py",
+    "networkx/algorithms/isomorphism/vf2pp.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 14694,
+  "eval_count": 89,
+  "timestamp": "2026-02-13T13:45:59+00:00"
+}

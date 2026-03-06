@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/coordinates.py\n3. shapely/_geometry.py\n4. shapely/io.py\n5. shapely/creation.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/coordinates.py",
+    "shapely/_geometry.py",
+    "shapely/io.py",
+    "shapely/creation.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1549,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T05:53:04+00:00"
+}

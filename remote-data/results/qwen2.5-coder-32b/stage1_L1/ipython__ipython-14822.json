@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/interactiveshell.py\n2. IPython/terminal/interactiveshell.py\n3. IPython/core/compilerop.py\n4. IPython/core/inputtransformer2.py\n5. IPython/core/splitinput.py",
+  "predictions": [
+    "IPython/core/interactiveshell.py",
+    "IPython/terminal/interactiveshell.py",
+    "IPython/core/compilerop.py",
+    "IPython/core/inputtransformer2.py",
+    "IPython/core/splitinput.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7818,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T08:54:42+00:00"
+}

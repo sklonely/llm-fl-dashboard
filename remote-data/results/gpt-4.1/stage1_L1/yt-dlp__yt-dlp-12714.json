@@ -1,0 +1,20 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. yt_dlp/extractor/generic.py\n2. yt_dlp/utils/__init__.py\n3. yt_dlp/YoutubeDL.py\n4. yt_dlp/extractor/commonprotocols.py\n5. yt_dlp/utils/_utils.py",
+  "predictions": [
+    "yt_dlp/extractor/generic.py",
+    "yt_dlp/utils/__init__.py",
+    "yt_dlp/YoutubeDL.py",
+    "yt_dlp/extractor/commonprotocols.py",
+    "yt_dlp/utils/_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 53,
+  "prompt_tokens": 13151,
+  "completion_tokens": 53,
+  "timestamp": "2026-02-14T01:03:45.127139+00:00"
+}

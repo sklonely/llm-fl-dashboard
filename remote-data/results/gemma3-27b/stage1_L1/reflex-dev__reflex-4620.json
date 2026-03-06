@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/components/core/cond.py\n2. reflex/compiler/compiler.py\n3. reflex/compiler/utils.py\n4. reflex/vars/base.py\n5. reflex/app.py",
+  "predictions": [
+    "reflex/components/core/cond.py",
+    "reflex/compiler/compiler.py",
+    "reflex/compiler/utils.py",
+    "reflex/vars/base.py",
+    "reflex/app.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11140,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T13:50:02+00:00"
+}

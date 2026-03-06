@@ -1,0 +1,33 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 376-376\n2. 786-798\n3. 655-656\n4. 108-110\n5. 329-330",
+  "predictions": [
+    [
+      376,
+      376
+    ],
+    [
+      786,
+      798
+    ],
+    [
+      655,
+      656
+    ],
+    [
+      108,
+      110
+    ],
+    [
+      329,
+      330
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 36699,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T16:34:08+00:00"
+}

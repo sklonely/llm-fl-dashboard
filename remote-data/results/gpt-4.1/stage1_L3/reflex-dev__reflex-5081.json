@@ -1,0 +1,20 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. reflex/utils/compat.py\n2. reflex/var.py\n3. reflex/components/props.py\n4. reflex/utils/exceptions.py\n5. reflex/base.py",
+  "predictions": [
+    "reflex/utils/compat.py",
+    "reflex/var.py",
+    "reflex/components/props.py",
+    "reflex/utils/exceptions.py",
+    "reflex/base.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 36,
+  "prompt_tokens": 7937,
+  "completion_tokens": 36,
+  "timestamp": "2026-02-14T01:03:45.124099+00:00"
+}

@@ -1,0 +1,20 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/textual/widgets/_option_list.py\n2. src/textual/scroll_view.py\n3. src/textual/containers.py\n4. src/textual/widgets/_selection_list.py\n5. src/textual/widgets/_list_view.py",
+  "predictions": [
+    "src/textual/widgets/_option_list.py",
+    "src/textual/scroll_view.py",
+    "src/textual/containers.py",
+    "src/textual/widgets/_selection_list.py",
+    "src/textual/widgets/_list_view.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 51,
+  "prompt_tokens": 12865,
+  "completion_tokens": 51,
+  "timestamp": "2026-02-14T01:03:45.074828+00:00"
+}

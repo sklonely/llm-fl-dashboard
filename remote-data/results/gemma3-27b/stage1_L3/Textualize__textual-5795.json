@@ -1,0 +1,18 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. src/textual/widgets/_option_list.py\n2. tests/snapshot_tests/snapshot_apps/option_list.py\n3. tests/snapshot_tests/test_snapshots.py\n4. src/textual/widgets/scroll_view.py\n5. src/textual/containers.py",
+  "predictions": [
+    "src/textual/widgets/_option_list.py",
+    "tests/snapshot_tests/snapshot_apps/option_list.py",
+    "tests/snapshot_tests/test_snapshots.py",
+    "src/textual/widgets/scroll_view.py",
+    "src/textual/containers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 45493,
+  "eval_count": 73,
+  "timestamp": "2026-02-13T14:24:33+00:00"
+}

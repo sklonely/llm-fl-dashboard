@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8207",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. networkx/algorithms/similarity.py\n2. networkx/algorithms/isomorphism/isomorph.py\n3. networkx/algorithms/isomorphism/isomorphvf2.py\n4. networkx/algorithms/isomorphism/vf2userfunc.py\n5. networkx/algorithms/isomorphism/matchhelpers.py",
+  "predictions": [
+    "networkx/algorithms/similarity.py",
+    "networkx/algorithms/isomorphism/isomorph.py",
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py",
+    "networkx/algorithms/isomorphism/matchhelpers.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5214,
+  "eval_count": 71,
+  "timestamp": "2026-02-13T05:51:55+00:00"
+}

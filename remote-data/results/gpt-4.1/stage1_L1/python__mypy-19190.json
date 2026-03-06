@@ -1,0 +1,20 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/infer.py\n2. mypy/types.py\n3. mypy/checker.py\n4. mypy/typeops.py\n5. mypy/erasetype.py",
+  "predictions": [
+    "mypy/infer.py",
+    "mypy/types.py",
+    "mypy/checker.py",
+    "mypy/typeops.py",
+    "mypy/erasetype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 39,
+  "prompt_tokens": 3135,
+  "completion_tokens": 39,
+  "timestamp": "2026-02-14T01:03:45.118187+00:00"
+}

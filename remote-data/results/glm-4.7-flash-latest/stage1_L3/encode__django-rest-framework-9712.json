@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. rest_framework/serializers.py\n2. rest_framework/validators.py\n3. tests/test_validators.py\n4. rest_framework/utils/model_meta.py\n5. rest_framework/schemas/generators.py",
+  "predictions": [
+    "rest_framework/serializers.py",
+    "rest_framework/validators.py",
+    "tests/test_validators.py",
+    "rest_framework/utils/model_meta.py",
+    "rest_framework/schemas/generators.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4418,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:09:05+00:00"
+}

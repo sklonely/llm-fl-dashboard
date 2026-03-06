@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/axes/_base.py\n2. lib/matplotlib/transforms.py\n3. lib/matplotlib/figure.py\n4. lib/matplotlib/artist.py\n5. lib/matplotlib/pyplot.py",
+  "predictions": [
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/transforms.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/artist.py",
+    "lib/matplotlib/pyplot.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11166,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T08:56:38+00:00"
+}

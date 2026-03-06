@@ -1,0 +1,18 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. geopandas/io/_geoarrow.py\n2. geopandas/io/arrow.py\n3. geopandas/geodataframe.py\n4. geopandas/geoseries.py\n5. geopandas/io/util.py",
+  "predictions": [
+    "geopandas/io/_geoarrow.py",
+    "geopandas/io/arrow.py",
+    "geopandas/geodataframe.py",
+    "geopandas/geoseries.py",
+    "geopandas/io/util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3676,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T08:54:27+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 2087-2294\n2. 2274-2294\n3. 2274-2294\n4. 2274-2294\n5. 2274-2294",
+  "predictions": [
+    [
+      2087,
+      2294
+    ],
+    [
+      2274,
+      2294
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 108440,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T08:02:39+00:00"
+}

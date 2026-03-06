@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/inputtransformer2.py\n2. IPython/core/interactiveshell.py\n3. IPython/core/prefilter.py\n4. IPython/terminal/interactiveshell.py\n5. IPython/core/compilerop.py",
+  "predictions": [
+    "IPython/core/inputtransformer2.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/prefilter.py",
+    "IPython/terminal/interactiveshell.py",
+    "IPython/core/compilerop.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2222,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T05:50:42+00:00"
+}

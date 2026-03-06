@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. keras/src/saving/saving_api.py\n2. keras/src/saving/keras_saveable.py\n3. keras/src/legacy/saving/serialization.py\n4. keras/src/legacy/saving/saving_utils.py\n5. keras/src/export/saved_model.py",
+  "predictions": [
+    "keras/src/saving/saving_api.py",
+    "keras/src/saving/keras_saveable.py",
+    "keras/src/legacy/saving/serialization.py",
+    "keras/src/legacy/saving/saving_utils.py",
+    "keras/src/export/saved_model.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 64549,
+  "eval_count": 59,
+  "timestamp": "2026-02-13T05:57:35+00:00"
+}

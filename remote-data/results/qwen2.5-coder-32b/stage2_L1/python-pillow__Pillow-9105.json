@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 144-144\n2. 93-94\n3. 109-118\n4. 62-75\n5. 121-123",
+  "predictions": [
+    [
+      144,
+      144
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      109,
+      118
+    ],
+    [
+      62,
+      75
+    ],
+    [
+      121,
+      123
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10349,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T11:02:56+00:00"
+}

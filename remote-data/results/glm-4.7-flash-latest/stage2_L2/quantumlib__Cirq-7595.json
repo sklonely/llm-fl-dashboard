@@ -1,0 +1,33 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 117-120\n2. 161-179\n3. 182-211\n4. 153-158\n5. 122-132",
+  "predictions": [
+    [
+      117,
+      120
+    ],
+    [
+      161,
+      179
+    ],
+    [
+      182,
+      211
+    ],
+    [
+      153,
+      158
+    ],
+    [
+      122,
+      132
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2854,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T07:53:20+00:00"
+}

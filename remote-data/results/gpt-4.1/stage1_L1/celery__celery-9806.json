@@ -1,0 +1,20 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. celery/result.py\n2. celery/backends/base.py\n3. celery/backends/redis.py\n4. celery/app/base.py\n5. celery/app/backends.py",
+  "predictions": [
+    "celery/result.py",
+    "celery/backends/base.py",
+    "celery/backends/redis.py",
+    "celery/app/base.py",
+    "celery/app/backends.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 37,
+  "prompt_tokens": 3073,
+  "completion_tokens": 37,
+  "timestamp": "2026-02-14T01:03:45.081186+00:00"
+}

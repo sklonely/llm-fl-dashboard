@@ -1,0 +1,16 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/PIL/ImageStat.py\n2. src/PIL/ImageChops.py\n3. src/PIL/ImageMath.py\n4. src/PIL/Image.py (implied, as `ImageState` is likely a class within it)\n5. selftest.py (as it's a test file and might contain code exercising the problematic functionality)",
+  "predictions": [
+    "src/PIL/ImageStat.py",
+    "src/PIL/ImageChops.py",
+    "src/PIL/ImageMath.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 15435,
+  "eval_count": 84,
+  "timestamp": "2026-02-13T14:08:30+00:00"
+}

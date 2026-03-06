@@ -1,0 +1,35 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 413-472\n2. 348-363\n3. 365-376\n4. 66-85\n5. 124-137",
+  "predictions": [
+    [
+      413,
+      472
+    ],
+    [
+      348,
+      363
+    ],
+    [
+      365,
+      376
+    ],
+    [
+      66,
+      85
+    ],
+    [
+      124,
+      137
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 7344,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.125764+00:00"
+}

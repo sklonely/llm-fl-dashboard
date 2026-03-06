@@ -1,0 +1,18 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. freezegun/_async.py\n2. freezegun/config.py\n3. tests/another_module.py\n4. tests/fake_module.py\n5. tests/test_class_decorator.py",
+  "predictions": [
+    "freezegun/_async.py",
+    "freezegun/config.py",
+    "tests/another_module.py",
+    "tests/fake_module.py",
+    "tests/test_class_decorator.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 907,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T06:20:54+00:00"
+}

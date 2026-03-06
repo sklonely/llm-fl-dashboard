@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. babel/dates.py\n2. babel/numbers.py\n3. babel/units.py\n4. babel/localtime/_helpers.py\n5. babel/util.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/numbers.py",
+    "babel/units.py",
+    "babel/localtime/_helpers.py",
+    "babel/util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1136,
+  "eval_count": 36,
+  "timestamp": "2026-02-13T06:00:17+00:00"
+}

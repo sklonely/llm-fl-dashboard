@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/PIL/ImageStat.py\n2. src/PIL/ImageChops.py\n3. src/PIL/Image.py\n4. src/PIL/ImageFile.py\n5. src/PIL/__init__.py",
+  "predictions": [
+    "src/PIL/ImageStat.py",
+    "src/PIL/ImageChops.py",
+    "src/PIL/Image.py",
+    "src/PIL/ImageFile.py",
+    "src/PIL/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3852,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T06:00:26+00:00"
+}

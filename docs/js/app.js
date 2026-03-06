@@ -52,6 +52,8 @@ function renderApp() {
     return;
   }
 
+  main.classList.toggle('full-width', window.currentPage === 'inspector');
+
   var page = pages[window.currentPage];
   if (page && page.render) {
     main.innerHTML = '';

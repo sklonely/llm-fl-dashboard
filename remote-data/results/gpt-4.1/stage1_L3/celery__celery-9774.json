@@ -1,0 +1,20 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. celery/canvas.py\n2. celery/app/task.py\n3. celery/utils/abstract.py\n4. celery/app/amqp.py\n5. celery/states.py",
+  "predictions": [
+    "celery/canvas.py",
+    "celery/app/task.py",
+    "celery/utils/abstract.py",
+    "celery/app/amqp.py",
+    "celery/states.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 36,
+  "prompt_tokens": 7415,
+  "completion_tokens": 36,
+  "timestamp": "2026-02-14T01:03:45.079651+00:00"
+}

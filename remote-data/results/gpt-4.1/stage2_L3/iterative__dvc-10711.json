@@ -1,0 +1,35 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 110-116\n2. 112-115\n3. 113-114\n4. 38-38\n5. 245-245",
+  "predictions": [
+    [
+      110,
+      116
+    ],
+    [
+      112,
+      115
+    ],
+    [
+      113,
+      114
+    ],
+    [
+      38,
+      38
+    ],
+    [
+      245,
+      245
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 3129,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.104355+00:00"
+}

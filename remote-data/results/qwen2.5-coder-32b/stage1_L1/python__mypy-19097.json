@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/stubgen.py\n2. mypy/stubgenc.py\n3. mypy/types.py\n4. mypy/types_utils.py\n5. mypy/semanal_main.py",
+  "predictions": [
+    "mypy/stubgen.py",
+    "mypy/stubgenc.py",
+    "mypy/types.py",
+    "mypy/types_utils.py",
+    "mypy/semanal_main.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 10411,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T08:59:44+00:00"
+}

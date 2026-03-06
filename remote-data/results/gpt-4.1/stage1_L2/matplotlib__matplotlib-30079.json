@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/axes/_axes.py\n3. lib/matplotlib/legend_handler.py\n4. lib/matplotlib/pyplot.py\n5. lib/matplotlib/container.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/legend_handler.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/container.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 52,
+  "prompt_tokens": 9561,
+  "completion_tokens": 52,
+  "timestamp": "2026-02-14T01:03:45.108918+00:00"
+}

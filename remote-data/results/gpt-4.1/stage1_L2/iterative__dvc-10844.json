@@ -1,0 +1,20 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/repo/experiments/diff.py\n2. dvc/repo/metrics/diff.py\n3. dvc/repo/plots/diff.py\n4. dvc/repo/params/diff.py\n5. dvc/data_cloud.py",
+  "predictions": [
+    "dvc/repo/experiments/diff.py",
+    "dvc/repo/metrics/diff.py",
+    "dvc/repo/plots/diff.py",
+    "dvc/repo/params/diff.py",
+    "dvc/data_cloud.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 56,
+  "prompt_tokens": 7766,
+  "completion_tokens": 56,
+  "timestamp": "2026-02-14T01:03:45.105155+00:00"
+}

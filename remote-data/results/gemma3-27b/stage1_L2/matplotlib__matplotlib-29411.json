@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/axes/_base.py\n2. lib/matplotlib/transforms.py\n3. lib/matplotlib/container.py\n4. lib/matplotlib/backends/backend_template.py\n5. lib/matplotlib/artist.py",
+  "predictions": [
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/transforms.py",
+    "lib/matplotlib/container.py",
+    "lib/matplotlib/backends/backend_template.py",
+    "lib/matplotlib/artist.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30689,
+  "eval_count": 56,
+  "timestamp": "2026-02-13T14:01:29+00:00"
+}

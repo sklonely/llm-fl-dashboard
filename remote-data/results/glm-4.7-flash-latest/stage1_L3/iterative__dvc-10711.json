@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/commands/remote.py\n2. dvc/repo/remote.py\n3. dvc/repo/scm.py\n4. dvc/repo/experiments/refs.py\n5. dvc/repo/experiments/__init__.py",
+  "predictions": [
+    "dvc/commands/remote.py",
+    "dvc/repo/remote.py",
+    "dvc/repo/scm.py",
+    "dvc/repo/experiments/refs.py",
+    "dvc/repo/experiments/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8296,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T06:09:49+00:00"
+}

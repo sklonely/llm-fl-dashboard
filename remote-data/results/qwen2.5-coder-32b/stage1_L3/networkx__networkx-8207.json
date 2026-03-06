@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8207",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/similarity.py\n2. networkx/classes/digraph.py\n3. networkx/classes/multidigraph.py\n4. networkx/utils/rcm.py\n5. networkx/algorithms/tests/test_similarity.py",
+  "predictions": [
+    "networkx/algorithms/similarity.py",
+    "networkx/classes/digraph.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/utils/rcm.py",
+    "networkx/algorithms/tests/test_similarity.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 42078,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T09:53:57+00:00"
+}

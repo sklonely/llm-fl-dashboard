@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. babel/messages/extract.py\n2. babel/messages/setuptools_frontend.py\n3. babel/messages/checkers.py\n4. babel/messages/jslexer.py\n5. babel/messages/_compat.py",
+  "predictions": [
+    "babel/messages/extract.py",
+    "babel/messages/setuptools_frontend.py",
+    "babel/messages/checkers.py",
+    "babel/messages/jslexer.py",
+    "babel/messages/_compat.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 41,
+  "prompt_tokens": 1020,
+  "completion_tokens": 41,
+  "timestamp": "2026-02-14T01:03:45.114674+00:00"
+}

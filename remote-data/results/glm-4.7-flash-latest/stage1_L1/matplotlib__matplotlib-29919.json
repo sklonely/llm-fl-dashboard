@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29919",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/contour.py\n2. lib/matplotlib/projections/geo.py\n3. lib/matplotlib/cbook.py\n4. lib/matplotlib/axes/_axes.py\n5. lib/matplotlib/transforms.py",
+  "predictions": [
+    "lib/matplotlib/contour.py",
+    "lib/matplotlib/projections/geo.py",
+    "lib/matplotlib/cbook.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/transforms.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4207,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T05:51:25+00:00"
+}

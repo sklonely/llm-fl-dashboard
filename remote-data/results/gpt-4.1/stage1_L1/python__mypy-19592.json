@@ -1,0 +1,20 @@
+{
+  "instance_id": "python__mypy-19592",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/checkexpr.py\n2. mypy/checker.py\n3. mypy/subtypes.py\n4. mypy/types.py\n5. mypy/semanal_typeddict.py",
+  "predictions": [
+    "mypy/checkexpr.py",
+    "mypy/checker.py",
+    "mypy/subtypes.py",
+    "mypy/types.py",
+    "mypy/semanal_typeddict.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 42,
+  "prompt_tokens": 3173,
+  "completion_tokens": 42,
+  "timestamp": "2026-02-14T01:03:45.119498+00:00"
+}

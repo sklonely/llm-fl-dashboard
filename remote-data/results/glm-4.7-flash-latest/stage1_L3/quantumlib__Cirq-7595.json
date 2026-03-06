@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/protocols/has_unitary_protocol.py\n3. cirq-core/cirq/ops/gate_features.py\n4. cirq-core/cirq/ops/gate_operation.py\n5. cirq-core/cirq/ops/common_gate_families.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/protocols/has_unitary_protocol.py",
+    "cirq-core/cirq/ops/gate_features.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/ops/common_gate_families.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 43578,
+  "eval_count": 73,
+  "timestamp": "2026-02-13T06:20:27+00:00"
+}

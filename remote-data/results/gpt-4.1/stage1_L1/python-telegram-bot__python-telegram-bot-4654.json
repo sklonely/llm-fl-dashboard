@@ -1,0 +1,20 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. telegram/_telegramobject.py\n2. telegram/_chatmember.py\n3. telegram/_message.py\n4. telegram/_inline/inlinequeryresult.py\n5. telegram/_passport/encryptedpassportelement.py",
+  "predictions": [
+    "telegram/_telegramobject.py",
+    "telegram/_chatmember.py",
+    "telegram/_message.py",
+    "telegram/_inline/inlinequeryresult.py",
+    "telegram/_passport/encryptedpassportelement.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 2246,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.116952+00:00"
+}

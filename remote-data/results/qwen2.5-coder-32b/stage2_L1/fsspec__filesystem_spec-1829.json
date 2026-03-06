@@ -1,0 +1,33 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 138-139\n2. 165-166\n3. 370-444\n4. 431-433\n5. 434-439",
+  "predictions": [
+    [
+      138,
+      139
+    ],
+    [
+      165,
+      166
+    ],
+    [
+      370,
+      444
+    ],
+    [
+      431,
+      433
+    ],
+    [
+      434,
+      439
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 22543,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T10:22:24+00:00"
+}

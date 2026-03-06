@@ -1,0 +1,33 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 629-637\n2. 722-738\n3. 748-762\n4. 650-656\n5. 183-193",
+  "predictions": [
+    [
+      629,
+      637
+    ],
+    [
+      722,
+      738
+    ],
+    [
+      748,
+      762
+    ],
+    [
+      650,
+      656
+    ],
+    [
+      183,
+      193
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 42435,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T17:52:16+00:00"
+}

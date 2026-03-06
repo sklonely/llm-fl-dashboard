@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. babel/dates.py\n2. babel/languages.py\n3. babel/util.py\n4. babel/messages/plurals.py\n5. tests/test_dates.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/languages.py",
+    "babel/util.py",
+    "babel/messages/plurals.py",
+    "tests/test_dates.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4834,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T14:40:21+00:00"
+}

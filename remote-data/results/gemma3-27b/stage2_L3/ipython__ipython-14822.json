@@ -1,0 +1,33 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 46-48\n2. 50-52\n3. 86-88\n4. 276-279\n5. 277-279",
+  "predictions": [
+    [
+      46,
+      48
+    ],
+    [
+      50,
+      52
+    ],
+    [
+      86,
+      88
+    ],
+    [
+      276,
+      279
+    ],
+    [
+      277,
+      279
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 33222,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T18:17:43+00:00"
+}

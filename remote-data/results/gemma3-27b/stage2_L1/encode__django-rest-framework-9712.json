@@ -1,0 +1,33 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 1492-1509\n2. 1511-1513\n3. 1520-1522\n4. 1523-1526\n5. 1531-1533",
+  "predictions": [
+    [
+      1492,
+      1509
+    ],
+    [
+      1511,
+      1513
+    ],
+    [
+      1520,
+      1522
+    ],
+    [
+      1523,
+      1526
+    ],
+    [
+      1531,
+      1533
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 68492,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T15:01:38+00:00"
+}

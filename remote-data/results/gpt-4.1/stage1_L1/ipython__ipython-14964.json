@@ -1,0 +1,20 @@
+{
+  "instance_id": "ipython__ipython-14964",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/ultratb.py\n2. IPython/core/tbtools.py\n3. IPython/core/interactiveshell.py\n4. IPython/core/error.py\n5. IPython/core/displayhook.py",
+  "predictions": [
+    "IPython/core/ultratb.py",
+    "IPython/core/tbtools.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/error.py",
+    "IPython/core/displayhook.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 48,
+  "prompt_tokens": 2123,
+  "completion_tokens": 48,
+  "timestamp": "2026-02-14T01:03:45.102580+00:00"
+}

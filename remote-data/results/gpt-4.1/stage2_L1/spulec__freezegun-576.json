@@ -1,0 +1,35 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 748-749\n2. 750-775\n3. 806-819\n4. 838-902\n5. 923-984",
+  "predictions": [
+    [
+      748,
+      749
+    ],
+    [
+      750,
+      775
+    ],
+    [
+      806,
+      819
+    ],
+    [
+      838,
+      902
+    ],
+    [
+      923,
+      984
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 12163,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.126204+00:00"
+}

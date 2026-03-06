@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/vars/base.py\n2. reflex/components/component.py\n3. reflex/state.py\n4. reflex/compiler/compiler.py\n5. reflex/utils/types.py",
+  "predictions": [
+    "reflex/vars/base.py",
+    "reflex/components/component.py",
+    "reflex/state.py",
+    "reflex/compiler/compiler.py",
+    "reflex/utils/types.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9727,
+  "eval_count": 35,
+  "timestamp": "2026-02-13T09:02:19+00:00"
+}

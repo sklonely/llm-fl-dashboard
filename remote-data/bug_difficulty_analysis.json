@@ -1,0 +1,1252 @@
+[
+  {
+    "instance_id": "matplotlib__matplotlib-30079",
+    "repo": "matplotlib/matplotlib",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "gt_files": [
+      "lib/matplotlib/legend.py"
+    ],
+    "gt_total_lines": 1,
+    "ps_length_chars": 2138,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": true,
+      "traceback_in_ps": true,
+      "leakage_level": "HIGH"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-pillow__Pillow-9105",
+    "repo": "python-pillow/Pillow",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "M",
+    "gt_files": [
+      "src/PIL/ImageStat.py"
+    ],
+    "gt_total_lines": 13,
+    "ps_length_chars": 2107,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": true,
+      "traceback_in_ps": true,
+      "leakage_level": "HIGH"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "encode__django-rest-framework-9712",
+    "repo": "encode/django-rest-framework",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "gt_files": [
+      "rest_framework/serializers.py"
+    ],
+    "gt_total_lines": 3,
+    "ps_length_chars": 1244,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "ipython__ipython-14695",
+    "repo": "ipython/ipython",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "gt_files": [
+      "IPython/core/magics/script.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 946,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "ipython__ipython-14964",
+    "repo": "ipython/ipython",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "gt_files": [
+      "IPython/core/ultratb.py"
+    ],
+    "gt_total_lines": 5,
+    "ps_length_chars": 1650,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "ipython__ipython-14970",
+    "repo": "ipython/ipython",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "gt_files": [
+      "IPython/core/magics/namespace.py"
+    ],
+    "gt_total_lines": 14,
+    "ps_length_chars": 2093,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29411",
+    "repo": "matplotlib/matplotlib",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "gt_files": [
+      "lib/matplotlib/axes/_base.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 1588,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29781",
+    "repo": "matplotlib/matplotlib",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "gt_files": [
+      "lib/matplotlib/backend_bases.py"
+    ],
+    "gt_total_lines": 17,
+    "ps_length_chars": 994,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "networkx__networkx-8055",
+    "repo": "networkx/networkx",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "gt_files": [
+      "networkx/algorithms/isomorphism/ismags.py"
+    ],
+    "gt_total_lines": 15,
+    "ps_length_chars": 1061,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "pydata__xarray-10141",
+    "repo": "pydata/xarray",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "gt_files": [
+      "xarray/backends/api.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 3054,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "shapely__shapely-2223",
+    "repo": "shapely/shapely",
+    "bug_type": "API_TYPE",
+    "complexity": "C",
+    "gt_files": [
+      "shapely/_ragged_array.py"
+    ],
+    "gt_total_lines": 22,
+    "ps_length_chars": 1248,
+    "leakage": {
+      "gt_basename_in_ps": true,
+      "gt_full_path_in_ps": true,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "MEDIUM"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "celery__celery-9774",
+    "repo": "celery/celery",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "S",
+    "gt_files": [
+      "celery/canvas.py"
+    ],
+    "gt_total_lines": 3,
+    "ps_length_chars": 6016,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "certbot__certbot-10283",
+    "repo": "certbot/certbot",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "gt_files": [
+      "acme/src/acme/errors.py"
+    ],
+    "gt_total_lines": 10,
+    "ps_length_chars": 1126,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "fsspec__filesystem_spec-1829",
+    "repo": "fsspec/filesystem_spec",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "fsspec/implementations/local.py"
+    ],
+    "gt_total_lines": 20,
+    "ps_length_chars": 741,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "ipython__ipython-14822",
+    "repo": "ipython/ipython",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "gt_files": [
+      "IPython/core/inputtransformer2.py"
+    ],
+    "gt_total_lines": 12,
+    "ps_length_chars": 1128,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "keras-team__keras-20765",
+    "repo": "keras-team/keras",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "keras/src/layers/rnn/time_distributed.py"
+    ],
+    "gt_total_lines": 25,
+    "ps_length_chars": 3039,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "keras-team__keras-20824",
+    "repo": "keras-team/keras",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "gt_files": [
+      "keras/src/saving/serialization_lib.py"
+    ],
+    "gt_total_lines": 10,
+    "ps_length_chars": 953,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-29919",
+    "repo": "matplotlib/matplotlib",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "lib/matplotlib/path.py"
+    ],
+    "gt_total_lines": 29,
+    "ps_length_chars": 5459,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "shapely__shapely-2255",
+    "repo": "shapely/shapely",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "gt_files": [
+      "shapely/_ragged_array.py"
+    ],
+    "gt_total_lines": 4,
+    "ps_length_chars": 1796,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": true,
+      "leakage_level": "LOW"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "Textualize__textual-5795",
+    "repo": "Textualize/textual",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "gt_files": [
+      "src/textual/widgets/_option_list.py"
+    ],
+    "gt_total_lines": 1,
+    "ps_length_chars": 311,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "celery__celery-9806",
+    "repo": "celery/celery",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "gt_files": [
+      "celery/result.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 4508,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "certbot__certbot-10317",
+    "repo": "certbot/certbot",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "M",
+    "gt_files": [
+      "acme/src/acme/client.py"
+    ],
+    "gt_total_lines": 12,
+    "ps_length_chars": 376,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "fsspec__filesystem_spec-1897",
+    "repo": "fsspec/filesystem_spec",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "gt_files": [
+      "fsspec/implementations/cached.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 1823,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "geopandas__geopandas-3513",
+    "repo": "geopandas/geopandas",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "gt_files": [
+      "geopandas/io/_geoarrow.py"
+    ],
+    "gt_total_lines": 4,
+    "ps_length_chars": 959,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "iterative__dvc-10711",
+    "repo": "iterative/dvc",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "gt_files": [
+      "dvc/commands/remote.py"
+    ],
+    "gt_total_lines": 10,
+    "ps_length_chars": 143,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "iterative__dvc-10776",
+    "repo": "iterative/dvc",
+    "bug_type": "CONFIG",
+    "complexity": "M",
+    "gt_files": [
+      "dvc/dirs.py"
+    ],
+    "gt_total_lines": 7,
+    "ps_length_chars": 2341,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "iterative__dvc-10844",
+    "repo": "iterative/dvc",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "gt_files": [
+      "dvc/repo/diff.py"
+    ],
+    "gt_total_lines": 4,
+    "ps_length_chars": 572,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "matplotlib__matplotlib-30089",
+    "repo": "matplotlib/matplotlib",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "gt_files": [
+      "lib/matplotlib/_constrained_layout.py"
+    ],
+    "gt_total_lines": 8,
+    "ps_length_chars": 1591,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "mesonbuild__meson-14611",
+    "repo": "mesonbuild/meson",
+    "bug_type": "CONFIG",
+    "complexity": "C",
+    "gt_files": [
+      "mesonbuild/options.py"
+    ],
+    "gt_total_lines": 30,
+    "ps_length_chars": 706,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "networkx__networkx-8013",
+    "repo": "networkx/networkx",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "gt_files": [
+      "networkx/algorithms/traversal/breadth_first_search.py"
+    ],
+    "gt_total_lines": 11,
+    "ps_length_chars": 1271,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "networkx__networkx-8043",
+    "repo": "networkx/networkx",
+    "bug_type": "MISSING_CHECK",
+    "complexity": "C",
+    "gt_files": [
+      "networkx/algorithms/isomorphism/isomorphvf2.py"
+    ],
+    "gt_total_lines": 24,
+    "ps_length_chars": 1329,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "networkx__networkx-8207",
+    "repo": "networkx/networkx",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "gt_files": [
+      "networkx/algorithms/similarity.py"
+    ],
+    "gt_total_lines": 5,
+    "ps_length_chars": 3956,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-babel__babel-1179",
+    "repo": "python-babel/babel",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "gt_files": [
+      "babel/dates.py"
+    ],
+    "gt_total_lines": 49,
+    "ps_length_chars": 644,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-babel__babel-1196",
+    "repo": "python-babel/babel",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "gt_files": [
+      "babel/messages/extract.py"
+    ],
+    "gt_total_lines": 31,
+    "ps_length_chars": 1224,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-pillow__Pillow-9083",
+    "repo": "python-pillow/Pillow",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "gt_files": [
+      "src/PIL/Image.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 328,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-poetry__poetry-10353",
+    "repo": "python-poetry/poetry",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "gt_files": [
+      "src/poetry/console/application.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 1914,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+    "repo": "python-telegram-bot/python-telegram-bot",
+    "bug_type": "API_TYPE",
+    "complexity": "S",
+    "gt_files": [
+      "telegram/_chatmember.py"
+    ],
+    "gt_total_lines": 3,
+    "ps_length_chars": 264,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python__mypy-19097",
+    "repo": "python/mypy",
+    "bug_type": "API_TYPE",
+    "complexity": "M",
+    "gt_files": [
+      "mypy/stubgen.py"
+    ],
+    "gt_total_lines": 10,
+    "ps_length_chars": 527,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python__mypy-19190",
+    "repo": "python/mypy",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "gt_files": [
+      "mypy/constraints.py"
+    ],
+    "gt_total_lines": 2,
+    "ps_length_chars": 879,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python__mypy-19249",
+    "repo": "python/mypy",
+    "bug_type": "LOGIC",
+    "complexity": "M",
+    "gt_files": [
+      "mypy/checkexpr.py"
+    ],
+    "gt_total_lines": 14,
+    "ps_length_chars": 3811,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python__mypy-19592",
+    "repo": "python/mypy",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "gt_files": [
+      "mypy/checkexpr.py"
+    ],
+    "gt_total_lines": 24,
+    "ps_length_chars": 828,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "python__mypy-19648",
+    "repo": "python/mypy",
+    "bug_type": "LOGIC",
+    "complexity": "S",
+    "gt_files": [
+      "mypy/types.py"
+    ],
+    "gt_total_lines": 4,
+    "ps_length_chars": 733,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7293",
+    "repo": "quantumlib/Cirq",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "S",
+    "gt_files": [
+      "cirq-core/cirq/ops/matrix_gates.py"
+    ],
+    "gt_total_lines": 3,
+    "ps_length_chars": 491,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7538",
+    "repo": "quantumlib/Cirq",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "cirq-core/cirq/transformers/eject_phased_paulis.py"
+    ],
+    "gt_total_lines": 21,
+    "ps_length_chars": 1188,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "quantumlib__Cirq-7595",
+    "repo": "quantumlib/Cirq",
+    "bug_type": "CONFIG",
+    "complexity": "S",
+    "gt_files": [
+      "cirq-core/cirq/protocols/unitary_protocol.py"
+    ],
+    "gt_total_lines": 4,
+    "ps_length_chars": 837,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "reflex-dev__reflex-4620",
+    "repo": "reflex-dev/reflex",
+    "bug_type": "LOGIC",
+    "complexity": "C",
+    "gt_files": [
+      "reflex/vars/number.py"
+    ],
+    "gt_total_lines": 23,
+    "ps_length_chars": 2322,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "reflex-dev__reflex-5081",
+    "repo": "reflex-dev/reflex",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "M",
+    "gt_files": [
+      "reflex/utils/types.py"
+    ],
+    "gt_total_lines": 12,
+    "ps_length_chars": 1377,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "spulec__freezegun-576",
+    "repo": "spulec/freezegun",
+    "bug_type": "API_TYPE",
+    "complexity": "C",
+    "gt_files": [
+      "freezegun/api.py"
+    ],
+    "gt_total_lines": 16,
+    "ps_length_chars": 394,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "vega__altair-3853",
+    "repo": "vega/altair",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "altair/vegalite/v6/api.py"
+    ],
+    "gt_total_lines": 25,
+    "ps_length_chars": 3606,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  },
+  {
+    "instance_id": "yt-dlp__yt-dlp-12714",
+    "repo": "yt-dlp/yt-dlp",
+    "bug_type": "MISSING_HANDLER",
+    "complexity": "C",
+    "gt_files": [
+      "yt_dlp/extractor/common.py"
+    ],
+    "gt_total_lines": 33,
+    "ps_length_chars": 5511,
+    "leakage": {
+      "gt_basename_in_ps": false,
+      "gt_full_path_in_ps": false,
+      "gt_class_in_ps": [],
+      "gt_method_in_ps": [],
+      "line_numbers_in_ps": false,
+      "traceback_in_ps": false,
+      "leakage_level": "NONE"
+    },
+    "identifiers_near_gt": {
+      "classes_near_gt": [],
+      "methods_near_gt": [],
+      "functions_near_gt": []
+    }
+  }
+]

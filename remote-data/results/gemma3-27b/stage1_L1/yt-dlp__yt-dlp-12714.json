@@ -1,0 +1,18 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. yt_dlp/extractor/twitter.py\n2. yt_dlp/downloader/hls.py\n3. yt_dlp/YoutubeDL.py\n4. yt_dlp/compat/compat_utils.py\n5. yt_dlp/options.py\n",
+  "predictions": [
+    "yt_dlp/extractor/twitter.py",
+    "yt_dlp/downloader/hls.py",
+    "yt_dlp/YoutubeDL.py",
+    "yt_dlp/compat/compat_utils.py",
+    "yt_dlp/options.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 42604,
+  "eval_count": 66,
+  "timestamp": "2026-02-13T13:51:27+00:00"
+}

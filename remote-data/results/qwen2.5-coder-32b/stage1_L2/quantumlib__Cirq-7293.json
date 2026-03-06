@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7293",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/ops/matrix_gate.py\n2. cirq-core/cirq/circuits/circuit.py\n3. cirq-core/cirq/circuits/text_diagram_drawer.py\n4. cirq-core/cirq/protocols/unitary_protocol.py\n5. cirq-core/cirq/ops/control_values.py",
+  "predictions": [
+    "cirq-core/cirq/ops/matrix_gate.py",
+    "cirq-core/cirq/circuits/circuit.py",
+    "cirq-core/cirq/circuits/text_diagram_drawer.py",
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/ops/control_values.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 74604,
+  "eval_count": 71,
+  "timestamp": "2026-02-13T09:29:33+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 408-408\n2. 417-417\n3. 426-426\n4. 435-435\n5. 444-444",
+  "predictions": [
+    [
+      408,
+      408
+    ],
+    [
+      417,
+      417
+    ],
+    [
+      426,
+      426
+    ],
+    [
+      435,
+      435
+    ],
+    [
+      444,
+      444
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12158,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T13:38:15+00:00"
+}

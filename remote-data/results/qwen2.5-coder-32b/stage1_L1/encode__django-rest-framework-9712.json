@@ -1,0 +1,18 @@
+{
+  "instance_id": "encode__django-rest-framework-9712",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. rest_framework/serializers.py\n2. rest_framework/utils/model_meta.py\n3. rest_framework/validators.py\n4. tests/schemas/views.py\n5. tests/models.py",
+  "predictions": [
+    "rest_framework/serializers.py",
+    "rest_framework/utils/model_meta.py",
+    "rest_framework/validators.py",
+    "tests/schemas/views.py",
+    "tests/models.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4340,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T08:54:15+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/dirs.py\n2. dvc/repo/init.py\n3. dvc/config.py\n4. dvc/cli/command.py\n5. dvc/utils/fs.py",
+  "predictions": [
+    "dvc/dirs.py",
+    "dvc/repo/init.py",
+    "dvc/config.py",
+    "dvc/cli/command.py",
+    "dvc/utils/fs.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 28148,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T09:09:14+00:00"
+}

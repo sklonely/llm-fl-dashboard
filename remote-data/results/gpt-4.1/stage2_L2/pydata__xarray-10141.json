@@ -1,0 +1,35 @@
+{
+  "instance_id": "pydata__xarray-10141",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 1118-1129\n2. 928-1155\n3. 235-242\n4. 673-684\n5. 479-708",
+  "predictions": [
+    [
+      1118,
+      1129
+    ],
+    [
+      928,
+      1155
+    ],
+    [
+      235,
+      242
+    ],
+    [
+      673,
+      684
+    ],
+    [
+      479,
+      708
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 37,
+  "prompt_tokens": 28996,
+  "completion_tokens": 37,
+  "timestamp": "2026-02-14T01:03:45.113783+00:00"
+}

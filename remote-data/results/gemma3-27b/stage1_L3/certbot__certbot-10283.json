@@ -1,0 +1,18 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. acme/src/acme/errors.py\n2. acme/src/acme/client.py\n3. acme/src/acme/fields.py\n4. certbot/src/certbot/errors.py\n5. acme/src/acme/_internal/tests/errors_test.py",
+  "predictions": [
+    "acme/src/acme/errors.py",
+    "acme/src/acme/client.py",
+    "acme/src/acme/fields.py",
+    "certbot/src/certbot/errors.py",
+    "acme/src/acme/_internal/tests/errors_test.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29150,
+  "eval_count": 76,
+  "timestamp": "2026-02-13T14:25:51+00:00"
+}

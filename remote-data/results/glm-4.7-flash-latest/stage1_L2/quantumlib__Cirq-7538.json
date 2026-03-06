@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/transformers/phased_paulis.py\n2. cirq-core/cirq/transformers/optimization_pass.py\n3. cirq-core/cirq/transformers/analytical_decompositions/single_qubit_decompositions.py\n4. cirq-core/cirq/transformers/analytical_decompositions/pauli_string_decomposition.py\n5. cirq-core/cirq/transformers/analytical_decompositions/three_qubit_decomposition.py",
+  "predictions": [
+    "cirq-core/cirq/transformers/phased_paulis.py",
+    "cirq-core/cirq/transformers/optimization_pass.py",
+    "cirq-core/cirq/transformers/analytical_decompositions/single_qubit_decompositions.py",
+    "cirq-core/cirq/transformers/analytical_decompositions/pauli_string_decomposition.py",
+    "cirq-core/cirq/transformers/analytical_decompositions/three_qubit_decomposition.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 43220,
+  "eval_count": 105,
+  "timestamp": "2026-02-13T06:04:59+00:00"
+}

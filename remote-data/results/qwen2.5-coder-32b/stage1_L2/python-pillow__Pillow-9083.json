@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/PIL/ExifTags.py\n2. src/PIL/Image.py\n3. src/PIL/TiffImagePlugin.py\n4. src/PIL/JpegImagePlugin.py\n5. src/PIL/_binary.py",
+  "predictions": [
+    "src/PIL/ExifTags.py",
+    "src/PIL/Image.py",
+    "src/PIL/TiffImagePlugin.py",
+    "src/PIL/JpegImagePlugin.py",
+    "src/PIL/_binary.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12557,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T09:20:51+00:00"
+}

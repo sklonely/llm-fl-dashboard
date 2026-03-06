@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. babel/messages/setuptools_frontend.py\n2. babel/messages/jslexer.py\n3. babel/messages/plurals.py\n4. babel/messages/checkers.py\n5. tests/messages/utils.py",
+  "predictions": [
+    "babel/messages/setuptools_frontend.py",
+    "babel/messages/jslexer.py",
+    "babel/messages/plurals.py",
+    "babel/messages/checkers.py",
+    "tests/messages/utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5098,
+  "eval_count": 56,
+  "timestamp": "2026-02-13T14:40:26+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 74-116\n2. 92-95\n3. 96-102\n4. 98-99\n5. 80-86",
+  "predictions": [
+    [
+      74,
+      116
+    ],
+    [
+      92,
+      95
+    ],
+    [
+      96,
+      102
+    ],
+    [
+      98,
+      99
+    ],
+    [
+      80,
+      86
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 34,
+  "prompt_tokens": 2415,
+  "completion_tokens": 34,
+  "timestamp": "2026-02-14T01:03:45.106117+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9083",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/PIL/ExifTags.py\n2. src/PIL/Image.py\n3. src/PIL/TiffImagePlugin.py\n4. src/PIL/ImageFile.py\n5. src/PIL/JpegImagePlugin.py",
+  "predictions": [
+    "src/PIL/ExifTags.py",
+    "src/PIL/Image.py",
+    "src/PIL/TiffImagePlugin.py",
+    "src/PIL/ImageFile.py",
+    "src/PIL/JpegImagePlugin.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5395,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T13:46:50+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. babel/dates.py\n2. babel/core.py\n3. babel/localedata.py\n4. babel/localtime/__init__.py\n5. babel/util.py",
+  "predictions": [
+    "babel/dates.py",
+    "babel/core.py",
+    "babel/localedata.py",
+    "babel/localtime/__init__.py",
+    "babel/util.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 956,
+  "eval_count": 36,
+  "timestamp": "2026-02-13T05:51:59+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19249",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "Based on the provided bug report and repository structure, the issue seems to be related to how `mypy` handles type inference and checking for conditional expressions involving `deepcopy()` and specific types like `Literal[True]`. The error messages suggest that there might be a problem with how `mypy` processes the return statement in the function `f`.\n\nGiven this context, the most suspicious files are likely those involved in type checking and handling of conditional expressions. Here is the ranked list:\n\n1. mypy/checker_shared.py\n2. mypy/exprtotype.py\n3. mypy/join.py\n4. mypy/type_visitor.py\n5. mypy/types_utils.py\n\nThese files are central to how `mypy` performs type checking, expression type translation, and type joining, which are all relevant to the reported issue.",
+  "predictions": [
+    "mypy/checker_shared.py",
+    "mypy/exprtotype.py",
+    "mypy/join.py",
+    "mypy/type_visitor.py",
+    "mypy/types_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 77312,
+  "eval_count": 173,
+  "timestamp": "2026-02-13T09:59:47+00:00"
+}

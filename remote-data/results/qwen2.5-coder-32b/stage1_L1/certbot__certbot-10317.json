@@ -1,0 +1,18 @@
+{
+  "instance_id": "certbot__certbot-10317",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. acme/src/acme/client.py\n2. certbot/src/certbot/_internal/client.py\n3. certbot/src/certbot/_internal/renewal.py\n4. certbot/src/certbot/crypto_util.py\n5. acme/src/acme/messages.py",
+  "predictions": [
+    "acme/src/acme/client.py",
+    "certbot/src/certbot/_internal/client.py",
+    "certbot/src/certbot/_internal/renewal.py",
+    "certbot/src/certbot/crypto_util.py",
+    "acme/src/acme/messages.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11235,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T08:54:11+00:00"
+}

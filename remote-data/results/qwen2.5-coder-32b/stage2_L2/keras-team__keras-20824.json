@@ -1,0 +1,33 @@
+{
+  "instance_id": "keras-team__keras-20824",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 677-686\n2. 749-758\n3. 760-793\n4. 795-805\n5. 151-167",
+  "predictions": [
+    [
+      677,
+      686
+    ],
+    [
+      749,
+      758
+    ],
+    [
+      760,
+      793
+    ],
+    [
+      795,
+      805
+    ],
+    [
+      151,
+      167
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 36367,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T11:44:47+00:00"
+}

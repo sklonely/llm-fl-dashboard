@@ -1,0 +1,33 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 375-377\n2. 777-778\n3. 314-329\n4. 683-684\n5. 775-803",
+  "predictions": [
+    [
+      375,
+      377
+    ],
+    [
+      777,
+      778
+    ],
+    [
+      314,
+      329
+    ],
+    [
+      683,
+      684
+    ],
+    [
+      775,
+      803
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13814,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:23:40+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. freezegun/config.py\n2. freezegun/_async.py\n3. tests/test_class_decorator.py\n4. tests/utils.py\n5. create_tag.py",
+  "predictions": [
+    "freezegun/config.py",
+    "freezegun/_async.py",
+    "tests/test_class_decorator.py",
+    "tests/utils.py",
+    "create_tag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3019,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T14:53:34+00:00"
+}

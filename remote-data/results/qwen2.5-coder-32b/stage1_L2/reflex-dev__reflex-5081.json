@@ -1,0 +1,18 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. reflex/components/next/base.py\n2. reflex/utils/exceptions.py\n3. reflex/components/radix/primitives/form.py\n4. reflex/components/core/match.py\n5. reflex/components/tags/iter_tag.py",
+  "predictions": [
+    "reflex/components/next/base.py",
+    "reflex/utils/exceptions.py",
+    "reflex/components/radix/primitives/form.py",
+    "reflex/components/core/match.py",
+    "reflex/components/tags/iter_tag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26561,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T09:33:15+00:00"
+}

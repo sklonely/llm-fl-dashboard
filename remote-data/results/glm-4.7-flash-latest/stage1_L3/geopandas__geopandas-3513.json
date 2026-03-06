@@ -1,0 +1,18 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. geopandas/io/_geoarrow.py\n2. geopandas/io/tests/test_geoarrow.py\n3. geopandas/_compat.py\n4. geopandas/io/_pyarrow_hotfix.py\n5. geopandas/accessors.py",
+  "predictions": [
+    "geopandas/io/_geoarrow.py",
+    "geopandas/io/tests/test_geoarrow.py",
+    "geopandas/_compat.py",
+    "geopandas/io/_pyarrow_hotfix.py",
+    "geopandas/accessors.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1725,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T06:09:12+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "instance_id": "yt-dlp__yt-dlp-12714",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 2087-2310\n2. 2147-2295\n3. 2157-2177\n4. 2274-2275\n5. 2286-2295",
+  "predictions": [
+    [
+      2087,
+      2310
+    ],
+    [
+      2147,
+      2295
+    ],
+    [
+      2157,
+      2177
+    ],
+    [
+      2274,
+      2275
+    ],
+    [
+      2286,
+      2295
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 55811,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.127435+00:00"
+}

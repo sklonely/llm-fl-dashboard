@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8207",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. networkx/algorithms/graph_edit_distance.py\n2. networkx/classes/multidigraph.py\n3. networkx/classes/digraph.py\n4. networkx/algorithms/approximation/distance_measures.py\n5. networkx/algorithms/tests/test_similarity.py",
+  "predictions": [
+    "networkx/algorithms/graph_edit_distance.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/classes/digraph.py",
+    "networkx/algorithms/approximation/distance_measures.py",
+    "networkx/algorithms/tests/test_similarity.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 41071,
+  "eval_count": 70,
+  "timestamp": "2026-02-13T14:39:57+00:00"
+}

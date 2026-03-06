@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/subtypes.py\n2. mypy/maptype.py\n3. mypy/types.py\n4. mypy/checker.py\n5. mypy/applytype.py",
+  "predictions": [
+    "mypy/subtypes.py",
+    "mypy/maptype.py",
+    "mypy/types.py",
+    "mypy/checker.py",
+    "mypy/applytype.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11772,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T13:48:19+00:00"
+}

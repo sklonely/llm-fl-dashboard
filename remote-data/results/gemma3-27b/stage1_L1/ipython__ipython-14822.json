@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14822",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/inputtransformer2.py\n2. IPython/core/interactiveshell.py\n3. IPython/core/splitinput.py\n4. IPython/core/compilerop.py\n5. IPython/terminal/interactiveshell.py",
+  "predictions": [
+    "IPython/core/inputtransformer2.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/splitinput.py",
+    "IPython/core/compilerop.py",
+    "IPython/terminal/interactiveshell.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8105,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T13:42:30+00:00"
+}

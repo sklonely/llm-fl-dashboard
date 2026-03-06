@@ -1,0 +1,16 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. fsspec/implementations/cached.py\n2. fsspec/core.py\n3. fsspec/registry.py\n4. fsspec/implementations/s3.py (likely involved in protocol handling alongside cached)\n5. fsspec/__init__.py (entry point, potential for incorrect initialization or dispatch)",
+  "predictions": [
+    "fsspec/implementations/cached.py",
+    "fsspec/core.py",
+    "fsspec/registry.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6209,
+  "eval_count": 77,
+  "timestamp": "2026-02-13T13:42:01+00:00"
+}

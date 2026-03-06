@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/poetry/console/commands/env/activate.py\n2. src/poetry/console/application.py\n3. src/poetry/console/logging/io_handler.py\n4. src/poetry/console/commands/__init__.py\n5. src/poetry/console/commands/command.py",
+  "predictions": [
+    "src/poetry/console/commands/env/activate.py",
+    "src/poetry/console/application.py",
+    "src/poetry/console/logging/io_handler.py",
+    "src/poetry/console/commands/__init__.py",
+    "src/poetry/console/commands/command.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 13415,
+  "eval_count": 72,
+  "timestamp": "2026-02-13T13:47:10+00:00"
+}

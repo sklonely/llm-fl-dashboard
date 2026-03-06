@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/repo/experiments/queue/celery.py\n2. dvc/repo/cache.py\n3. dvc/repo/diff.py\n4. dvc/api/data.py\n5. dvc/repo/fetch.py",
+  "predictions": [
+    "dvc/repo/experiments/queue/celery.py",
+    "dvc/repo/cache.py",
+    "dvc/repo/diff.py",
+    "dvc/api/data.py",
+    "dvc/repo/fetch.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26718,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T14:30:01+00:00"
+}

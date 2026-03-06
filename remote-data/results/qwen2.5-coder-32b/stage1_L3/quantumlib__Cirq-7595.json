@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/protocols/unitary_protocol_test.py\n3. cirq-core/cirq/linalg/tolerance.py\n4. cirq-core/cirq/ops/gate_operation.py\n5. cirq-core/cirq/protocols/has_unitary_protocol.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/protocols/unitary_protocol_test.py",
+    "cirq-core/cirq/linalg/tolerance.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/protocols/has_unitary_protocol.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 86609,
+  "eval_count": 72,
+  "timestamp": "2026-02-13T10:06:17+00:00"
+}

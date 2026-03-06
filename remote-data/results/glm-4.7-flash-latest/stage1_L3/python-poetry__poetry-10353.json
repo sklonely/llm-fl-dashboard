@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. src/poetry/console/commands/env/activate.py\n2. src/poetry/console/commands/env_command.py\n3. src/poetry/console/commands/command.py\n4. src/poetry/console/logging/io_handler.py\n5. src/poetry/console/logging/formatters/formatter.py",
+  "predictions": [
+    "src/poetry/console/commands/env/activate.py",
+    "src/poetry/console/commands/env_command.py",
+    "src/poetry/console/commands/command.py",
+    "src/poetry/console/logging/io_handler.py",
+    "src/poetry/console/logging/formatters/formatter.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7914,
+  "eval_count": 65,
+  "timestamp": "2026-02-13T06:15:17+00:00"
+}

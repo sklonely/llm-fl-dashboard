@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1179",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. babel/dates.py (Implicit - the bug is in date formatting, and this is the primary entry point for that functionality. While not explicitly listed in the structure, it's the most likely location.)\n2. babel/languages.py (The locale 'en_AU' is causing the issue, so the language definitions or locale data itself is suspect.)\n3. babel/util.py (Date formatting often relies on utility functions for parsing and handling locale-specific data.)\n4. babel/messages/plurals.py (While seemingly unrelated, pluralization rules can sometimes interact with date/time formatting in unexpected ways, especially when dealing with different locales.)\n5. babel/localtime/_fallback.py (Timezone handling can affect date calculations, and a fallback mechanism might have a bug specific to 'en_AU'.)",
+  "predictions": [
+    "babel/dates.py",
+    "babel/languages.py",
+    "babel/util.py",
+    "babel/messages/plurals.py",
+    "babel/localtime/_fallback.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8531,
+  "eval_count": 175,
+  "timestamp": "2026-02-13T14:07:56+00:00"
+}

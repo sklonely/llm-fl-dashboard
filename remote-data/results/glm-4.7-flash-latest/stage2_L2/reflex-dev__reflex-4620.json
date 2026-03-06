@@ -1,0 +1,33 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 455-466\n2. 468-479\n3. 519-527\n4. 840-850\n5. 1097-1111",
+  "predictions": [
+    [
+      455,
+      466
+    ],
+    [
+      468,
+      479
+    ],
+    [
+      519,
+      527
+    ],
+    [
+      840,
+      850
+    ],
+    [
+      1097,
+      1111
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 14317,
+  "eval_count": 44,
+  "timestamp": "2026-02-13T07:53:34+00:00"
+}

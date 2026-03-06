@@ -1,0 +1,20 @@
+{
+  "instance_id": "python__mypy-19249",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/join.py\n2. mypy/checker_shared.py\n3. mypy/types_utils.py\n4. mypy/semanal_infer.py\n5. mypy/type_visitor.py",
+  "predictions": [
+    "mypy/join.py",
+    "mypy/checker_shared.py",
+    "mypy/types_utils.py",
+    "mypy/semanal_infer.py",
+    "mypy/type_visitor.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 19979,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.118962+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 462-462\n2. 709-709\n3. 837-837\n4. 870-870\n5. 1273-1273",
+  "predictions": [
+    [
+      462,
+      462
+    ],
+    [
+      709,
+      709
+    ],
+    [
+      837,
+      837
+    ],
+    [
+      870,
+      870
+    ],
+    [
+      1273,
+      1273
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 71981,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T10:47:05+00:00"
+}

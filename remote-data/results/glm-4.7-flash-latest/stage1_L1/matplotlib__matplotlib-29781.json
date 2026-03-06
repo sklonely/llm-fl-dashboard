@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/backend_bases.py\n2. lib/matplotlib/backends/_backend_tk.py\n3. lib/matplotlib/backends/backend_qt.py\n4. lib/matplotlib/backends/backend_qt5.py\n5. lib/matplotlib/backends/backend_qtagg.py",
+  "predictions": [
+    "lib/matplotlib/backend_bases.py",
+    "lib/matplotlib/backends/_backend_tk.py",
+    "lib/matplotlib/backends/backend_qt.py",
+    "lib/matplotlib/backends/backend_qt5.py",
+    "lib/matplotlib/backends/backend_qtagg.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 3094,
+  "eval_count": 60,
+  "timestamp": "2026-02-13T05:51:21+00:00"
+}

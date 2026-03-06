@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/repo/diff.py\n2. dvc/commands/diff.py\n3. dvc/repo/index.py\n4. dvc/cachemgr.py\n5. dvc/repo/cache.py",
+  "predictions": [
+    "dvc/repo/diff.py",
+    "dvc/commands/diff.py",
+    "dvc/repo/index.py",
+    "dvc/cachemgr.py",
+    "dvc/repo/cache.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2750,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T05:50:56+00:00"
+}

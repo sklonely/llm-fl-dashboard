@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/__init__.py\n3. cirq-core/cirq/linalg/decompositions.py\n4. cirq-core/cirq/linalg/transformations.py\n5. cirq-core/cirq/linalg/predicates.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/__init__.py",
+    "cirq-core/cirq/linalg/decompositions.py",
+    "cirq-core/cirq/linalg/transformations.py",
+    "cirq-core/cirq/linalg/predicates.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9916,
+  "eval_count": 68,
+  "timestamp": "2026-02-13T05:52:55+00:00"
+}

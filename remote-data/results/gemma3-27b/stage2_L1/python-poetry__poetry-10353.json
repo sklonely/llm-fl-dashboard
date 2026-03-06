@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-poetry__poetry-10353",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 584-586\n2. 129-131\n3. 254-257\n4. 325-327\n5. 335-337",
+  "predictions": [
+    [
+      584,
+      586
+    ],
+    [
+      129,
+      131
+    ],
+    [
+      254,
+      257
+    ],
+    [
+      325,
+      327
+    ],
+    [
+      335,
+      337
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25064,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T15:44:11+00:00"
+}

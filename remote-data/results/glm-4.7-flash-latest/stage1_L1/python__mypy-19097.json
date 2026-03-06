@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/stubgen.py\n2. mypy/stubgenc.py\n3. mypy/stubutil.py\n4. mypy/stubdoc.py\n5. mypy/stubinfo.py",
+  "predictions": [
+    "mypy/stubgen.py",
+    "mypy/stubgenc.py",
+    "mypy/stubutil.py",
+    "mypy/stubdoc.py",
+    "mypy/stubinfo.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2868,
+  "eval_count": 46,
+  "timestamp": "2026-02-13T05:52:12+00:00"
+}

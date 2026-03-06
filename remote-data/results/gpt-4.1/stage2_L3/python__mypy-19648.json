@@ -1,0 +1,35 @@
+{
+  "instance_id": "python__mypy-19648",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 3177-3195\n2. 1387-1562\n3. 1220-1252\n4. 3652-3679\n5. 3730-3739",
+  "predictions": [
+    [
+      3177,
+      3195
+    ],
+    [
+      1387,
+      1562
+    ],
+    [
+      1220,
+      1252
+    ],
+    [
+      3652,
+      3679
+    ],
+    [
+      3730,
+      3739
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 44548,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.120904+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9774",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. celery/app/registry.py\n2. celery/worker/worker.py\n3. t/unit/tasks/test_canvas.py\n4. celery/app/annotations.py\n5. celery/utils/callable.py",
+  "predictions": [
+    "celery/app/registry.py",
+    "celery/worker/worker.py",
+    "t/unit/tasks/test_canvas.py",
+    "celery/app/annotations.py",
+    "celery/utils/callable.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25152,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T14:24:58+00:00"
+}

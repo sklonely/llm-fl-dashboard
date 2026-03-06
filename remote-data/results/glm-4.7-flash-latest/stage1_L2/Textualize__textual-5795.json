@@ -1,0 +1,18 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. src/textual/widgets/_option_list.py\n2. src/textual/widgets/_list_view.py\n3. src/textual/widgets/_scroll_view.py\n4. src/textual/widgets/_static.py\n5. src/textual/widgets/_placeholder.py",
+  "predictions": [
+    "src/textual/widgets/_option_list.py",
+    "src/textual/widgets/_list_view.py",
+    "src/textual/widgets/_scroll_view.py",
+    "src/textual/widgets/_static.py",
+    "src/textual/widgets/_placeholder.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 16979,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T05:53:48+00:00"
+}

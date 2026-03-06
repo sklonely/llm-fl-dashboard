@@ -1,0 +1,18 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. freezegun/config.py\n2. tests/test_class_decorator.py\n3. freezegun/_async.py\n4. utils.py\n5. create_tag.py",
+  "predictions": [
+    "freezegun/config.py",
+    "tests/test_class_decorator.py",
+    "freezegun/_async.py",
+    "utils.py",
+    "create_tag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2404,
+  "eval_count": 38,
+  "timestamp": "2026-02-13T10:07:45+00:00"
+}

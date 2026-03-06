@@ -1,0 +1,20 @@
+{
+  "instance_id": "reflex-dev__reflex-4620",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. reflex/components/core/cond.py\n2. reflex/vars/base.py\n3. reflex/compiler/compiler.py\n4. reflex/compiler/utils.py\n5. reflex/components/tags/cond_tag.py",
+  "predictions": [
+    "reflex/components/core/cond.py",
+    "reflex/vars/base.py",
+    "reflex/compiler/compiler.py",
+    "reflex/compiler/utils.py",
+    "reflex/components/tags/cond_tag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 41,
+  "prompt_tokens": 3145,
+  "completion_tokens": 41,
+  "timestamp": "2026-02-14T01:03:45.123171+00:00"
+}

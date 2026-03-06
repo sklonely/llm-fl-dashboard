@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19592",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. mypy/typeddict.py\n2. mypy/applytype.py\n3. mypy/erasetype.py\n4. mypy/copytype.py\n5. mypy/checker_shared.py",
+  "predictions": [
+    "mypy/typeddict.py",
+    "mypy/applytype.py",
+    "mypy/erasetype.py",
+    "mypy/copytype.py",
+    "mypy/checker_shared.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 74039,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T14:14:37+00:00"
+}

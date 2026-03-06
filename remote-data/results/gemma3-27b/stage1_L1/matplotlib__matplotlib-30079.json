@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30079",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. lib/matplotlib/legend.py\n2. lib/matplotlib/axes/_axes.py\n3. lib/matplotlib/pyplot.py\n4. lib/matplotlib/artist.py\n5. lib/matplotlib/_api/deprecation.py",
+  "predictions": [
+    "lib/matplotlib/legend.py",
+    "lib/matplotlib/axes/_axes.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/artist.py",
+    "lib/matplotlib/_api/deprecation.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11579,
+  "eval_count": 54,
+  "timestamp": "2026-02-13T13:45:01+00:00"
+}

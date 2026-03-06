@@ -1,0 +1,20 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/transformers/eject_phased_paulis.py\n2. cirq-core/cirq/ops/measurement_gate.py\n3. cirq-core/cirq/ops/pauli_gates.py\n4. cirq-core/cirq/transformers/measurement_transformers.py\n5. cirq-core/cirq/circuits/circuit.py",
+  "predictions": [
+    "cirq-core/cirq/transformers/eject_phased_paulis.py",
+    "cirq-core/cirq/ops/measurement_gate.py",
+    "cirq-core/cirq/ops/pauli_gates.py",
+    "cirq-core/cirq/transformers/measurement_transformers.py",
+    "cirq-core/cirq/circuits/circuit.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 77,
+  "prompt_tokens": 8745,
+  "completion_tokens": 77,
+  "timestamp": "2026-02-14T01:03:45.121779+00:00"
+}

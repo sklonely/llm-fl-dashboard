@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/unitary.py\n2. cirq-core/cirq/linalg/decompositions.py\n3. cirq-core/cirq/ops/gate_operation.py\n4. cirq-core/cirq/circuits/circuit.py\n5. cirq-core/cirq/sim/simulator.py",
+  "predictions": [
+    "cirq-core/cirq/unitary.py",
+    "cirq-core/cirq/linalg/decompositions.py",
+    "cirq-core/cirq/ops/gate_operation.py",
+    "cirq-core/cirq/circuits/circuit.py",
+    "cirq-core/cirq/sim/simulator.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30188,
+  "eval_count": 83,
+  "timestamp": "2026-02-13T13:49:51+00:00"
+}

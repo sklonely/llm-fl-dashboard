@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. dvc/commands/remote.py\n2. dvc/repo/experiments/__init__.py\n3. dvc/cli/command.py\n4. dvc/cli/formatter.py\n5. dvc/api/data.py",
+  "predictions": [
+    "dvc/commands/remote.py",
+    "dvc/repo/experiments/__init__.py",
+    "dvc/cli/command.py",
+    "dvc/cli/formatter.py",
+    "dvc/api/data.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 25351,
+  "eval_count": 48,
+  "timestamp": "2026-02-13T09:08:46+00:00"
+}

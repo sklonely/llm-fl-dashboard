@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-pillow__Pillow-9105",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. src/PIL/ImageStat.py\n2. src/PIL/ImageChops.py\n3. src/PIL/Image.py\n4. src/PIL/ImageFile.py\n5. src/PIL/ImageMode.py",
+  "predictions": [
+    "src/PIL/ImageStat.py",
+    "src/PIL/ImageChops.py",
+    "src/PIL/Image.py",
+    "src/PIL/ImageFile.py",
+    "src/PIL/ImageMode.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 6676,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T13:46:57+00:00"
+}

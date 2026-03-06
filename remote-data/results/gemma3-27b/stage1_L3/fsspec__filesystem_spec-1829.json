@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. fsspec/transaction.py\n2. fsspec/implementations/tests/test_local.py\n3. fsspec/implementations/dirfs.py\n4. fsspec/implementations/cache_mapper.py\n5. fsspec/implementations/cache_metadata.py",
+  "predictions": [
+    "fsspec/transaction.py",
+    "fsspec/implementations/tests/test_local.py",
+    "fsspec/implementations/dirfs.py",
+    "fsspec/implementations/cache_mapper.py",
+    "fsspec/implementations/cache_metadata.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9609,
+  "eval_count": 71,
+  "timestamp": "2026-02-13T14:26:47+00:00"
+}

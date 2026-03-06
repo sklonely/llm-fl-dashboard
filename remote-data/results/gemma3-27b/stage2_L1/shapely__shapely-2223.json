@@ -1,0 +1,33 @@
+{
+  "instance_id": "shapely__shapely-2223",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 66-75\n2. 82-83\n3. 93-94\n4. 102-103\n5. 115-116",
+  "predictions": [
+    [
+      66,
+      75
+    ],
+    [
+      82,
+      83
+    ],
+    [
+      93,
+      94
+    ],
+    [
+      102,
+      103
+    ],
+    [
+      115,
+      116
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 20041,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T16:14:12+00:00"
+}

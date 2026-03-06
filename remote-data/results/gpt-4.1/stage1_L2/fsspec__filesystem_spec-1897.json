@@ -1,0 +1,20 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1897",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. fsspec/implementations/cache_mapper.py\n2. fsspec/implementations/dirfs.py\n3. fsspec/registry.py\n4. fsspec/implementations/cache_metadata.py\n5. fsspec/json.py",
+  "predictions": [
+    "fsspec/implementations/cache_mapper.py",
+    "fsspec/implementations/dirfs.py",
+    "fsspec/registry.py",
+    "fsspec/implementations/cache_metadata.py",
+    "fsspec/json.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 53,
+  "prompt_tokens": 2875,
+  "completion_tokens": 53,
+  "timestamp": "2026-02-14T01:03:45.094550+00:00"
+}

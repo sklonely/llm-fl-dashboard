@@ -1,0 +1,20 @@
+{
+  "instance_id": "networkx__networkx-8043",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. networkx/algorithms/isomorphism/isomorphvf2.py\n2. networkx/algorithms/isomorphism/isomorph.py\n3. networkx/algorithms/isomorphism/matchhelpers.py\n4. networkx/classes/multidigraph.py\n5. networkx/algorithms/isomorphism/__init__.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/isomorph.py",
+    "networkx/algorithms/isomorphism/matchhelpers.py",
+    "networkx/classes/multidigraph.py",
+    "networkx/algorithms/isomorphism/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 72,
+  "prompt_tokens": 4388,
+  "completion_tokens": 72,
+  "timestamp": "2026-02-14T01:03:45.111307+00:00"
+}

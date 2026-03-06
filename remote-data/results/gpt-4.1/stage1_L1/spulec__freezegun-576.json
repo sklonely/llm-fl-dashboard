@@ -1,0 +1,20 @@
+{
+  "instance_id": "spulec__freezegun-576",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. freezegun/api.py\n2. freezegun/__init__.py\n3. freezegun/_async.py\n4. freezegun/config.py\n5. create_tag.py",
+  "predictions": [
+    "freezegun/api.py",
+    "freezegun/__init__.py",
+    "freezegun/_async.py",
+    "freezegun/config.py",
+    "create_tag.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 40,
+  "prompt_tokens": 247,
+  "completion_tokens": 40,
+  "timestamp": "2026-02-14T01:03:45.125860+00:00"
+}

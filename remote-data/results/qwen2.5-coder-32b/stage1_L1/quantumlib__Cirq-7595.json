@@ -1,0 +1,18 @@
+{
+  "instance_id": "quantumlib__Cirq-7595",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. cirq-core/cirq/protocols/unitary_protocol.py\n2. cirq-core/cirq/linalg/predicates.py\n3. cirq-core/cirq/ops/raw_types.py\n4. cirq-core/cirq/ops/matrix_gates.py\n5. cirq-core/cirq/ops/gate_operation.py",
+  "predictions": [
+    "cirq-core/cirq/protocols/unitary_protocol.py",
+    "cirq-core/cirq/linalg/predicates.py",
+    "cirq-core/cirq/ops/raw_types.py",
+    "cirq-core/cirq/ops/matrix_gates.py",
+    "cirq-core/cirq/ops/gate_operation.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29541,
+  "eval_count": 70,
+  "timestamp": "2026-02-13T09:01:59+00:00"
+}

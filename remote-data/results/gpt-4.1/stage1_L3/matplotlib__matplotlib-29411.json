@@ -1,0 +1,20 @@
+{
+  "instance_id": "matplotlib__matplotlib-29411",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/axes/_base.py\n2. lib/matplotlib/transforms.py\n3. lib/matplotlib/axes/__init__.py\n4. lib/matplotlib/figure.py\n5. lib/matplotlib/tests/test_axes.py",
+  "predictions": [
+    "lib/matplotlib/axes/_base.py",
+    "lib/matplotlib/transforms.py",
+    "lib/matplotlib/axes/__init__.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/tests/test_axes.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 55,
+  "prompt_tokens": 9472,
+  "completion_tokens": 55,
+  "timestamp": "2026-02-14T01:03:45.107138+00:00"
+}

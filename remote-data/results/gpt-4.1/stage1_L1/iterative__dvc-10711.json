@@ -1,0 +1,20 @@
+{
+  "instance_id": "iterative__dvc-10711",
+  "model": "gpt-4.1",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/commands/remote.py\n2. dvc/repo/remote.py\n3. dvc/config.py\n4. dvc/cli/formatter.py\n5. dvc/cli/command.py",
+  "predictions": [
+    "dvc/commands/remote.py",
+    "dvc/repo/remote.py",
+    "dvc/config.py",
+    "dvc/cli/formatter.py",
+    "dvc/cli/command.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 46,
+  "prompt_tokens": 2714,
+  "completion_tokens": 46,
+  "timestamp": "2026-02-14T01:03:45.103851+00:00"
+}

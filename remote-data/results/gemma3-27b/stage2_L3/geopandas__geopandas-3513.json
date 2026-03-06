@@ -1,0 +1,33 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 188-190\n2. 321-323\n3. 150-152\n4. 368-370\n5. 132-134",
+  "predictions": [
+    [
+      188,
+      190
+    ],
+    [
+      321,
+      323
+    ],
+    [
+      150,
+      152
+    ],
+    [
+      368,
+      370
+    ],
+    [
+      132,
+      134
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 26036,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T18:16:54+00:00"
+}

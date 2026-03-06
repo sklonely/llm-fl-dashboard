@@ -1,0 +1,33 @@
+{
+  "instance_id": "reflex-dev__reflex-5081",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 605-608\n2. 972-985\n3. 1000-1007\n4. 1025-1036\n5. 1049-1058",
+  "predictions": [
+    [
+      605,
+      608
+    ],
+    [
+      972,
+      985
+    ],
+    [
+      1000,
+      1007
+    ],
+    [
+      1025,
+      1036
+    ],
+    [
+      1049,
+      1058
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 47113,
+  "eval_count": 61,
+  "timestamp": "2026-02-13T13:34:11+00:00"
+}

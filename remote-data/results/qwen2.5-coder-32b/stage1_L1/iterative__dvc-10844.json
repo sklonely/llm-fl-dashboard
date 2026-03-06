@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. dvc/repo/diff.py\n2. dvc/commands/diff.py\n3. dvc/cachemgr.py\n4. dvc/repo/cache.py\n5. dvc/utils/fs.py",
+  "predictions": [
+    "dvc/repo/diff.py",
+    "dvc/commands/diff.py",
+    "dvc/cachemgr.py",
+    "dvc/repo/cache.py",
+    "dvc/utils/fs.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9860,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T08:55:30+00:00"
+}

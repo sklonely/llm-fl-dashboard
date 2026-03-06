@@ -95,6 +95,10 @@ main {
   margin: 0 auto;
   padding: 1.5rem 2rem;
 }
+main.full-width {
+  max-width: none;
+  padding: 0;
+}
 
 .section-title {
   font-size: 1.1rem;
@@ -355,7 +359,7 @@ main {
 /* Inspector — Master-Detail Layout */
 .inspector-master-detail {
   display: grid;
-  grid-template-columns: 340px 1fr;
+  grid-template-columns: 300px 1fr;
   height: calc(100vh - 120px);
   gap: 0;
   overflow: hidden;

@@ -1,0 +1,18 @@
+{
+  "instance_id": "iterative__dvc-10776",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. dvc/dirs.py\n2. tests/unit/test_dirs.py\n3. dvc/cli/command.py\n4. dvc/repo/init.py\n5. dvc/config.py",
+  "predictions": [
+    "dvc/dirs.py",
+    "tests/unit/test_dirs.py",
+    "dvc/cli/command.py",
+    "dvc/repo/init.py",
+    "dvc/config.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 28244,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T09:42:54+00:00"
+}

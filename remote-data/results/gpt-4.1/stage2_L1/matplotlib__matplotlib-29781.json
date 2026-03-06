@@ -1,0 +1,35 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 2223-2224\n2. 2210-2228\n3. 2200-2209\n4. 2215-2218\n5. 2225-2225",
+  "predictions": [
+    [
+      2223,
+      2224
+    ],
+    [
+      2210,
+      2228
+    ],
+    [
+      2200,
+      2209
+    ],
+    [
+      2215,
+      2218
+    ],
+    [
+      2225,
+      2225
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 44,
+  "prompt_tokens": 40813,
+  "completion_tokens": 44,
+  "timestamp": "2026-02-14T01:03:45.107824+00:00"
+}

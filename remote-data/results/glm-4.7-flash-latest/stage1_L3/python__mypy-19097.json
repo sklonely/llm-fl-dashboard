@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19097",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. mypy/stubgen.py\n2. mypy/test/teststubgen.py\n3. mypy/test/testcheck.py\n4. mypy/test/testfinegrained.py\n5. mypy/test/testcmdline.py",
+  "predictions": [
+    "mypy/stubgen.py",
+    "mypy/test/teststubgen.py",
+    "mypy/test/testcheck.py",
+    "mypy/test/testfinegrained.py",
+    "mypy/test/testcmdline.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31250,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T06:16:12+00:00"
+}

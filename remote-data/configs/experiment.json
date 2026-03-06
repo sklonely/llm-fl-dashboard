@@ -1,0 +1,126 @@
+{
+  "experiment_name": "llm-fl-context-eval",
+  "description": "開源 LLM 在不同 Context 下的 Fault Localization 能力評估",
+  "models": {
+    "glm-4.7-flash": {
+      "ollama_name": "glm-4.7-flash:latest",
+      "knowledge_cutoff": "2024-06",
+      "params": "30B (3B active, MoE)",
+      "developer": "Zhipu AI",
+      "max_context": 202752,
+      "ollama_size_gb": 19,
+      "quantization": "Q4_K_M"
+    },
+    "qwen2.5-coder-32b": {
+      "ollama_name": "qwen2.5-coder:32b",
+      "knowledge_cutoff": "2024-09",
+      "params": "32B (dense)",
+      "developer": "Alibaba",
+      "max_context": 131072,
+      "default_context": 32768,
+      "ollama_size_gb": 20,
+      "quantization": "Q4_K_M",
+      "note": "超過 32768 需 YaRN rope_scaling，Ollama 設 num_ctx 時自動處理"
+    },
+    "gemma3-27b": {
+      "ollama_name": "gemma3:27b",
+      "knowledge_cutoff": "2024-08",
+      "params": "27B (dense)",
+      "developer": "Google",
+      "max_context": 128000,
+      "ollama_size_gb": 17,
+      "quantization": "Q4_K_M",
+      "note": "Replaced GPT-OSS-20B due to uncontrollable thinking model issue"
+    },
+    "gpt-4.1": {
+      "api": "openai",
+      "knowledge_cutoff": "2024-06",
+      "params": "undisclosed",
+      "developer": "OpenAI",
+      "max_context": 1000000,
+      "quantization": "N/A (closed-source)",
+      "note": "Closed-source upper bound. Batch API, temperature=0, seed=42."
+    }
+  },
+  "ollama": {
+    "base_url": "http://localhost:11434",
+    "timeout_seconds": 120,
+    "temperature": 0,
+    "max_tokens": 512,
+    "num_ctx": 131072,
+    "_num_ctx_rationale": "131072 to accommodate heavy Stage 2 conditions (up to ~97K tokens). All 3 models support 128K+ context.",
+    "seed": 42,
+    "_temperature_rationale": "temperature=0 確定性輸出，跟 SoapFL (Qin 2025) 同做法。搭配 seed=42 確保完全可重現，不需重複跑。"
+  },
+  "data": {
+    "dataset": "SWE-bench-Live",
+    "model_cutoff": "2024-06",
+    "max_bugs": 50,
+    "max_modified_lines": 50,
+    "languages": [
+      "python"
+    ]
+  },
+  "context_levels": {
+    "stage1": {
+      "L1": "Issue + flat file list",
+      "L2": "Issue + AST summary (class/method signatures)",
+      "L3": "Issue + AST summary + test name + test function code"
+    },
+    "stage2": {
+      "L1": "Issue + GT file source code",
+      "L2": "Issue + GT file source code + test name",
+      "L3": "Issue + GT file source code + test function code",
+      "gt_file_source": "使用 Ground Truth 檔案，非 Stage 1 預測結果"
+    }
+  },
+  "truncation": {
+    "problem_statement_max_tokens": 1500,
+    "problem_statement_cleaning": "移除 markdown 圖片連結、GitHub checklist 模板、重複 boilerplate",
+    "source_code_strategy": "通常不需截斷。若單檔超過 ~25K tokens（極罕見），取 GT 行號 ±200 行 window",
+    "total_input_budget_tokens": 30000,
+    "overflow_handling": "記錄 warning，不跳過，截斷最長段落"
+  },
+  "prompt": {
+    "language": "English",
+    "cot": false,
+    "cot_rationale": "主實驗不使用 CoT，避免引入 confounding variable。CoT 品質因模型而異，會汙染模型間比較。可作為 ablation study。",
+    "output_format": "numbered ranked list (plain text)",
+    "stage1_top_k": 5,
+    "stage2_top_k": 5,
+    "repetitions": 1,
+    "system_prompt": "You are a software debugging expert specializing in fault localization."
+  },
+  "evaluation": {
+    "stage1": {
+      "top_k": [
+        1,
+        3,
+        5
+      ],
+      "metrics": [
+        "any_hit",
+        "recall",
+        "all_hit",
+        "mrr"
+      ]
+    },
+    "stage2": {
+      "top_k": [
+        1,
+        5
+      ],
+      "metrics": [
+        "top_k_accuracy",
+        "fuzzy_top1_pm3",
+        "mrr",
+        "exact_match"
+      ]
+    },
+    "parse_failure_handling": "記錄 parse failure rate，跳過不計入指標，論文中報告"
+  },
+  "total_calls": {
+    "formula": "4 models × 3 levels × 50 bugs × 2 stages",
+    "count": 1200
+  }
+}

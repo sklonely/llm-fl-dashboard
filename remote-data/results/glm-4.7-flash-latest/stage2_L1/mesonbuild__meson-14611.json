@@ -1,0 +1,33 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 1292-1306\n2. 1307-1340\n3. 1341-1359\n4. 1059-1071\n5. 1049-1057",
+  "predictions": [
+    [
+      1292,
+      1306
+    ],
+    [
+      1307,
+      1340
+    ],
+    [
+      1341,
+      1359
+    ],
+    [
+      1059,
+      1071
+    ],
+    [
+      1049,
+      1057
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 33128,
+  "eval_count": 45,
+  "timestamp": "2026-02-13T06:35:31+00:00"
+}

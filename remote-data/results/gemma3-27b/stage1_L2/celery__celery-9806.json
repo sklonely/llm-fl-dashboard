@@ -1,0 +1,18 @@
+{
+  "instance_id": "celery__celery-9806",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. celery/backends/redis.py\n2. celery/worker/consumer/agent.py\n3. celery/worker/worker.py\n4. celery/utils/abstract.py\n5. celery/app/backends.py",
+  "predictions": [
+    "celery/backends/redis.py",
+    "celery/worker/consumer/agent.py",
+    "celery/worker/worker.py",
+    "celery/utils/abstract.py",
+    "celery/app/backends.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 23276,
+  "eval_count": 52,
+  "timestamp": "2026-02-13T13:53:01+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "instance_id": "networkx__networkx-8013",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. networkx/algorithms/traversal/beamsearch.py\n2. networkx/classes/digraph.py\n3. networkx/algorithms/bfs.py (Not explicitly listed, but `nx.bfs_layers` is the function in question, so the core BFS implementation is highly suspect)\n4. networkx/algorithms/operators/unary.py\n5. networkx/classes/graphviews.py",
+  "predictions": [
+    "networkx/algorithms/traversal/beamsearch.py",
+    "networkx/classes/digraph.py",
+    "networkx/algorithms/operators/unary.py",
+    "networkx/classes/graphviews.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 40354,
+  "eval_count": 91,
+  "timestamp": "2026-02-13T14:05:28+00:00"
+}

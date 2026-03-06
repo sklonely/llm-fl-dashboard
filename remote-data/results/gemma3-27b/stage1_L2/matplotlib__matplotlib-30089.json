@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-30089",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. lib/matplotlib/layout_engine.py\n2. lib/matplotlib/backends/backend_qtagg.py\n3. lib/matplotlib/axes/_secondary_axes.py\n4. galleries/users_explain/axes/constrainedlayout_guide.py\n5. lib/matplotlib/backends/backend_mixed.py",
+  "predictions": [
+    "lib/matplotlib/layout_engine.py",
+    "lib/matplotlib/backends/backend_qtagg.py",
+    "lib/matplotlib/axes/_secondary_axes.py",
+    "galleries/users_explain/axes/constrainedlayout_guide.py",
+    "lib/matplotlib/backends/backend_mixed.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 30929,
+  "eval_count": 73,
+  "timestamp": "2026-02-13T14:03:36+00:00"
+}

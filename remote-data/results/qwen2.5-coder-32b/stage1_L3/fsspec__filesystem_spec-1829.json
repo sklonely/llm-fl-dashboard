@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. fsspec/transaction.py\n2. fsspec/implementations/local.py\n3. fsspec/implementations/tests/test_cached.py\n4. fsspec/implementations/tests/test_local.py\n5. fsspec/implementations/cache_mapper.py",
+  "predictions": [
+    "fsspec/transaction.py",
+    "fsspec/implementations/local.py",
+    "fsspec/implementations/tests/test_cached.py",
+    "fsspec/implementations/tests/test_local.py",
+    "fsspec/implementations/cache_mapper.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8930,
+  "eval_count": 58,
+  "timestamp": "2026-02-13T09:40:14+00:00"
+}

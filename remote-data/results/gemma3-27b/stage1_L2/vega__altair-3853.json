@@ -1,0 +1,18 @@
+{
+  "instance_id": "vega__altair-3853",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. altair/vegalite/v6/schema/core.py\n2. altair/vegalite/v6/schema/channels.py\n3. altair/vegalite/v6/compiler.py\n4. altair/utils/selection.py\n5. altair/expr/__init__.py",
+  "predictions": [
+    "altair/vegalite/v6/schema/core.py",
+    "altair/vegalite/v6/schema/channels.py",
+    "altair/vegalite/v6/compiler.py",
+    "altair/utils/selection.py",
+    "altair/expr/__init__.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 75546,
+  "eval_count": 74,
+  "timestamp": "2026-02-13T14:22:08+00:00"
+}

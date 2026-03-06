@@ -1,0 +1,18 @@
+{
+  "instance_id": "matplotlib__matplotlib-29781",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. lib/matplotlib/backend_bases.py\n2. lib/matplotlib/tests/test_backend_bases.py\n3. lib/matplotlib/figure.py\n4. lib/matplotlib/pyplot.py\n5. lib/matplotlib/cbook/deprecation.py",
+  "predictions": [
+    "lib/matplotlib/backend_bases.py",
+    "lib/matplotlib/tests/test_backend_bases.py",
+    "lib/matplotlib/figure.py",
+    "lib/matplotlib/pyplot.py",
+    "lib/matplotlib/cbook/deprecation.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 31039,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T09:48:13+00:00"
+}

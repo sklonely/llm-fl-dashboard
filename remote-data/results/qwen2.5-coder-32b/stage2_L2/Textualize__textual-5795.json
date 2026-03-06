@@ -1,0 +1,33 @@
+{
+  "instance_id": "Textualize__textual-5795",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 796-804\n2. 376-377\n3. 179-185\n4. 331-337\n5. 717-732",
+  "predictions": [
+    [
+      796,
+      804
+    ],
+    [
+      376,
+      377
+    ],
+    [
+      179,
+      185
+    ],
+    [
+      331,
+      337
+    ],
+    [
+      717,
+      732
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 42993,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T11:29:41+00:00"
+}

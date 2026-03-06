@@ -1,0 +1,33 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 102-110\n2. 84-90\n3. 62-70\n4. 41-47\n5. 21-23",
+  "predictions": [
+    [
+      102,
+      110
+    ],
+    [
+      84,
+      90
+    ],
+    [
+      62,
+      70
+    ],
+    [
+      41,
+      47
+    ],
+    [
+      21,
+      23
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 7830,
+  "eval_count": 47,
+  "timestamp": "2026-02-13T10:19:53+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "iterative__dvc-10844",
+  "model": "gemma3:27b",
+  "stage": "stage2",
+  "level": "L3",
+  "raw_output": "1. 79-82\n2. 108-111\n3. 127-131\n4. 49-52\n5. 146-150",
+  "predictions": [
+    [
+      79,
+      82
+    ],
+    [
+      108,
+      111
+    ],
+    [
+      127,
+      131
+    ],
+    [
+      49,
+      52
+    ],
+    [
+      146,
+      150
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8673,
+  "eval_count": 51,
+  "timestamp": "2026-02-13T18:19:27+00:00"
+}

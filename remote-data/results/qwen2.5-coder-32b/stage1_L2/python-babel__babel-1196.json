@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. babel/messages/setuptools_frontend.py\n2. babel/messages/jslexer.py\n3. babel/messages/_compat.py\n4. babel/messages/mofile.py\n5. tests/messages/utils.py",
+  "predictions": [
+    "babel/messages/setuptools_frontend.py",
+    "babel/messages/jslexer.py",
+    "babel/messages/_compat.py",
+    "babel/messages/mofile.py",
+    "tests/messages/utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4249,
+  "eval_count": 40,
+  "timestamp": "2026-02-13T09:20:38+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "python__mypy-19190",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. mypy/infer.py\n2. mypy/exprtotype.py\n3. mypy/applytype.py\n4. mypy/semanal.py\n5. mypy/types.py",
+  "predictions": [
+    "mypy/infer.py",
+    "mypy/exprtotype.py",
+    "mypy/applytype.py",
+    "mypy/semanal.py",
+    "mypy/types.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 11745,
+  "eval_count": 50,
+  "timestamp": "2026-02-13T13:47:42+00:00"
+}

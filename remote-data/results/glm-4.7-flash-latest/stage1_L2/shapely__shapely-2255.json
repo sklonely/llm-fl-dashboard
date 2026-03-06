@@ -1,0 +1,18 @@
+{
+  "instance_id": "shapely__shapely-2255",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. shapely/_ragged_array.py\n2. shapely/geometry/multipolygon.py\n3. shapely/geometry/point.py\n4. shapely/geometry/linestring.py\n5. shapely/geometry/polygon.py",
+  "predictions": [
+    "shapely/_ragged_array.py",
+    "shapely/geometry/multipolygon.py",
+    "shapely/geometry/point.py",
+    "shapely/geometry/linestring.py",
+    "shapely/geometry/polygon.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2960,
+  "eval_count": 57,
+  "timestamp": "2026-02-13T06:06:04+00:00"
+}

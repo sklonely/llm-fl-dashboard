@@ -1,0 +1,18 @@
+{
+  "instance_id": "networkx__networkx-8055",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. networkx/algorithms/isomorphism/ismags.py\n2. networkx/algorithms/isomorphism/isomorph.py\n3. networkx/algorithms/isomorphism/__init__.py\n4. networkx/algorithms/isomorphism/isomorphvf2.py\n5. networkx/algorithms/isomorphism/vf2userfunc.py",
+  "predictions": [
+    "networkx/algorithms/isomorphism/ismags.py",
+    "networkx/algorithms/isomorphism/isomorph.py",
+    "networkx/algorithms/isomorphism/__init__.py",
+    "networkx/algorithms/isomorphism/isomorphvf2.py",
+    "networkx/algorithms/isomorphism/vf2userfunc.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 4389,
+  "eval_count": 74,
+  "timestamp": "2026-02-13T05:51:50+00:00"
+}

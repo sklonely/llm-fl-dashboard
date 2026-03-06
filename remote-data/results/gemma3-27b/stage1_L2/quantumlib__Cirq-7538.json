@@ -1,0 +1,17 @@
+{
+  "instance_id": "quantumlib__Cirq-7538",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. cirq-core/cirq/circuits/frozen_circuit.py\n2. cirq-core/cirq/transformers/eject_paulis.py (Not explicitly listed, but highly likely given the bug report's description of the `eject_phased_paulis` transformer)\n3. cirq-core/cirq/ops/pauli_gates.py\n4. cirq-core/cirq/circuits/optimization_pass.py\n5. cirq-core/cirq/transformers/analytical_decompositions/pauli_string_decomposition.py",
+  "predictions": [
+    "cirq-core/cirq/circuits/frozen_circuit.py",
+    "cirq-core/cirq/ops/pauli_gates.py",
+    "cirq-core/cirq/circuits/optimization_pass.py",
+    "cirq-core/cirq/transformers/analytical_decompositions/pauli_string_decomposition.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 78565,
+  "eval_count": 133,
+  "timestamp": "2026-02-13T14:18:20+00:00"
+}

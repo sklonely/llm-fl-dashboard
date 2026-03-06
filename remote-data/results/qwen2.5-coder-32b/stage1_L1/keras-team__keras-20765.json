@@ -1,0 +1,18 @@
+{
+  "instance_id": "keras-team__keras-20765",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. keras/src/layers/core/embedding.py\n2. keras/src/layers/rnn/time_distributed.py\n3. keras/src/backend/tensorflow/trainer.py\n4. keras/src/trainers/data_adapters/tf_dataset_adapter.py\n5. keras/src/utils/traceback_utils.py",
+  "predictions": [
+    "keras/src/layers/core/embedding.py",
+    "keras/src/layers/rnn/time_distributed.py",
+    "keras/src/backend/tensorflow/trainer.py",
+    "keras/src/trainers/data_adapters/tf_dataset_adapter.py",
+    "keras/src/utils/traceback_utils.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 29026,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T08:55:59+00:00"
+}

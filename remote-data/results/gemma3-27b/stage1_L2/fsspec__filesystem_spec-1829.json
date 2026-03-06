@@ -1,0 +1,18 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "gemma3:27b",
+  "stage": "stage1",
+  "level": "L2",
+  "raw_output": "1. fsspec/transaction.py\n2. fsspec/implementations/dirfs.py\n3. fsspec/implementations/arrow.py\n4. fsspec/implementations/webhdfs.py\n5. fsspec/implementations/memory.py",
+  "predictions": [
+    "fsspec/transaction.py",
+    "fsspec/implementations/dirfs.py",
+    "fsspec/implementations/arrow.py",
+    "fsspec/implementations/webhdfs.py",
+    "fsspec/implementations/memory.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 9146,
+  "eval_count": 64,
+  "timestamp": "2026-02-13T13:54:24+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "instance_id": "certbot__certbot-10283",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. acme/src/acme/errors.py\n2. acme/src/acme/client.py\n3. certbot/src/certbot/_internal/plugins/disco.py\n4. certbot/src/certbot/_internal/auth_handler.py\n5. certbot/src/certbot/_internal/client.py",
+  "predictions": [
+    "acme/src/acme/errors.py",
+    "acme/src/acme/client.py",
+    "certbot/src/certbot/_internal/plugins/disco.py",
+    "certbot/src/certbot/_internal/auth_handler.py",
+    "certbot/src/certbot/_internal/client.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 12043,
+  "eval_count": 62,
+  "timestamp": "2026-02-13T08:53:59+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 321-323\n2. 188-190\n3. 487-488\n4. 524-525\n5. 434-436",
+  "predictions": [
+    [
+      321,
+      323
+    ],
+    [
+      188,
+      190
+    ],
+    [
+      487,
+      488
+    ],
+    [
+      524,
+      525
+    ],
+    [
+      434,
+      436
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 8485,
+  "eval_count": 43,
+  "timestamp": "2026-02-13T07:16:04+00:00"
+}

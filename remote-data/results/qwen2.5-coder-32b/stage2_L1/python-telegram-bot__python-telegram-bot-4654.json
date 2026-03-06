@@ -1,0 +1,33 @@
+{
+  "instance_id": "python-telegram-bot__python-telegram-bot-4654",
+  "model": "qwen2.5-coder:32b",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 110-124\n2. 126-138\n3. 337-380\n4. 553-593\n5. 652-662",
+  "predictions": [
+    [
+      110,
+      124
+    ],
+    [
+      126,
+      138
+    ],
+    [
+      337,
+      380
+    ],
+    [
+      553,
+      593
+    ],
+    [
+      652,
+      662
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 34099,
+  "eval_count": 55,
+  "timestamp": "2026-02-13T11:03:58+00:00"
+}

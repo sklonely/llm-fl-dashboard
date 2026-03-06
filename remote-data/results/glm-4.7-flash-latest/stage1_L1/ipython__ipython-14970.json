@@ -1,0 +1,18 @@
+{
+  "instance_id": "ipython__ipython-14970",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. IPython/core/magics/namespace.py\n2. IPython/core/interactiveshell.py\n3. IPython/core/oinspect.py\n4. IPython/core/magic.py\n5. IPython/core/magics/basic.py",
+  "predictions": [
+    "IPython/core/magics/namespace.py",
+    "IPython/core/interactiveshell.py",
+    "IPython/core/oinspect.py",
+    "IPython/core/magic.py",
+    "IPython/core/magics/basic.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 2425,
+  "eval_count": 53,
+  "timestamp": "2026-02-13T05:50:47+00:00"
+}

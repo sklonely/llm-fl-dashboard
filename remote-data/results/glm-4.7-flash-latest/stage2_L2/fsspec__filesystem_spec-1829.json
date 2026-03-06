@@ -1,0 +1,33 @@
+{
+  "instance_id": "fsspec__filesystem_spec-1829",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage2",
+  "level": "L2",
+  "raw_output": "1. 430-438\n2. 392-397\n3. 167-170\n4. 158-165\n5. 202-206",
+  "predictions": [
+    [
+      430,
+      438
+    ],
+    [
+      392,
+      397
+    ],
+    [
+      167,
+      170
+    ],
+    [
+      158,
+      165
+    ],
+    [
+      202,
+      206
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 5928,
+  "eval_count": 38,
+  "timestamp": "2026-02-13T07:15:40+00:00"
+}

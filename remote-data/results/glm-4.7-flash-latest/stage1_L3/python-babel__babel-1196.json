@@ -1,0 +1,18 @@
+{
+  "instance_id": "python-babel__babel-1196",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L3",
+  "raw_output": "1. babel/messages/jslexer.py\n2. babel/messages/setuptools_frontend.py\n3. babel/messages/__init__.py\n4. babel/messages/catalog.py\n5. babel/messages/extract.py",
+  "predictions": [
+    "babel/messages/jslexer.py",
+    "babel/messages/setuptools_frontend.py",
+    "babel/messages/__init__.py",
+    "babel/messages/catalog.py",
+    "babel/messages/extract.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1322,
+  "eval_count": 41,
+  "timestamp": "2026-02-13T06:15:01+00:00"
+}

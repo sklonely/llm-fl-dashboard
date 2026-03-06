@@ -1,0 +1,35 @@
+{
+  "instance_id": "mesonbuild__meson-14611",
+  "model": "gpt-4.1",
+  "stage": "stage2",
+  "level": "L1",
+  "raw_output": "1. 1284-1360\n2. 1245-1283\n3. 1001-1058\n4. 715-716\n5. 704-748",
+  "predictions": [
+    [
+      1284,
+      1360
+    ],
+    [
+      1245,
+      1283
+    ],
+    [
+      1001,
+      1058
+    ],
+    [
+      715,
+      716
+    ],
+    [
+      704,
+      748
+    ]
+  ],
+  "parse_success": true,
+  "total_duration_ms": 0,
+  "eval_count": 40,
+  "prompt_tokens": 19025,
+  "completion_tokens": 40,
+  "timestamp": "2026-02-14T01:03:45.110281+00:00"
+}

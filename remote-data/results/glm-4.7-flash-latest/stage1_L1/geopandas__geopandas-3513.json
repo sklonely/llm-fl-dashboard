@@ -1,0 +1,18 @@
+{
+  "instance_id": "geopandas__geopandas-3513",
+  "model": "glm-4.7-flash:latest",
+  "stage": "stage1",
+  "level": "L1",
+  "raw_output": "1. geopandas/io/_geoarrow.py\n2. geopandas/io/arrow.py\n3. geopandas/array.py\n4. geopandas/geodataframe.py\n5. geopandas/geoseries.py",
+  "predictions": [
+    "geopandas/io/_geoarrow.py",
+    "geopandas/io/arrow.py",
+    "geopandas/array.py",
+    "geopandas/geodataframe.py",
+    "geopandas/geoseries.py"
+  ],
+  "parse_success": true,
+  "total_duration_ms": 1237,
+  "eval_count": 49,
+  "timestamp": "2026-02-13T05:50:38+00:00"
+}
