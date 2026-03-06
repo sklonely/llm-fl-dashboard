@@ -597,8 +597,12 @@ main.full-width {
 
 .inspector-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 360px;
   gap: 1rem;
+}
+.inspector-layout > div:first-child {
+  min-width: 0;
+  overflow: hidden;
 }
 
 .code-block {
@@ -765,7 +769,7 @@ main.full-width {
   .card-grid-4 { grid-template-columns: repeat(2, 1fr); }
   .inspector-master-detail { grid-template-columns: 1fr; height: auto; }
   .inspector-sidebar { max-height: 300px; border-right: none; border-bottom: 1px solid var(--border); }
-  .inspector-layout { grid-template-columns: 1fr; }
+  .inspector-layout { grid-template-columns: 1fr !important; }
   .param-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
